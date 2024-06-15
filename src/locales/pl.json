@@ -1,0 +1,12 @@
+{
+  "alert": "Bezpłatna konsultacja. Skontaktuj się ze mną pod numerem: +41 555 555 555",
+  "home": "Strona główna",
+  "info": "Informacje",
+  "contact": "Kontakt",
+  "welcomeMessage": "Witaj w konsultacji ubezpieczeniowej.",
+  "welcomeBody": "Oferuję bezpłatne konsultacje dotyczące ubezpieczeń zdrowotnych. Współpracuję z firmami ubezpieczeniowymi takimi jak Helzana, Asura, Sanitas, Swica i wieloma innymi. Moim celem jest znalezienie najlepszej oferty odpowiedniej dla indywidualnych klientów.",
+  "infoHeader": "Informacje",
+  "infoContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "contactHeader": "Skontaktuj się",
+  "contactDetails": "W przypadku pytań proszę o kontakt za pomocą WhatsApp, wiadomości, e-maila, rozmowy telefonicznej lub formularza poniżej."
+}

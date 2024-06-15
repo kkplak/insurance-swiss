@@ -1,0 +1,19 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1rem;
+  background-color: #f1f1f1;
+}
+
+.contact-text h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-text p {
+  margin: 0.5rem 0;
+}
