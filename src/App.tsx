@@ -78,7 +78,7 @@ const App = () => {
     // Calculate background color based on scroll position
     const navbarStyle = {
       backgroundColor:
-        scrollPosition > 20 ? "rgba(0, 0, 0, 0.85)" : "rgba(0, 0, 0, 0.4)",
+        scrollPosition > 20 ? "rgba(0, 0, 0, 0.85)" : "rgba(0, 0, 0, 0.5)",
       padding: scrollPosition > 20 ? "1% 5% 1% 10%" : "2% 5% 2% 10%",
       display: "flex",
       justifyContent: "space-between",
@@ -86,6 +86,7 @@ const App = () => {
       top: 0,
       zIndex: 1000,
       transition: "0.3s ease-out",
+        backdropFilter: "blur(3px)"
     };
 
     return (

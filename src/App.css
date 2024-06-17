@@ -68,10 +68,8 @@ body {
 }
 /* NAVIGATION */
 
-nav {
-  background-color: transparent;
-  padding: 2% 10% 2% 5%;
-  display: flex;
+.nar-bar{
+  backdrop-filter: blur(2px);
 }
 
 .links {
