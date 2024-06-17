@@ -5,8 +5,8 @@ const CarInsurance: React.FC = () => {
   const { t } = useTranslation();
   return (
     <div className='insurance-page container'>
-      <h1>{t("Car Insurance")}</h1>
-      <p>{t("Detailed description of car insurance")}</p>
+      <h1>{t("carInsurance")}</h1>
+      <p>{t("carInsuranceDescriptionLong")}</p>
     </div>
   );
 };

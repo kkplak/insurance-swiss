@@ -1,8 +1,13 @@
 import React from "react";
 import "./LogoLine.css";
 
+interface Logo {
+  src: string;
+  name: string;
+}
+
 interface LogoLineProps {
-  logos: string[];
+  logos: Logo[];
 }
 
 const LogoLine: React.FC<LogoLineProps> = ({ logos }) => {
@@ -11,8 +16,8 @@ const LogoLine: React.FC<LogoLineProps> = ({ logos }) => {
       {logos.map((logo, index) => (
         <img
           key={index}
-          src={logo}
-          alt={`Logo ${index + 1}`}
+          src={logo.src}
+          alt={logo.name}
           className='logo-image'
         />
       ))}

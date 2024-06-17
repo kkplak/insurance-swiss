@@ -1,49 +1,30 @@
-.colors {
-  /* Dark Blue */
-  color: #0d1321;
-  /* Light Cream */
-  color: #ffeddf;
-  /* Light Grey */
-  color: #7d7d7d;
-  /* Blue */
-  color: #3855e8;
-}
-
 html {
-  background-image: url(/public/media/background.jpg);
-  background-size: contain;
+  background-image: url(/public/media/background4.jpg);
+  background-size: cover;
   background-position: center;
   position: relative; /* Ensure relative positioning for pseudo-element */
 }
-
-.alert {
-  background-color: #0d1321;
-  color: #f5f3f5;
-  text-align: center;
-  padding: 1%;
-  font-size: 12px;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .icon {
   width: 19px;
   height: auto;
   position: absolute;
   left: 4%;
+  top: 30%;
 }
 .homepage {
   width: 100%;
 }
-.home {
-}
-/* .bg {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-color: #141414;
-} */
 
 .container {
-  color: #141414;
-  background: #ededed;
+  color: #e5e5e5;
+  background: #000000a5;
   padding: 7%;
   text-align: center;
 }
@@ -89,21 +70,29 @@ html {
 
 nav {
   background-color: transparent;
-
-  padding: 2% 10%;
+  padding: 2% 10% 2% 5%;
   display: flex;
 }
 
 .links {
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  width: 100%;
 }
-
+.nav-phone-numbers {
+  color: #f5f3f5;
+  font-size: 0.9rem;
+}
+.nav-phone-numbers p {
+  margin: 0;
+  font-weight: 500;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
@@ -134,80 +123,24 @@ h1 {
   width: 30px; /* Adjust size as needed */
   height: 30px; /* Adjust size as needed */
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.4;
   transition: opacity 0.3s;
 }
 
 .language-icon.active,
 .language-icon:hover {
   opacity: 1;
+  transform: scale(1.05);
 }
 .home-buttons-container {
   width: 100%;
 }
-.home-button {
-  margin: 3rem;
-  width: 70%;
-  height: 10rem;
-  background-color: #ffffff;
-  border: 1px solid rgb(209, 213, 219);
-  border-radius: 0.5rem;
-  box-sizing: border-box;
-  color: #111827;
-  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.875rem;
-  font-weight: 600;
-  line-height: 1.25rem;
-  padding: 0.75rem 1rem;
-  text-align: center;
-  text-decoration: none #d1d5db solid;
-  text-decoration-thickness: auto;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.home-button:hover {
-  background-color: rgb(249, 250, 251);
-}
-
-.home-button:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
-.home-button:focus-visible {
-  box-shadow: none;
-}
-.contact {
-  position: relative;
-  display: flex;
-  color: white;
-  z-index: 16s;
-}
-.contact::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(2px);
-}
-.contact-text {
-  z-index: 15;
-}
 
 .welcome-button {
-  background-color: #fff;
-  border: 1px solid #d5d9d9;
+  background-color: #b3b3b3;
+  border: 1px solid #a1a1a1;
   border-radius: 8px;
-  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   color: #0f1111;
   cursor: pointer;
@@ -224,14 +157,15 @@ h1 {
   touch-action: manipulation;
   vertical-align: middle;
   margin-top: 2rem;
+  transition: transform 0.2s;
 }
 
 .welcome-button:hover {
-  background-color: #dedede;
+  background-color: #ffffff;
+  transform: scale(1.05);
 }
 
-.welcome-button:focus {
-  border-color: #008296;
-  box-shadow: rgba(213, 217, 217, 0.5) 0 2px 5px 0;
-  outline: 0;
+.phone-line {
+  display: flex;
+  gap: 1rem;
 }

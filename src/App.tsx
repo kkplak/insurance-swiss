@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -24,9 +24,11 @@ import LifeInsurance from "./pages/LifeInsurance";
 import HouseInsurance from "./pages/HouseInsurance";
 import LawProtection from "./pages/LawProtection";
 import CarInsurance from "./pages/CarInsurance";
+import PetsInsurance from "./pages/PetsInsurance";
 import LanguageSwitcher from "./components/LanguageSwitcher/LanguageSwitcher";
+import Footer from "./components/Footer/Footer";
 
-import "./App.css";
+import "./App.css"; // Import your main CSS file
 
 const resources = {
   en: { translation: translationEN },
@@ -45,7 +47,7 @@ i18next.use(initReactI18next).init({
 const RedirectToDefaultLanguage = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    const defaultLanguage = "en";
+    const defaultLanguage = "en"; // Change this to your actual default language code
     navigate(`/${defaultLanguage}/home`);
   }, [navigate]);
   return null;
@@ -57,8 +59,38 @@ const App = () => {
     const location = useLocation();
     const language = location.pathname.split("/")[1];
 
+    const [scrollPosition, setScrollPosition] = useState(0);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const position = window.scrollY;
+        setScrollPosition(position);
+      };
+
+      window.addEventListener("scroll", handleScroll);
+
+      // Clean up the event listener
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
+
+    // Calculate background color based on scroll position
+    const navbarStyle = {
+      backgroundColor:
+        scrollPosition > 20 ? "rgba(0, 0, 0, 0.85)" : "rgba(0, 0, 0, 0.4)",
+      padding: scrollPosition > 20 ? "1% 5% 1% 10%" : "2% 5% 2% 10%",
+      display: "flex",
+      justifyContent: "space-between",
+      position: "sticky",
+      top: 0,
+      zIndex: 1000,
+      transition: "0.3s ease-out",
+    };
+
     return (
-      <nav>
+      //@ts-ignore
+      <nav style={navbarStyle} className='nav-bar'>
         <img
           className='icon'
           src='https://cdn-icons-png.flaticon.com/512/8323/8323822.png'
@@ -70,12 +102,26 @@ const App = () => {
               <Link to={`/${language}/home`}>{t("home")}</Link>
             </li>
             <li>
-              <HashLink smooth to={`/${language}/home#contact-footer`}>
+              <HashLink smooth to={`#${t("contact").toLowerCase()}`}>
                 {t("contact")}
               </HashLink>
             </li>
           </ul>
           <LanguageSwitcher />
+          <div className='nav-phone-numbers'>
+            <div className='phone-line'>
+              <p>
+                <b>{t("ioannis")}</b>
+              </p>
+              <p>{t("ioannisPhone")}</p>
+            </div>
+            <div className='phone-line'>
+              <p>
+                <b>{t("lukasz")}</b>
+              </p>
+              <p>{t("lukaszPhone")}</p>
+            </div>
+          </div>
         </div>
       </nav>
     );
@@ -87,17 +133,17 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path='/' element={<RedirectToDefaultLanguage />} />
-
           <Route path='/:lang/home' element={<Home />} />
           <Route path='/:lang/info' element={<Info />} />
-          {/* <Route path='/:lang/contact' element={<Contact />} /> */}
           <Route path='/:lang/about-lukasz' element={<AboutUs />} />
           <Route path='/:lang/health-insurance' element={<HealthInsurance />} />
           <Route path='/:lang/life-insurance' element={<LifeInsurance />} />
           <Route path='/:lang/house-insurance' element={<HouseInsurance />} />
           <Route path='/:lang/law-protection' element={<LawProtection />} />
           <Route path='/:lang/car-insurance' element={<CarInsurance />} />
+          <Route path='/:lang/pets-insurance' element={<PetsInsurance />} />
         </Routes>
+        <Footer />
       </Router>
     </I18nextProvider>
   );

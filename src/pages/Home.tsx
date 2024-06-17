@@ -10,18 +10,17 @@ const Home: React.FC = () => {
   const { lang } = useParams<{ lang: string }>();
 
   const logos = [
-    "/media/Allianz.png",
-    "/media/atupri.webp",
-    "/media/axa.png",
-    "/media/concordia.png",
-    "/media/css.png",
-    "/media/groupemutuel.jpg",
-    "/media/helsana.png",
-    "/media/sanitas.svg",
-    "/media/swica.png",
-    "/media/visana.png",
+    { src: "/media/helsana.png", name: "Helsana" },
+    { src: "/media/visana.png", name: "Visana" },
+    { src: "/media/css.png", name: "CSS" },
+    { src: "/media/swica.png", name: "Swica" },
+    { src: "/media/groupemutuel.png", name: "Groupe Mutuel" },
+    { src: "/media/sanitas.svg", name: "Sanitas" },
+    { src: "/media/axa.png", name: "Axa" },
+    { src: "/media/Allianz.png", name: "Allianz" },
+    { src: "/media/atupri.webp", name: "Atupri" },
+    { src: "/media/concordia.png", name: "Concordia" },
   ];
-
   React.useEffect(() => {
     if (lang && i18n.language !== lang) {
       i18n.changeLanguage(lang);
@@ -32,10 +31,10 @@ const Home: React.FC = () => {
     <div className='homepage'>
       <div className='container home'>
         <div className='text-container'>
-          <h1>{t("welcomeMessage")}</h1>
-          <p>{t("welcomeBody")}</p>
+          <h1>{t("homeH1")}</h1>
+          <p>{t("homeP")}</p>
           <Link to={`/${lang}/about-lukasz`}>
-            <button className='welcome-button'>{t("More About us")}</button>
+            <button className='welcome-button'>{t("homeButton")}</button>
           </Link>
         </div>
         <div className='image-container'>
@@ -46,53 +45,45 @@ const Home: React.FC = () => {
         <div className='button-box-row'>
           <ButtonBox
             icon='/media/health-icon.png'
-            title='Health Insurance'
-            description='Short description of health insurance'
+            titleKey='healthInsurance'
+            descriptionKey='healthInsuranceDescription'
             link={`/${lang}/health-insurance`}
           />
           <ButtonBox
             icon='/media/life-icon.png'
-            title='Life Insurance'
-            description='Short description of life insurance'
+            titleKey='lifeInsurance'
+            descriptionKey='lifeInsuranceDescription'
             link={`/${lang}/life-insurance`}
           />
           <ButtonBox
             icon='/media/house-icon.png'
-            title='House Insurance'
-            description='Short description of house insurance'
+            titleKey='houseInsurance'
+            descriptionKey='houseInsuranceDescription'
             link={`/${lang}/house-insurance`}
           />
         </div>
         <div className='button-box-row'>
           <ButtonBox
             icon='/media/law-icon.png'
-            title='Law Protection'
-            description='Short description of law protection'
+            titleKey='lawProtection'
+            descriptionKey='lawProtectionDescription'
             link={`/${lang}/law-protection`}
           />
           <ButtonBox
             icon='/media/car-icon.png'
-            title='Car Insurance'
-            description='Short description of car insurance'
+            titleKey='carInsurance'
+            descriptionKey='carInsuranceDescription'
             link={`/${lang}/car-insurance`}
+          />
+          <ButtonBox
+            icon='/media/pets-icon.png'
+            titleKey='petInsurance'
+            descriptionKey='petInsuranceDescription'
+            link={`/${lang}/pets-insurance`}
           />
         </div>
       </div>
       <LogoLine logos={logos} />
-
-      <footer id='contact-footer'>
-        <div className='contact'>
-          <div className='contact-text'>
-            <h2>Contact</h2>
-            <p>Lukasz</p>
-            <p>Phone number: 11111111</p>
-            <p>Email: aaaaa@aaaaa.com</p>
-            <p>Janis</p>
-            <p>Phone number: 11111111</p>
-            <p>Email: aaaaa@aaaaa.com</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
