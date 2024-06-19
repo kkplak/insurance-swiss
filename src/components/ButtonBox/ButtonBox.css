@@ -6,22 +6,23 @@
   justify-content: center;
   text-decoration: none;
   height: auto; /* Adjust as needed */
-  border: 1px solid #ccc;
+  border: 1px solid #f9f9f939;
   border-radius: 8px;
   padding: 16px;
   text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.223);
   transition: transform 0.2s;
-  background-color: #dadada;
+  background-color: #f9f5eea5;
   margin: 10px; /* Add some margin for spacing */
   width: 20%;
   min-width: 200px;
   color: inherit;
+  backdrop-filter: blur(10px);
 }
 
 .button-box:hover {
   transform: scale(1.05);
-  background-color: #f5f5f5;
+  background-color: #ffffffb6;
 }
 
 .button-box-icon {
@@ -48,5 +49,5 @@
   margin: 2rem;
 }
 .button-box-container {
-  margin: 3rem;
+  margin:7rem 3rem;
 }

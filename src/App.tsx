@@ -28,7 +28,7 @@ import PetsInsurance from "./pages/PetsInsurance";
 import LanguageSwitcher from "./components/LanguageSwitcher/LanguageSwitcher";
 import Footer from "./components/Footer/Footer";
 
-import "./App.css"; // Import your main CSS file
+import "./App.css"; 
 
 const resources = {
   en: { translation: translationEN },
@@ -78,7 +78,7 @@ const App = () => {
     // Calculate background color based on scroll position
     const navbarStyle = {
       backgroundColor:
-        scrollPosition > 20 ? "rgba(0, 0, 0, 0.85)" : "rgba(0, 0, 0, 0.5)",
+        scrollPosition > 20 ? "rgba(0, 0, 0, 0.5)" : "rgba(0, 0, 0, 0.2)",
       padding: scrollPosition > 20 ? "1% 5% 1% 10%" : "2% 5% 2% 10%",
       display: "flex",
       justifyContent: "space-between",
@@ -94,7 +94,7 @@ const App = () => {
       <nav style={navbarStyle} className='nav-bar'>
         <img
           className='icon'
-          src='https://cdn-icons-png.flaticon.com/512/8323/8323822.png'
+          src={`${process.env.PUBLIC_URL}/media/logo-white.png`}
           alt='icon'
         />
         <div className='links'>
@@ -111,16 +111,17 @@ const App = () => {
           <LanguageSwitcher />
           <div className='nav-phone-numbers'>
             <div className='phone-line'>
-              <p>
-                <b>{t("ioannis")}</b>
-              </p>
-              <p>{t("ioannisPhone")}</p>
-            </div>
-            <div className='phone-line'>
-              <p>
+            <p>
                 <b>{t("lukasz")}</b>
               </p>
               <p>{t("lukaszPhone")}</p>
+            </div>
+            <div className='phone-line'>
+            <p>
+                <b>{t("ioannis")}</b>
+              </p>
+              <p>{t("ioannisPhone")}</p>
+          
             </div>
           </div>
         </div>

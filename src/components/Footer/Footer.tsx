@@ -15,14 +15,14 @@ const Layout: React.FC = () => {
             <h2>{t("contact")}</h2>
             <div className='contact-people'>
               <div>
-                <p>
+                <p className="people-name">
                   <b>{t("ioannis")}</b>
                 </p>
                 <p>{t("ioannisPhone")}</p>
                 <p>{t("ioannisMail")}</p>
               </div>
               <div>
-                <p>
+              <p className="people-name">
                   <b>{t("lukasz")}</b>
                 </p>
                 <p>{t("lukaszPhone")}</p>

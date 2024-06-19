@@ -38,7 +38,7 @@ const Home: React.FC = () => {
           </Link>
         </div>
         <div className='image-container'>
-          <img src='/media/homeImage.png' alt='Background' />
+          <img src='/media/home-img.png' alt='Background' />
         </div>
       </div>
       <div className='button-box-container'>
@@ -55,12 +55,13 @@ const Home: React.FC = () => {
             descriptionKey='lifeInsuranceDescription'
             link={`/${lang}/life-insurance`}
           />
-          <ButtonBox
-            icon='/media/house-icon.png'
-            titleKey='houseInsurance'
-            descriptionKey='houseInsuranceDescription'
-            link={`/${lang}/house-insurance`}
+               <ButtonBox
+            icon='/media/car-icon.png'
+            titleKey='carInsurance'
+            descriptionKey='carInsuranceDescription'
+            link={`/${lang}/car-insurance`}
           />
+      
         </div>
         <div className='button-box-row'>
           <ButtonBox
@@ -69,12 +70,13 @@ const Home: React.FC = () => {
             descriptionKey='lawProtectionDescription'
             link={`/${lang}/law-protection`}
           />
-          <ButtonBox
-            icon='/media/car-icon.png'
-            titleKey='carInsurance'
-            descriptionKey='carInsuranceDescription'
-            link={`/${lang}/car-insurance`}
+              <ButtonBox
+            icon='/media/house-icon.png'
+            titleKey='houseInsurance'
+            descriptionKey='houseInsuranceDescription'
+            link={`/${lang}/house-insurance`}
           />
+     
           <ButtonBox
             icon='/media/pets-icon.png'
             titleKey='petInsurance'

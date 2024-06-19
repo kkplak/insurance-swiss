@@ -23,14 +23,15 @@ const LanguageSwitcher = () => {
         onClick={() => handleLanguageChange("en")}
         className={`language-icon ${i18n.language === "en" ? "active" : ""}`}
       />
+         <FlagPolish
+        onClick={() => handleLanguageChange("pl")}
+        className={`language-icon ${i18n.language === "pl" ? "active" : ""}`}
+      />
       <FlagGerman
         onClick={() => handleLanguageChange("de")}
         className={`language-icon ${i18n.language === "de" ? "active" : ""}`}
       />
-      <FlagPolish
-        onClick={() => handleLanguageChange("pl")}
-        className={`language-icon ${i18n.language === "pl" ? "active" : ""}`}
-      />
+   
       <FlagGreek
         onClick={() => handleLanguageChange("el")}
         className={`language-icon ${i18n.language === "el" ? "active" : ""}`}
