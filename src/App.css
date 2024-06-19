@@ -16,7 +16,7 @@ html {
   background-size: cover;
   background-position: center;
   /* background-color: #f7f9fb; */
-  position: relative; /* Ensure relative positioning for pseudo-element */
+  position: relative; 
 }
 body {
   min-height: 100vh;
@@ -122,7 +122,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #797979;
+  color: #f3f3f3ca;
 }
 
 h1 {
