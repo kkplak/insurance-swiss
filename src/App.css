@@ -4,8 +4,6 @@
   --container: #fff;
   --logoSlider: #fff;
   --footer: #fff;
-
-
 }
 
 
@@ -28,9 +26,8 @@ body {
 .icon {
   width: 7rem;
   height: auto;
-  position: absolute;
-  left: 4%;
-  top: 10%;
+margin-left: -6%;
+
 
 }
 .homepage {
@@ -42,7 +39,24 @@ body {
   background: #00000021;
   padding: 7%;
   text-align: center;
+  margin: 5rem;
+  border-radius: 5px;
 
+}
+.container2 {
+  color: #e5e5e5;
+  background: #00000021;
+  padding: 3%;
+  text-align: left;
+  margin: 5rem;
+  border-radius: 5px;
+
+}
+.container-home {
+  color: #e5e5e5;
+  background: #00000021;
+  padding: 7%;
+  text-align: center;
 }
 
 .home {
@@ -51,6 +65,7 @@ body {
   color: #f5f3f5;
   background: transparent;
   position: relative;
+  justify-content: space-between;
 }
 
 .home::before {
@@ -75,6 +90,7 @@ body {
   display: flex;
   align-items: center;
   width: 50%;
+  max-width: 500px;
 }
 
 .image-container img {
@@ -180,6 +196,10 @@ h1 {
 .phone-line {
   display: flex;
   gap: 1rem;
+  justify-content: space-between;
+}
+.phone-line:first-of-type {
+  margin-bottom: 0.4rem;
 }
 
 .people-container {
@@ -195,4 +215,128 @@ h1 {
 .lukasz-container img {
   width: 50%;
   border-radius: 5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+} 
+
+.wrapper p {
+  margin: 2rem 5rem;
+}
+.nav-center {
+  position: absolute;
+  left: 45%;
+}
+
+.smaller-p {
+  font-size: 0.8rem;
+}
+.hide {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+}
+
+.show {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.3s ease-out;
+}
+
+@media only screen and (max-width: 980px) {
+  .nav-left {
+    width: 100%;
+  }
+  .nav-left ul {
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 5%;
+  }
+  .nav-right {
+    display: none;
+  }
+  .container, .container2{
+    margin: 10% 2%;
+  }
+  
+  .icon {
+    top: 0;
+    left: 2%;
+  }
+
+  .links {
+   margin-top: 0;
+    margin-left: 0;
+  }
+
+  .contact-people {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+  .logo-image {
+    width: 8%;
+  }
+  .button-box {
+    min-width: auto;
+    width: 30%;
+    margin: 2%;
+    gap: 0;
+  }
+  .button-box-container {
+    margin: 5rem 0;
+  }
+  .contact {
+    padding: 1rem;
+  }
+  .people-name {
+    font-size: 1rem;
+  }
+  .welcome-button {
+    padding: 1rem;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .home {
+    flex-wrap: wrap;
+    height: 70vh;
+  }
+  .image-container {
+    position: absolute;
+    width: 70%;
+  top: 41%;
+  right: 0;
+  max-width: 400px;
+  }
+  .button-box-description {
+    display: none;
+  }
+  .contact-text h2 {
+   text-align: center;
+  }
+  .contact-text {
+    display: block;
+    width: 100%;
+  }
+  .contact-people {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-people div p {
+    margin: 0.5rem 0;
+  }
+  .people-container {
+    display: block;
+  }
+  .ioannis-container {
+    margin-bottom: 5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
 }

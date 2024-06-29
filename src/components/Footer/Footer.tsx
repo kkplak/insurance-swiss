@@ -16,16 +16,16 @@ const Layout: React.FC = () => {
             <div className='contact-people'>
               <div>
                 <p className="people-name">
-                  <b>{t("ioannis")}</b>
+                  <b>{t("ioannisSarafidis")}</b>
                 </p>
-                <p>{t("ioannisPhone")}</p>
+                <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
                 <p>{t("ioannisMail")}</p>
               </div>
               <div>
               <p className="people-name">
-                  <b>{t("lukasz")}</b>
+                  <b>{t("lukaszBergel")}</b>
                 </p>
-                <p>{t("lukaszPhone")}</p>
+                <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
                 <p>{t("lukaszMail")}</p>
               </div>
             </div>

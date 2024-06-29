@@ -6,8 +6,8 @@ import "./ButtonBox.css";
 
 interface ButtonBoxProps {
   icon: string;
-  titleKey: string; // Use a key for translation
-  descriptionKey: string; // Use a key for translation
+  titleKey: string; 
+  descriptionKey: string; 
   link: string;
 }
 

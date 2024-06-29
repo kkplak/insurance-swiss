@@ -29,7 +29,7 @@ const Home: React.FC = () => {
 
   return (
     <div className='homepage'>
-      <div className='container home'>
+      <div className='container-home home'>
         <div className='text-container'>
           <h1>{t("homeH1")}</h1>
           <p>{t("homeP")}</p>
@@ -40,6 +40,7 @@ const Home: React.FC = () => {
         <div className='image-container'>
           <img src='/media/home-img.png' alt='Background' />
         </div>
+  
       </div>
       <div className='button-box-container'>
         <div className='button-box-row'>
@@ -61,9 +62,8 @@ const Home: React.FC = () => {
             descriptionKey='carInsuranceDescription'
             link={`/${lang}/car-insurance`}
           />
-      
-        </div>
-        <div className='button-box-row'>
+    
+       
           <ButtonBox
             icon='/media/law-icon.png'
             titleKey='lawProtection'
