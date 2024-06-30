@@ -10,7 +10,7 @@
 
 html {
   background-image: url(/public/media/bg18.png);
- 
+ scroll-behavior: smooth;
   background-size: cover;
   background-position: center;
   /* background-color: #f7f9fb; */
@@ -24,8 +24,8 @@ body {
 }
 
 .icon {
-  width: 7rem;
-  height: auto;
+ width: 7rem;
+ height: auto;
 margin-left: -6%;
 
 
@@ -198,6 +198,7 @@ h1 {
   gap: 1rem;
   justify-content: space-between;
 }
+
 .phone-line:first-of-type {
   margin-bottom: 0.4rem;
 }
@@ -257,10 +258,17 @@ a {
   .nav-right {
     display: none;
   }
+  .nav-center {
+    left: unset;
+    right: 5%;
+    top: 65%;
+  }
   .container, .container2{
     margin: 10% 2%;
   }
-  
+
+  .wrapper p {margin: 0;}
+
   .icon {
     top: 0;
     left: 2%;
@@ -276,15 +284,18 @@ a {
     gap: 2rem;
     justify-content: flex-end;
   }
+
   .logo-image {
     width: 8%;
   }
+
   .button-box {
     min-width: auto;
     width: 30%;
     margin: 2%;
     gap: 0;
   }
+
   .button-box-container {
     margin: 5rem 0;
   }
@@ -330,10 +341,10 @@ a {
     margin: 0.5rem 0;
   }
   .people-container {
-    display: block;
+  gap: 0;
   }
   .ioannis-container {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
   h1 {
     font-size: 2rem;

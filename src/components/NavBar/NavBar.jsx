@@ -93,7 +93,7 @@ const NavBar = () => {
 
   const navbarStyle = {
     backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.5)" : "rgba(0, 0, 0, 0.2)",
-    padding: scrollPosition > 20 ? "0.4% 5%" : "2% 5%",
+    padding: scrollPosition > 20 ? "0.4% 5%" : "2% 5% 8%",
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
