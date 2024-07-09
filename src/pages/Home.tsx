@@ -16,10 +16,10 @@ const Home: React.FC = () => {
     { src: "/media/swica.png", name: "Swica" },
     { src: "/media/groupemutuel.png", name: "Groupe Mutuel" },
     { src: "/media/sanitas.svg", name: "Sanitas" },
+    { src: "/media/concordia.png", name: "Concordia" },
+    { src: "/media/atupri.webp", name: "Atupri" },
     { src: "/media/axa.png", name: "Axa" },
     { src: "/media/Allianz.png", name: "Allianz" },
-    { src: "/media/atupri.webp", name: "Atupri" },
-    { src: "/media/concordia.png", name: "Concordia" },
   ];
   React.useEffect(() => {
     if (lang && i18n.language !== lang) {

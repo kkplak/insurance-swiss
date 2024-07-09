@@ -34,7 +34,7 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
 };
 
 const NavCenter = ({ scrollPosition, windowWidth }) => {
-  const centerClass = scrollPosition > 20 && windowWidth < 980 ? 'hide' : 'show';
+  const centerClass = scrollPosition > 20 && windowWidth < 700 ? 'hide' : 'show';
 
   return (
     <div className={`nav-center ${centerClass}`}>
@@ -91,18 +91,18 @@ const NavBar = () => {
     };
   }, []);
 
-  const navbarStyle = {
-    backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.5)" : "rgba(0, 0, 0, 0.2)",
-    padding: scrollPosition > 20 ? "0.4% 5%" : "2% 5% 8%",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "space-between",
-    position: "sticky",
-    top: 0,
-    zIndex: 1000,
-    transition: "0.3s ease-out",
-    backdropFilter: "blur(3px)"
-  };
+const navbarStyle = {
+  backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.5)" : "rgba(0, 0, 0, 0.2)",
+  padding: scrollPosition > 20  ? "0.4% 5%" : "2% 5% 8%",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
+  position: "sticky",
+  top: 0,
+  zIndex: 1000,
+  transition: "0.3s ease-out",
+  backdropFilter: "blur(3px)"
+};
 
   return (
     <nav style={navbarStyle} className='nav-bar'>

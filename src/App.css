@@ -231,6 +231,9 @@ a {
   left: 45%;
 }
 
+.ioannis-container, .lukasz-container {
+  width: 50%;
+}
 .smaller-p {
   font-size: 0.8rem;
 }
@@ -245,8 +248,7 @@ a {
   pointer-events: auto;
   transition: opacity 0.3s ease-out;
 }
-
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 700px) {
   .nav-left {
     width: 100%;
   }
@@ -263,6 +265,14 @@ a {
     right: 5%;
     top: 65%;
   }
+  .links {
+    margin-top: 0;
+     margin-left: 0;
+   }
+
+}
+@media only screen and (max-width: 980px) {
+
   .container, .container2{
     margin: 10% 2%;
   }
@@ -274,10 +284,6 @@ a {
     left: 2%;
   }
 
-  .links {
-   margin-top: 0;
-    margin-left: 0;
-  }
 
   .contact-people {
     flex-wrap: wrap;
