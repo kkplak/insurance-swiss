@@ -27,6 +27,7 @@ import Arrow from "./components/Arrow/ScrollArrow";
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import "./App.css";
+import Contact from "./pages/Contact";
 
 const resources = {
   en: { translation: translationEN },
@@ -61,6 +62,7 @@ const App = () => {
           <Route path="/" element={<RedirectToDefaultLanguage />} />
           <Route path="/:lang/home" element={<Home />} />
           <Route path="/:lang/info" element={<Info />} />
+          <Route path="/:lang/contact" element={<Contact />} />
           <Route path="/:lang/about-lukasz" element={<AboutUs />} />
           <Route path="/:lang/health-insurance" element={<HealthInsurance />} />
           <Route path="/:lang/life-insurance" element={<LifeInsurance />} />

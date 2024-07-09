@@ -23,9 +23,9 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
             <Link to={`/${language}/home`}>{t("home")}</Link>
           </li>
           <li>
-            <HashLink smooth to={`#${t("contact").toLowerCase()}`}>
+            <Link to={`/${language}/contact`}>
               {t("contact")}
-            </HashLink>
+            </Link>
           </li>
         </ul>
       </div>
