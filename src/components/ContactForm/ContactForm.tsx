@@ -1,11 +1,14 @@
-import React from 'react';
-import { useForm, ValidationError } from '@formspree/react';
-import './ContactForm.css'; // Import the CSS file
+import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { useTranslation } from "react-i18next";
+import "./ContactForm.css";
 
 function ContactForm() {
+  const { t, i18n } = useTranslation();
+
   const [state, handleSubmit] = useForm("xkgwndnd"); // Replace with your Formspree form ID
   if (state.succeeded) {
-    return <p>Thanks for your message!</p>;
+    return <p>{t("formThanks")}</p>;
   }
   return (
     <form onSubmit={handleSubmit} className="contact-form">
@@ -14,30 +17,25 @@ function ContactForm() {
         type="text"
         name="name"
         required
-        placeholder="Name"
+        placeholder={t("formName")}
         className="form-input"
       />
-      <ValidationError 
-        prefix="Name" 
+      <ValidationError
+        prefix="Name"
         field="name"
         errors={state.errors}
         className="form-error"
       />
 
-      <select
-        id="language"
-        name="language"
-        required
-        className="form-select"
-      >
-        <option value="">Select preferred language</option>
-        <option value="english">English</option>
-        <option value="german">German</option>
-        <option value="polish">Polish</option>
-        <option value="greek">Greek</option>
+      <select id="language" name="language" required className="form-select">
+        <option value="">{t("formLanguage")}</option>
+        <option value="english">{t("formEnglish")}</option>
+        <option value="german">{t("formGerman")}</option>
+        <option value="polish">{t("formPolish")}</option>
+        <option value="greek">{t("formGreek")}</option>
       </select>
-      <ValidationError 
-        prefix="Language" 
+      <ValidationError
+        prefix="Language"
         field="language"
         errors={state.errors}
         className="form-error"
@@ -48,11 +46,11 @@ function ContactForm() {
         type="tel"
         name="phone"
         required
-        placeholder="Phone Number"
+        placeholder={t("formNumber")}
         className="form-input"
       />
-      <ValidationError 
-        prefix="Phone" 
+      <ValidationError
+        prefix="Phone"
         field="phone"
         errors={state.errors}
         className="form-error"
@@ -63,11 +61,11 @@ function ContactForm() {
         type="email"
         name="email"
         required
-        placeholder="Email Address"
+        placeholder={t("formEmail")}
         className="form-input"
       />
-      <ValidationError 
-        prefix="Email" 
+      <ValidationError
+        prefix="Email"
         field="email"
         errors={state.errors}
         className="form-error"
@@ -87,7 +85,7 @@ function ContactForm() {
       /> */}
 
       <button type="submit" disabled={state.submitting} className="form-button">
-        Submit
+        {t("formSubmit")}
       </button>
     </form>
   );

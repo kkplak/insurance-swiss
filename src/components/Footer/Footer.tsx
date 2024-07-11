@@ -8,48 +8,48 @@ const Layout: React.FC = () => {
   const currentLanguage = i18n.language;
 
   return (
-    <div className='layout'>
+    <div className="layout">
       <Outlet />
-      <footer id='contact'>
-        <div className='contact'>
-          <div className='contact-text'>
-            <h4> Selecting the right insurance can benefint you and your family. </h4>
-            <div className='contact-people'>
-  {currentLanguage === "pl" ? (
-    <div className="contact-people-pl">
-      <p className="people-name">
-        <b>{t("lukaszBergel")}</b>
-      </p>
-      <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
-      <p>{t("lukaszMail")}</p>
-    </div>
-  ) : currentLanguage === "el" ? (
-    <div>
-      <p className="people-name">
-        <b>{t("ioannisSarafidis")}</b>
-      </p>
-      <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
-      <p>{t("ioannisMail")}</p>
-    </div>
-  ) : (
-    <div  className="contact-people-en" >
-      <div>
-        <p className="people-name">
-          <b>{t("ioannisSarafidis")}</b>
-        </p>
-        <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
-        <p>{t("ioannisMail")}</p>
-      </div>
-      <div>
-        <p className="people-name">
-          <b>{t("lukaszBergel")}</b>
-        </p>
-        <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
-        <p>{t("lukaszMail")}</p>
-      </div>
-    </div>
-  )}
-</div>
+      <footer id="contact">
+        <div className="contact">
+          <div className="contact-text">
+            {/* <h4> Selecting the right insurance can benefint you and your family. </h4> */}
+            <div className="contact-people">
+              {currentLanguage === "pl" ? (
+                <div className="contact-people-pl">
+                  <p className="people-name">
+                    <b>{t("lukaszBergel")}</b>
+                  </p>
+                  <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
+                  <p>{t("lukaszMail")}</p>
+                </div>
+              ) : currentLanguage === "el" ? (
+                <div>
+                  <p className="people-name">
+                    <b>{t("ioannisSarafidis")}</b>
+                  </p>
+                  <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
+                  <p>{t("ioannisMail")}</p>
+                </div>
+              ) : (
+                <div className="contact-people-en">
+                  <div>
+                    <p className="people-name">
+                      <b>{t("ioannisSarafidis")}</b>
+                    </p>
+                    <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
+                    <p>{t("ioannisMail")}</p>
+                  </div>
+                  <div>
+                    <p className="people-name">
+                      <b>{t("lukaszBergel")}</b>
+                    </p>
+                    <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
+                    <p>{t("lukaszMail")}</p>
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </footer>

@@ -51,5 +51,15 @@
   "healthNewPItem3": "3. Identity proof (ID card or passport).",
   "healthNewPItem4": "4. Bank account",
   "healthNewP3": "This is a confirmation of registration with the start date of employment and residential address. To obtain this document, you need to go to the local municipality (Gemeinde) with your employment contract and ID.",
-  "healthNewP4": "To open a bank account, you need an employment contract and a residence permit (Bewiligung). The process of obtaining a residence permit (Swiss ID) can take several weeks, which can significantly delay the insurance process. An alternative is to open an account with PostFinance. In this case, you only need an ID, an employment contract, and a registration confirmation."
+  "healthNewP4": "To open a bank account, you need an employment contract and a residence permit (Bewiligung). The process of obtaining a residence permit (Swiss ID) can take several weeks, which can significantly delay the insurance process. An alternative is to open an account with PostFinance. In this case, you only need an ID, an employment contract, and a registration confirmation.",
+  "formThanks": "Thank you! We will get back to you shortly!",
+  "formLanguage": "Select preferred language",
+  "formEnglish": "English",
+  "formGerman": "German",
+  "formPolish": "Polish",
+  "formGreek": "Greek",
+  "formNumber": "Phone Number",
+  "formName": "Name",
+  "formEmail": "Email Address",
+  "formSubmit": "Submit"
 }
