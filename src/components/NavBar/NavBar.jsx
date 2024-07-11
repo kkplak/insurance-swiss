@@ -23,8 +23,8 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
             <Link to={`/${language}/home`}>{t("home")}</Link>
           </li>
           <li>
-            <Link to={`/${language}/contact`}>
-              {t("contact")}
+            <Link to={`/${language}/about-us`}>
+              {t("aboutUs")}
             </Link>
           </li>
         </ul>
@@ -44,26 +44,46 @@ const NavCenter = ({ scrollPosition, windowWidth }) => {
 };
 
 const NavRight = ({ scrollPosition, windowWidth }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   // const rightClass = scrollPosition > 20 && windowWidth < 980 ? 'hide' : 'show';
 
   return (
-    <div className={`nav-right `} style={{ justifyContent: 'flex-end' }}>
-      <div className='nav-phone-numbers'>
+    <div className={`nav-right`} style={{ justifyContent: 'flex-end' }}>
+    <div className='nav-phone-numbers'>
+      {currentLanguage === "pl" ? (
         <div className='phone-line'>
           <p>
             <b>{t("lukasz")}</b>
           </p>
           <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
         </div>
+      ) : currentLanguage === "el" ? (
         <div className='phone-line'>
           <p>
             <b>{t("ioannis")}</b>
           </p>
           <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
         </div>
-      </div>
+      ) : (
+        <>
+        <div className='phone-line'>
+          <p>
+            <b>{t("lukasz")}</b>
+          </p>
+          <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
+        </div>
+                <div className='phone-line'>
+                <p>
+                  <b>{t("ioannis")}</b>
+                </p>
+                <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
+              </div>
+              </>
+      )}
     </div>
+  </div>
+  
   );
 };
 
@@ -91,9 +111,12 @@ const NavBar = () => {
     };
   }, []);
 
+  const padding = windowWidth < 700
+    ? (scrollPosition > 20 ? "0.4% 5%" : "2% 5% 8%")
+    : (scrollPosition > 20 ? "0.4% 5%" : "2% 5%");
 const navbarStyle = {
   backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.5)" : "rgba(0, 0, 0, 0.2)",
-  padding: scrollPosition > 20  ? "0.4% 5%" : "2% 5% 8%",
+  padding: padding,
   display: "flex",
   alignItems: "center",
   justifyContent: "space-between",

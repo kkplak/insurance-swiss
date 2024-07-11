@@ -30,7 +30,7 @@ function ContactForm() {
         required
         className="form-select"
       >
-        <option value="">Select a language</option>
+        <option value="">Select preferred language</option>
         <option value="english">English</option>
         <option value="german">German</option>
         <option value="polish">Polish</option>
@@ -73,7 +73,7 @@ function ContactForm() {
         className="form-error"
       />
 
-      <textarea
+      {/* <textarea
         id="message"
         name="message"
         placeholder="Message"
@@ -84,7 +84,7 @@ function ContactForm() {
         field="message"
         errors={state.errors}
         className="form-error"
-      />
+      /> */}
 
       <button type="submit" disabled={state.submitting} className="form-button">
         Submit

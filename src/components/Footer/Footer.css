@@ -7,11 +7,10 @@
 .contact {
   position: relative;
   justify-content: center;
-  padding: 3% 7%;
+  padding: 3%;
   display: flex;
   color: white;
   z-index: 16;
-  padding: 5rem;
 }
 
 .contact::before {
@@ -29,13 +28,12 @@
   z-index: 15;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contact-text h2 {
   text-align: left;
   margin: 0;
- 
 }
 
 .contact-text p {

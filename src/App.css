@@ -6,29 +6,26 @@
   --footer: #fff;
 }
 
-
-
 html {
   background-image: url(/public/media/bg18.png);
- scroll-behavior: smooth;
+  scroll-behavior: smooth;
   background-size: cover;
   background-position: center;
   /* background-color: #f7f9fb; */
-  position: relative; 
+  position: relative;
 }
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  /* font-family: "Mulish"; */
 }
 
 .icon {
- width: 7rem;
- height: auto;
-margin-left: -6%;
-
-
+  width: 7rem;
+  height: auto;
+  margin-left: -6%;
 }
 .homepage {
   width: 100%;
@@ -41,7 +38,6 @@ margin-left: -6%;
   text-align: center;
   margin: 5rem;
   border-radius: 5px;
-
 }
 .container2 {
   color: #e5e5e5;
@@ -50,7 +46,6 @@ margin-left: -6%;
   text-align: left;
   margin: 5rem;
   border-radius: 5px;
-
 }
 .container-home {
   color: #e5e5e5;
@@ -79,10 +74,20 @@ margin-left: -6%;
   backdrop-filter: blur(2px);
 }
 
+.insurances-header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #f5f3f5;
+}
+
 .text-container {
   z-index: 11;
   width: 50%;
   text-align: left;
+}
+.text-container h1 {
+  font-family: "Oswald";
 }
 
 .image-container {
@@ -100,7 +105,7 @@ margin-left: -6%;
 }
 /* NAVIGATION */
 
-.nar-bar{
+.nar-bar {
   backdrop-filter: blur(2px);
 }
 
@@ -152,8 +157,8 @@ h1 {
 }
 
 .language-icon {
-  width: 30px; 
-  height: 30px; 
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   opacity: 0.4;
   transition: opacity 0.3s;
@@ -167,30 +172,89 @@ h1 {
 .home-buttons-container {
   width: 100%;
 }
-
+.button-link {
+  text-decoration: none;
+}
 .welcome-button {
-  background-color: #ffffff00;
-  color: #fff;
-  width: max-content;
-  height: max-content;
-  padding: 2% 3%;
-  border: #ffffff7e 0.2em solid;
-  border-radius: 11px;
-  text-align: right;
-  transition: all 0.6s ease;
   margin-top: 2rem;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  gap: 0.6rem;
+  height: auto;
+  width: auto;
+  border: none;
+  background: #fff;
+
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none !important;
 }
 
 .welcome-button:hover {
-  background-color: #ffffff2d;
-  cursor: pointer;
-  transform: scale(1.05);
+  background: #056bfae0;
 }
 
+.lable {
+  color: #000;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
 
+.svg-icon {
+  stroke: #056dfa;
+  fill: transparent;
+}
 
+.welcome-button:hover .svg-icon {
+  stroke: #fff;
+  fill: transparent;
+}
+.welcome-button:hover .lable {
+  color: #fff;
+}
+
+.welcome-button:hover .svg-icon {
+  animation: msg 2s linear infinite;
+}
+
+@keyframes msg {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  15% {
+    transform: translateX(1px);
+  }
+
+  30% {
+    transform: scale(1.1);
+  }
+
+  45% {
+    transform: translateY(1px);
+  }
+
+  60% {
+    transform: translateY(0px);
+  }
+
+  75% {
+    transform: scale(1);
+  }
+
+  90% {
+    transform: translateX(-px);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
 .text {
-  margin: 0 1.5em
+  margin: 0 1.5em;
 }
 
 .phone-line {
@@ -210,28 +274,30 @@ h1 {
 }
 
 .ioannis-container img {
-  width: 50%;
+  width: 60%;
   border-radius: 5px;
 }
 .lukasz-container img {
-  width: 50%;
+  width: 60%;
   border-radius: 5px;
 }
 
 a {
   color: inherit;
   text-decoration: underline;
-} 
+}
 
 .wrapper p {
   margin: 2rem 5rem;
+  white-space: pre-wrap;
 }
 .nav-center {
   position: absolute;
   left: 45%;
 }
 
-.ioannis-container, .lukasz-container {
+.ioannis-container,
+.lukasz-container {
   width: 50%;
 }
 .smaller-p {
@@ -248,9 +314,56 @@ a {
   pointer-events: auto;
   transition: opacity 0.3s ease-out;
 }
-@media only screen and (max-width: 700px) {
+.contact-people {
+  justify-content: end;
+  width: 70%;
+}
+.contact-people-pl {
+  justify-content: end;
+}
+.contact-people-en {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.contact-box-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.box {
+  max-width: 300px;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: rgba(1, 0, 0, 0.141);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: -moz-available;
+}
+.contact-page {
+  padding: 2% !important;
+}
+@media only screen and (max-width: 980px) {
+  .contact-box-container {
+    display: block;
+  }
+  .box {
+    max-width: unset;
+    margin: 1rem;
+  }
+  .people-container h2 {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .ioannis-container img {
+    width: 90%;
+  }
+  .lukasz-container img {
+    width: 90%;
+  }
   .nav-left {
-    width: 100%;
+    width: 90%;
   }
   .nav-left ul {
     width: 100%;
@@ -263,32 +376,32 @@ a {
   .nav-center {
     left: unset;
     right: 5%;
-    top: 65%;
   }
   .links {
     margin-top: 0;
-     margin-left: 0;
-   }
+    margin-left: 0;
+  }
 
-}
-@media only screen and (max-width: 980px) {
-
-  .container, .container2{
+  .container,
+  .container2 {
     margin: 10% 2%;
   }
 
-  .wrapper p {margin: 0;}
+  .wrapper p {
+    margin: 0;
+  }
 
   .icon {
     top: 0;
     left: 2%;
   }
 
-
   .contact-people {
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: flex-end;
+    width: 80%;
+    margin: 1.5rem 0;
+    display: flex;
   }
 
   .logo-image {
@@ -311,9 +424,7 @@ a {
   .people-name {
     font-size: 1rem;
   }
-  .welcome-button {
-    padding: 1rem;
-  }
+
   .text-container {
     width: 100%;
   }
@@ -324,30 +435,25 @@ a {
   .image-container {
     position: absolute;
     width: 70%;
-  top: 41%;
-  right: 0;
-  max-width: 400px;
+    top: 41%;
+    right: 0;
+    max-width: 400px;
   }
   .button-box-description {
     display: none;
   }
   .contact-text h2 {
-   text-align: center;
+    text-align: center;
   }
   .contact-text {
-    display: block;
     width: 100%;
   }
-  .contact-people {
-    margin: 3rem 0;
-    display: flex;
-    justify-content: space-between;
-  }
+
   .contact-people div p {
     margin: 0.5rem 0;
   }
   .people-container {
-  gap: 0;
+    gap: 0;
   }
   .ioannis-container {
     margin-bottom: 2rem;
@@ -355,5 +461,13 @@ a {
   h1 {
     font-size: 2rem;
   }
-
+}
+@media only screen and (max-width: 700px) {
+  .german-container {
+    display: block;
+  }
+  .german-container .button-box {
+    width: 60%;
+    margin: 3% auto;
+  }
 }
