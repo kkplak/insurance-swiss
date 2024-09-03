@@ -8,7 +8,7 @@ function ContactForm() {
 
   const [state, handleSubmit] = useForm("xkgwndnd"); // Replace with your Formspree form ID
   if (state.succeeded) {
-    return <p>{t("formThanks")}</p>;
+    return <p className="form-thank-you">{t("formThanks")}</p>;
   }
   return (
     <form onSubmit={handleSubmit} className="contact-form">

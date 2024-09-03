@@ -64,7 +64,7 @@ const Home: React.FC = () => {
       <div className="button-box-container">
         {/* <h1 className="insurances-header"> Placeholder for checking if we want text here?</h1> */}
         <div
-          className={`button-box-row ${
+          className={`button-box-row  ${
             currentLanguage === "de" ? "german-container" : ""
           }`}
         >

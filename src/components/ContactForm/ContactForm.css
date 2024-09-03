@@ -2,11 +2,10 @@
   max-width: 60%;
   margin: 3rem auto;
   padding: 1.5rem;
-  background-color: #f9f9f9;
-  border: 1px solid #e0e0e063;
+  background-color: #ffffff2e;
+  border: 1px solid #b6b6b663;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* font-family: Arial, sans-serif; */
 }
 
 .form-label {
@@ -19,13 +18,15 @@
 .form-input,
 .form-select,
 .form-textarea {
-  width: calc(100% - 12px); /* Adjusted width for consistency */
+  width: calc(100% - 12px);
   padding: 0.6rem;
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  box-sizing: border-box; /* Ensure padding and border are included in width */
+  box-sizing: border-box;
+  background-color: #eaeaeae8;
+  color: #000000;
 }
 
 .form-input:focus,
@@ -71,4 +72,13 @@ select {
   .contact-form {
     max-width: unset;
   }
+}
+
+.form-thank-you {
+  padding: 2rem;
+  background-color: #ffffff29;
+  border-radius: 5px;
+  width: max-content;
+  text-align: center;
+  margin: 2rem auto;
 }

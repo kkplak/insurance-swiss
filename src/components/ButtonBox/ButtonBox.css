@@ -12,7 +12,7 @@
   text-align: center;
   box-shadow: 0 7px 10px rgba(0, 0, 0, 0.223);
   transition: transform 0.2s;
-  background-color: #f9f5eea5;
+  background-color: #fff;
   margin: 10px; /* Add some margin for spacing */
   width: 20%;
   min-width: 200px;
@@ -49,5 +49,5 @@
   margin: 2rem;
 }
 .button-box-container {
-  margin:7rem 3rem;
+  margin: 7rem 3rem;
 }
