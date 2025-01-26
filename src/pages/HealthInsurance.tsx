@@ -7,8 +7,22 @@ const HealthInsurance: React.FC = () => {
     <>
     <div className='insurance-page container'>
       <h1>{t("healthInsurance")}</h1>
-      <p>{t("healthInsuranceDescriptionLong")}</p>
-    </div>
+      <p>{t("healthInfoP")}</p>
+
+
+   
+      <div className='insurance-page container2'>
+      <p>{t("healthInfoUP")}</p>
+   
+      <p>{t("healthInfoFran")}</p>
+    
+      <p>{t("healthInfoModel")}</p>
+  
+      <p>{t("healthInfoD")}</p>
+
+      <p>{t("healthInfoW")}</p>
+      </div>
+
       <div className='insurance-page container2'>
       <h2>{t("healthNewH2")}</h2>
       <p>{t("healthNewP")}</p>
@@ -19,8 +33,8 @@ const HealthInsurance: React.FC = () => {
       <p><b>{t("healthNewPItem3")}</b></p>
       <p><b>{t("healthNewPItem4")}</b></p>
       <p>{t("healthNewP4")}</p>
-
-    </div>
+      </div>
+          </div>
     </>
   );
 };

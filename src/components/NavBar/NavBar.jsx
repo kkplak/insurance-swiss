@@ -13,7 +13,7 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
       {/* {!shouldHide && ( */}
         <img
           className='icon'
-          src={`${process.env.PUBLIC_URL}/media/logo-white.png`}
+          src={`${process.env.PUBLIC_URL}/media/logo-protegos.png`}
           alt='icon'
         />
       {/* )} */}

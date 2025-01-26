@@ -52,7 +52,7 @@ const AboutUs = () => {
           </div>
           <div className="lukasz-container">
             <img
-              src={`${process.env.PUBLIC_URL}/media/lukasz2.jpg`}
+              src={`${process.env.PUBLIC_URL}/media/lukasz.png`}
               alt="Lukasz"
             />
             <h2>{t("lukaszBergel")}</h2>

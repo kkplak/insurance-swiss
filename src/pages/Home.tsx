@@ -58,7 +58,7 @@ const Home: React.FC = () => {
           </Link>
         </div>
         <div className="image-container">
-          <img src="/media/home-img.png" alt="Background" />
+          <img src="/media/hero-image.png" alt="Background" />
         </div>
       </div>
       <div className="button-box-container">
