@@ -18,34 +18,34 @@ const Layout: React.FC = () => {
               {currentLanguage === "pl" ? (
                 <div className="contact-people-pl">
                   <p className="people-name">
-                    <b>{t("lukaszBergel")}</b>
+                    <b>{t("GENERAL.lukaszBergel")}</b>
                   </p>
-                  <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
-                  <p>{t("lukaszMail")}</p>
+                  <a href={`tel:${t("GENERAL.lukaszPhone")}`}>{t("GENERAL.lukaszPhone")}</a>
+                  <p>{t("GENERAL.lukaszMail")}</p>
                 </div>
               ) : currentLanguage === "el" ? (
                 <div>
                   <p className="people-name">
-                    <b>{t("ioannisSarafidis")}</b>
+                    <b>{t("GENERAL.ioannisSarafidis")}</b>
                   </p>
-                  <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
-                  <p>{t("ioannisMail")}</p>
+                  <a href={`tel:${t("GENERAL.ioannisPhone")}`}>{t("GENERAL.ioannisPhone")}</a>
+                  <p>{t("GENERAL.ioannisMail")}</p>
                 </div>
               ) : (
                 <div className="contact-people-en">
                   <div>
                     <p className="people-name">
-                      <b>{t("ioannisSarafidis")}</b>
+                      <b>{t("GENERAL.ioannisSarafidis")}</b>
                     </p>
-                    <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
-                    <p>{t("ioannisMail")}</p>
+                    <a href={`tel:${t("GENERAL.ioannisPhone")}`}>{t("GENERAL.ioannisPhone")}</a>
+                    <p>{t("GENERAL.ioannisMail")}</p>
                   </div>
                   <div>
                     <p className="people-name">
-                      <b>{t("lukaszBergel")}</b>
+                      <b>{t("GENERAL.lukaszBergel")}</b>
                     </p>
-                    <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
-                    <p>{t("lukaszMail")}</p>
+                    <a href={`tel:${t("GENERAL.lukaszPhone")}`}>{t("GENERAL.lukaszPhone")}</a>
+                    <p>{t("GENERAL.lukaszMail")}</p>
                   </div>
                 </div>
               )}

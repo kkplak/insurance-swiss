@@ -20,9 +20,9 @@ const Info: React.FC = () => {
       <div className='image-container'>
         <img src={process.env.PUBLIC_URL + "/profile.png"} alt='logo' />
       </div>
-      <p>{t("infoContent")}</p> <p>{t("infoContent")}</p>
-      <p>{t("infoContent")} </p> <p>{t("infoContent")} </p>
-      <p>{t("infoContent")} </p> <p>{t("infoContent")} </p>
+      <p>{t("GENERAL.infoContent")}</p> <p>{t("GENERAL.infoContent")}</p>
+      <p>{t("GENERAL.infoContent")} </p> <p>{t("GENERAL.infoContent")} </p>
+      <p>{t("GENERAL.infoContent")} </p> <p>{t("GENERAL.infoContent")} </p>
       <LogoSlider />
     </div>
   );

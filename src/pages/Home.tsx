@@ -32,8 +32,8 @@ const Home: React.FC = () => {
     <div className="homepage">
       <div className="container-home home">
         <div className="text-container">
-          <h1>{t("homeH1")}</h1>
-          <p>{t("homeP")}</p>
+          <h1>{t("GENERAL.homeH1")}</h1>
+          <p>{t("GENERAL.homeP")}</p>
           <Link to={`/${lang}/contact`} className="button-link">
             <button className="welcome-button">
               <svg
@@ -53,7 +53,7 @@ const Home: React.FC = () => {
                   <path d="m6.66669 10h2.5"></path>
                 </g>
               </svg>
-              <span className="lable">{t("contactUs")}</span>
+              <span className="lable">{t("GENERAL.contactUs")}</span>
             </button>
           </Link>
         </div>
@@ -70,40 +70,40 @@ const Home: React.FC = () => {
         >
           <ButtonBox
             icon="/media/health-icon.png"
-            titleKey="healthInsurance"
-            descriptionKey="healthInsuranceDescription"
+            titleKey="GENERAL.healthInsurance"
+            descriptionKey="GENERAL.healthInsuranceDescription"
             link={`/${lang}/health-insurance`}
           />
           <ButtonBox
             icon="/media/life-icon.png"
-            titleKey="lifeInsurance"
-            descriptionKey="lifeInsuranceDescription"
+            titleKey="GENERAL.lifeInsurance"
+            descriptionKey="GENERAL.lifeInsuranceDescription"
             link={`/${lang}/life-insurance`}
           />
           <ButtonBox
             icon="/media/car-icon.png"
-            titleKey="carInsurance"
-            descriptionKey="carInsuranceDescription"
+            titleKey="GENERAL.carInsurance"
+            descriptionKey="GENERAL.carInsuranceDescription"
             link={`/${lang}/car-insurance`}
           />
 
           <ButtonBox
             icon="/media/law-icon.png"
-            titleKey="lawProtection"
-            descriptionKey="lawProtectionDescription"
+            titleKey="GENERAL.lawProtection"
+            descriptionKey="GENERAL.lawProtectionDescription"
             link={`/${lang}/law-protection`}
           />
           <ButtonBox
             icon="/media/house-icon.png"
-            titleKey="houseInsurance"
-            descriptionKey="houseInsuranceDescription"
+            titleKey="GENERAL.houseInsurance"
+            descriptionKey="GENERAL.houseInsuranceDescription"
             link={`/${lang}/house-insurance`}
           />
 
           <ButtonBox
             icon="/media/pets-icon.png"
-            titleKey="petInsurance"
-            descriptionKey="petInsuranceDescription"
+            titleKey="GENERAL.petInsurance"
+            descriptionKey="GENERAL.petInsuranceDescription"
             link={`/${lang}/pets-insurance`}
           />
         </div>

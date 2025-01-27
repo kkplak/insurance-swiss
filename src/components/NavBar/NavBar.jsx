@@ -20,11 +20,11 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
       <div className='links'>
         <ul>
           <li>
-            <Link to={`/${language}/home`}>{t("home")}</Link>
+            <Link to={`/${language}/home`}>{t("GENERAL.home")}</Link>
           </li>
           <li>
             <Link to={`/${language}/about-us`}>
-              {t("aboutUs")}
+              {t("GENERAL.aboutUs")}
             </Link>
           </li>
         </ul>
@@ -54,30 +54,30 @@ const NavRight = ({ scrollPosition, windowWidth }) => {
       {currentLanguage === "pl" ? (
         <div className='phone-line'>
           <p>
-            <b>{t("lukasz")}</b>
+            <b>{t("GENERAL.lukasz")}</b>
           </p>
-          <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
+          <a href={`tel:${t("GENERAL.lukaszPhone")}`}>{t("GENERAL.lukaszPhone")}</a>
         </div>
       ) : currentLanguage === "el" ? (
         <div className='phone-line'>
           <p>
-            <b>{t("ioannis")}</b>
+            <b>{t("GENERAL.ioannis")}</b>
           </p>
-          <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
+          <a href={`tel:${t("GENERAL.ioannisPhone")}`}>{t("GENERAL.ioannisPhone")}</a>
         </div>
       ) : (
         <>
         <div className='phone-line'>
           <p>
-            <b>{t("lukasz")}</b>
+            <b>{t("GENERAL.lukasz")}</b>
           </p>
-          <a href={`tel:${t("lukaszPhone")}`}>{t("lukaszPhone")}</a>
+          <a href={`tel:${t("GENERAL.lukaszPhone")}`}>{t("GENERAL.lukaszPhone")}</a>
         </div>
                 <div className='phone-line'>
                 <p>
-                  <b>{t("ioannis")}</b>
+                  <b>{t("GENERAL.ioannis")}</b>
                 </p>
-                <a href={`tel:${t("ioannisPhone")}`}>{t("ioannisPhone")}</a>
+                <a href={`tel:${t("GENERAL.ioannisPhone")}`}>{t("GENERAL.ioannisPhone")}</a>
               </div>
               </>
       )}

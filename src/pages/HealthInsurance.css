@@ -1,0 +1,127 @@
+/* General styles for the container */
+.insurance-page.container {
+ 
+    margin: 5rem 5rem;
+    padding: 20px;
+
+    color: #333;
+    line-height: 1.8;
+    background-color: #ffffff;
+    border-radius: 10px;
+ 
+  }
+  .extra-section {
+    text-align: left !important;
+  }
+  /* Main title */
+  .main-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2a4d69;
+  }
+  
+  /* Introduction text */
+  .intro-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  /* Information list title */
+  .info-list-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Ordered and unordered lists */
+  .info-list {
+    margin: 15px auto;
+    padding-left: 20px;
+    list-style: disc inside;
+    font-size: 1.1rem;
+
+    text-align: left;
+  }
+
+  
+  .info-list li {
+    margin-bottom: 8px;
+  }
+  
+  /* Section styling */
+  .insurance-section {
+    margin: 6rem 0;
+    padding: 2rem 4rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Section titles */
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #3d6a89;
+    text-align: center;
+  }
+  
+  /* Subsection titles */
+  .subsection-title {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    margin-bottom: 10px;
+    color: #3d6a89;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Example text (italic styling) */
+  .example-text {
+    font-style: italic;
+    color: #666;
+    margin-top: 15px;
+  }
+  
+  /* Small-text sections */
+  .small-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Centered content */
+  .insurance-page,
+  .insurance-section {
+    text-align: center;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .insurance-page.container {
+      padding: 15px;
+    }
+  
+    .main-title {
+      font-size: 2rem;
+    }
+  
+    .info-list {
+      text-align: left;
+    }
+  
+    .section-title {
+      font-size: 1.8rem;
+    }
+  
+    .subsection-title {
+      font-size: 1.2rem;
+    }
+  }
+  
+
+  

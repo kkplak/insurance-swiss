@@ -7,23 +7,23 @@ const Contact: React.FC = () => {
   return (
     <>
       <div className="contact-page container">
-        <h1>{t("contact")}</h1>
-        <p>{t("contactUsP")}</p>
+        <h1>{t("GENERAL.contact")}</h1>
+        <p>{t("GENERAL.contactUsP")}</p>
         <ContactForm />
       </div>
       <div className="container2">
         <div className="contact-box-container">
           <div className="box">
-            <h2>{t("introduction")}</h2>
-            <p>{t("introductionP")}</p>
+            <h2>{t("GENERAL.introduction")}</h2>
+            <p>{t("GENERAL.introductionP")}</p>
           </div>
           <div className="box">
-            <h2>{t("meeting")}</h2>
-            <p>{t("meetingP")}</p>
+            <h2>{t("GENERAL.meeting")}</h2>
+            <p>{t("GENERAL.meetingP")}</p>
           </div>
           <div className="box">
-            <h2>{t("ongoingSupport")}</h2>
-            <p>{t("ongoingSupportP")}</p>
+            <h2>{t("GENERAL.ongoingSupport")}</h2>
+            <p>{t("GENERAL.ongoingSupportP")}</p>
           </div>
         </div>
       </div>
