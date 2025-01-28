@@ -2,7 +2,7 @@
 .insurance-page.container {
  
     margin: 5rem 5rem;
-    padding: 20px;
+    padding: 4rem;
 
     color: #333;
     line-height: 1.8;
@@ -68,7 +68,9 @@
     margin-bottom: 2rem;
     color: #3d6a89;
     text-align: center;
+    margin-top: 5rem;
   }
+
   
   /* Subsection titles */
   .subsection-title {
@@ -78,6 +80,12 @@
     color: #3d6a89;
     font-weight: bold;
     text-align: left;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .toggle-description-container {
+  
+
   }
   
   /* Example text (italic styling) */
@@ -124,4 +132,42 @@
   }
   
 
+  .toggle-description-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
   
+  .toggle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .toggle-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .toggle-icon {
+    width: 24px; /* Fixed width */
+    height: 24px; /* Fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: center;
+  }
+  
+  .toggle-content {
+    margin-top: 12px;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow: hidden;
+  }
