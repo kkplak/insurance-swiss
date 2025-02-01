@@ -17,7 +17,7 @@ function ContactForm() {
         type="text"
         name="name"
         required
-        placeholder={t("GENERAL.formName")}
+        placeholder={t("CONTACT.formName")}
         className="form-input"
       />
       <ValidationError
@@ -28,11 +28,11 @@ function ContactForm() {
       />
 
       <select id="language" name="language" required className="form-select">
-        <option value="">{t("GENERAL.formLanguage")}</option>
-        <option value="english">{t("GENERAL.formEnglish")}</option>
-        <option value="german">{t("GENERAL.formGerman")}</option>
-        <option value="polish">{t("GENERAL.formPolish")}</option>
-        <option value="greek">{t("GENERAL.formGreek")}</option>
+        <option value="">{t("CONTACT.formLanguage")}</option>
+        <option value="english">{t("CONTACT.formEnglish")}</option>
+        <option value="german">{t("CONTACT.formGerman")}</option>
+        <option value="polish">{t("CONTACT.formPolish")}</option>
+        <option value="greek">{t("CONTACT.formGreek")}</option>
       </select>
       <ValidationError
         prefix="Language"
@@ -46,7 +46,7 @@ function ContactForm() {
         type="tel"
         name="phone"
         required
-        placeholder={t("GENERAL.formNumber")}
+        placeholder={t("CONTACT.formNumber")}
         className="form-input"
       />
       <ValidationError
@@ -61,7 +61,7 @@ function ContactForm() {
         type="email"
         name="email"
         required
-        placeholder={t("GENERAL.formEmail")}
+        placeholder={t("CONTACT.formEmail")}
         className="form-input"
       />
       <ValidationError
@@ -85,7 +85,7 @@ function ContactForm() {
       /> */}
 
       <button type="submit" disabled={state.submitting} className="form-button">
-        {t("GENERAL.formSubmit")}
+        {t("CONTACT.formSubmit")}
       </button>
     </form>
   );

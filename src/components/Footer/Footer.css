@@ -1,4 +1,18 @@
-/* Footer.css */
+/*========================================
+  Footer Component Styles
+========================================*/
+:root {
+  --footer-overlay: rgba(0, 0, 0, 0.4);
+  --footer-blur: blur(2px);
+  --footer-text-color: var(--background-color);
+  --footer-padding: 3%;
+  --footer-z-index: 16;
+  --footer-text-z-index: 15;
+  --footer-gap: 5rem;
+  --footer-font-size: var(--fs-medium);
+  --footer-name-font-size: 1.2rem;
+  --footer-name-padding: 0.5rem;
+}
 
 .layout {
   position: relative;
@@ -6,47 +20,45 @@
 
 .contact {
   position: relative;
-  justify-content: center;
-  padding: 3%;
   display: flex;
-  color: white;
-  z-index: 16;
+  justify-content: center;
+  padding: var(--footer-padding);
+  color: var(--footer-text-color);
+  z-index: var(--footer-z-index);
 }
-
 .contact::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(2px);
+  background-color: var(--footer-overlay);
+  backdrop-filter: var(--footer-blur);
 }
 
 .contact-text {
-  z-index: 15;
+  z-index: var(--footer-text-z-index);
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
-
 .contact-text h2 {
   text-align: left;
   margin: 0;
 }
-
 .contact-text p {
   margin: 0;
 }
 
 .contact-people {
-  font-size: 1rem;
+  font-size: var(--footer-font-size);
   display: flex;
-  gap: 5rem;
+  gap: var(--footer-gap);
+  justify-content: center;
 }
-
 .people-name {
-  font-size: 1.2rem;
-  padding-bottom: 0.5rem;
+  font-size: var(--footer-name-font-size);
+  padding-bottom: var(--footer-name-padding);
 }

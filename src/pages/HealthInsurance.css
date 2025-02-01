@@ -1,173 +1,150 @@
-/* General styles for the container */
+/*========================================
+  Health Insurance Component Styles
+========================================*/
 .insurance-page.container {
- 
-    margin: 5rem 5rem;
-    padding: 4rem;
+  margin: var(--spacing-xxl);
+  padding: var(--spacing-xl);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.8;
+  border-radius: var(--br-container);
+}
 
-    color: #333;
-    line-height: 1.8;
-    background-color: #ffffff;
-    border-radius: 10px;
- 
+.extra-section {
+  text-align: left;
+}
+
+/*----------------------------------------
+  Typography
+----------------------------------------*/
+.main-title {
+  font-size: var(--fs-h1);
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.intro-text {
+  font-size: var(--fs-large);
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.info-list-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: var(--spacing-lg) 0 var(--spacing-md);
+  text-align: left;
+}
+
+/*----------------------------------------
+  Lists
+----------------------------------------*/
+.info-list {
+  margin: var(--spacing-md) auto;
+  padding-left: 20px;
+  list-style: disc inside;
+  font-size: var(--fs-medium);
+  text-align: left;
+}
+.info-list li {
+  margin-bottom: var(--spacing-xs);
+}
+
+/*----------------------------------------
+  Section Styling
+----------------------------------------*/
+.insurance-section {
+  margin: var(--spacing-xxl) 0;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--br-element);
+  box-shadow: var(--shadow-medium);
+}
+.section-title {
+  font-size: var(--fs-h2);
+  color: var(--secondary-color);
+  text-align: center;
+  margin: var(--spacing-xxl) 0 var(--spacing-lg);
+}
+.subsection-title {
+  font-size: var(--fs-h3);
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-align: left;
+  margin: var(--spacing-xxl) 0 var(--spacing-sm);
+  cursor: pointer;
+  z-index: 10;
+}
+
+/*----------------------------------------
+  Additional Text Styles
+----------------------------------------*/
+.example-text {
+  font-style: italic;
+  color: var(--light-text);
+  margin-top: var(--spacing-md);
+}
+.small-text {
+  font-size: var(--fs-small);
+  color: var(--muted-text);
+  margin: var(--spacing-sm) 0;
+}
+
+/*----------------------------------------
+  Toggle Description Component
+----------------------------------------*/
+.toggle-description-container {
+  border: 1px solid var(--border-color);
+  border-radius: var(--br-element);
+  padding: 16px;
+  background-color: var(--background-color);
+  box-shadow: var(--shadow-light);
+  margin-bottom: 16px;
+}
+.toggle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.toggle-title {
+  font-size: var(--fs-toggle-title);
+  font-weight: 600;
+  color: var(--text-color);
+  margin: 0;
+}
+.toggle-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center;
+}
+.toggle-content {
+  margin-top: var(--spacing-sm);
+  font-size: var(--fs-toggle-content);
+  color: var(--muted-text);
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+/*----------------------------------------
+  Responsive Adjustments
+----------------------------------------*/
+@media (max-width: 768px) {
+  .insurance-page.container {
+    padding: 15px;
   }
-  .extra-section {
-    text-align: left !important;
-  }
-  /* Main title */
   .main-title {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #2a4d69;
-  }
-  
-  /* Introduction text */
-  .intro-text {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  
-  /* Information list title */
-  .info-list-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: left;
-  }
-  
-  /* Ordered and unordered lists */
-  .info-list {
-    margin: 15px auto;
-    padding-left: 20px;
-    list-style: disc inside;
-    font-size: 1.1rem;
-
-    text-align: left;
-  }
-
-  
-  .info-list li {
-    margin-bottom: 8px;
-  }
-  
-  /* Section styling */
-  .insurance-section {
-    margin: 6rem 0;
-    padding: 2rem 4rem;
-    background-color: #ffffff;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  }
-  
-  /* Section titles */
-  .section-title {
     font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #3d6a89;
-    text-align: center;
-    margin-top: 5rem;
   }
-
-  
-  /* Subsection titles */
+  .section-title {
+    font-size: 1.8rem;
+  }
   .subsection-title {
-    font-size: 1.4rem;
-    margin-top: 3rem;
-    margin-bottom: 10px;
-    color: #3d6a89;
-    font-weight: bold;
-    text-align: left;
-    cursor: pointer;
-    z-index: 10;
+    font-size: 1.2rem;
   }
-  .toggle-description-container {
-  
-
-  }
-  
-  /* Example text (italic styling) */
-  .example-text {
-    font-style: italic;
-    color: #666;
-    margin-top: 15px;
-  }
-  
-  /* Small-text sections */
-  .small-text {
-    font-size: 0.9rem;
-    color: #555;
-    margin: 10px 0;
-  }
-  
-  /* Centered content */
-  .insurance-page,
-  .insurance-section {
-    text-align: center;
-  }
-  
-  /* Responsive design */
-  @media (max-width: 768px) {
-    .insurance-page.container {
-      padding: 15px;
-    }
-  
-    .main-title {
-      font-size: 2rem;
-    }
-  
-    .info-list {
-      text-align: left;
-    }
-  
-    .section-title {
-      font-size: 1.8rem;
-    }
-  
-    .subsection-title {
-      font-size: 1.2rem;
-    }
-  }
-  
-
-  .toggle-description-container {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 16px;
-  }
-  
-  .toggle-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-  }
-  
-  .toggle-title {
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
-    margin: 0;
-  }
-  
-  .toggle-icon {
-    width: 24px; /* Fixed width */
-    height: 24px; /* Fixed height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform-origin: center;
-  }
-  
-  .toggle-content {
-    margin-top: 12px;
-    color: #555;
-    font-size: 16px;
-    line-height: 1.5;
-    overflow: hidden;
-  }
+}

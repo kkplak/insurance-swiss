@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
         <ContactForm />
       </div>
       <div className="container2">
-        <div className="contact-box-container">
+        <div className="GENERAL-box-container">
           <div className="box">
             <h2>{t("GENERAL.introduction")}</h2>
             <p>{t("GENERAL.introductionP")}</p>
