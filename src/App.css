@@ -1,45 +1,50 @@
 :root {
   /* Colors */
-  --primary-color: #2a4d69;       /* Used for headings, buttons, highlights */
-  --secondary-color: #3d6a89;     /* Accent color for section titles */
-  --text-color: #333;
-  --muted-text: #555;
-  --light-text: #666;
-  --background-color: #fff;
-  --border-color: #ddd;
-  --overlay-color: rgba(0, 0, 0, 0.4);
+  --primary-color: #a20d2d;       /* Deep red for highlights, buttons, and accents */
+  --secondary-color: #111;        /* Dark gray/black for text and headings */
+  --white: #fff;                  /* Pure white for contrast */
+  --text-color: #222;             /* Almost black for primary text */
+  --muted-text: #555;             /* Lighter gray for subtitles */
+  --light-text: #888;             /* Soft gray for additional UI elements */
+  --background-color: #f7f7f7;    /* Light gray for a premium feel */
+  --border-color: #ccc;           /* Subtle borders */
+  --overlay-color: rgba(0, 0, 0, 0.2); /* Softer overlay effect */
   
   /* Typography */
   --font-base: 1rem;
-  --fs-small: 0.9rem;
-  --fs-medium: 1.1rem;
-  --fs-large: 1.2rem;
-  --fs-h1: 2.5rem;
-  --fs-h2: 2rem;
-  --fs-h3: 1.4rem;
+  --fs-small: 0.85rem;
+  --fs-medium: 1rem;
+  --fs-large: 1.15rem;
+  --fs-h1: 2.8rem; /* Larger, bolder headings */
+  --fs-h2: 2.2rem;
+  --fs-h3: 1.6rem;
   --fs-toggle-title: 1.125rem;
   --fs-toggle-content: 1rem;
   
+  /* Font Family */
+  --font-primary: 'Montserrat', sans-serif; /* Modern, bold, professional */
+  --font-secondary: 'Lato', sans-serif;     /* Clean and minimalistic */
+
   /* Spacing */
   --spacing-xs: 0.5rem;
-  --spacing-sm: 0.625rem;
-  --spacing-md: 0.9375rem;
-  --spacing-lg: 1.25rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
   --spacing-xl: 2.5rem;
-  --spacing-xxl: 5rem;
-  
+  --spacing-xxl: 4rem;
+
   /* Border Radius */
-  --br-container: 0.625rem;  /* 10px */
-  --br-element: 0.5rem;      /* 8px */
-  --br-small: 0.25rem;       /* 4px */
-  
+  --br-container: 0.5rem;  /* Softer rounded corners */
+  --br-element: 0.35rem;
+  --br-small: 0.25rem;
+
   /* Shadows */
-  --shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
-  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.05);
-  
+  --shadow-light: 0 2px 6px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.15);
+
   /* Transitions */
-  --transition-fast: 0.3s;
-  --transition-slow: 2s;
+  --transition-fast: 0.25s ease-in-out;
+  --transition-slow: 1s ease-in-out;
 }
 
 
@@ -47,7 +52,7 @@
   Global Layout & Utilities
 ========================================*/
 html {
-  background-image: url(/public/media/bg19.png);
+  background-image: url(/public/media/bg20.jpg);
   background-size: cover;
   background-position: center;
   scroll-behavior: smooth;
@@ -93,7 +98,7 @@ a {
 .container-home {
   background: rgba(0, 0, 0, 0.08);
   border-radius: var(--br-container);
-  margin: var(--spacing-xxl) auto;
+  margin:  auto;
   padding: 7%;
   color: var(--muted-text);
 }
@@ -121,7 +126,7 @@ a {
   z-index: 10;
   justify-content: space-between;
   height: 80vh;
-  color: var(--light-text);
+  color: var(--white);
   background: transparent;
 }
 .home::before {
@@ -176,7 +181,7 @@ a {
 }
 
 .nav-phone-numbers {
-  color: var(--light-text);
+  color: var(--white);
   font-size: var(--fs-small);
 }
 .nav-phone-numbers p {
