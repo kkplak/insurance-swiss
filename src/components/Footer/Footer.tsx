@@ -13,7 +13,8 @@ const Layout: React.FC = () => {
       <footer id="contact">
         <div className="contact">
           <div className="contact-text">
-            {/* <h4> Selecting the right insurance can benefint you and your family. </h4> */}
+            <h3>Thank you for your trust!</h3>
+            <div/>
             <div className="contact-people">
               {currentLanguage === "pl" ? (
                 <div className="contact-people-pl">

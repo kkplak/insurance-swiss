@@ -11,7 +11,9 @@
     "ongoingSupport": "3. Ongoing Support",
     "ongoingSupportP": "We will stay in touch to ensure that everything is alright and assist with any other issues.",
     "homeH1": "Welcome to Your Insurance Advisor",
-    "homeP": "Our goal is to address the needs of every interested person appropriately by preparing a suitable insurance proposal. The result of our work is satisfied clients.",
+    "homeP": "Our goal is to address the needs of every interested person appropriately by preparing a suitable insurance proposal.",
+    "homeP2": "The result of our work is satisfied clients.",
+
     "homeButton": "About Us",
     "healthInsurance": "Health Insurance",
     "healthInsuranceDescription": "Doctor, Hospitalization, Medications",

@@ -9,13 +9,15 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
   // const shouldHide = scrollPosition > 20 && windowWidth < 980;
 
   return (
-    <div className='nav-left' style={{ display: 'flex', alignItems: 'center' }}>
-      {/* {!shouldHide && ( */}
-        <img
+    <div  style={{ display: 'flex', alignItems: 'center' }}>
+      <img
           className='icon'
-          src={`${process.env.PUBLIC_URL}/media/logo-protegos.png`}
+          src={`${process.env.PUBLIC_URL}/media/logo-favicon.png`}
           alt='icon'
         />
+    <div className='nav-left' style={{ display: 'flex', alignItems: 'center' }}>
+      {/* {!shouldHide && ( */}
+      
       {/* )} */}
       <div className='links'>
         <ul>
@@ -29,6 +31,7 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
           </li>
         </ul>
       </div>
+    </div>
     </div>
   );
 };
@@ -111,11 +114,9 @@ const NavBar = () => {
     };
   }, []);
 
-  const padding = windowWidth < 700
-    ? (scrollPosition > 20 ? "0.4% 5%" : "2% 5% 8%")
-    : (scrollPosition > 20 ? "0.4% 5%" : "2% 5%");
+  const padding = " 0.2% 5% 0.2% 2%";
 const navbarStyle = {
-  backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.5)" : "rgba(0, 0, 0, 0.2)",
+  // backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.7)" : "rgba(0, 0, 0, 0.4)",
   padding: padding,
   display: "flex",
   alignItems: "center",

@@ -5,6 +5,7 @@ import { useParams, Link } from "react-router-dom";
 import ButtonBox from "../components/ButtonBox/ButtonBox";
 import LogoLine from "../components/LogoLine/LogoLine";
 
+
 const Home: React.FC = () => {
   const { t, i18n } = useTranslation();
   const { lang } = useParams<{ lang: string }>();
@@ -34,33 +35,19 @@ const Home: React.FC = () => {
         <div className="text-container">
           <h1>{t("GENERAL.homeH1")}</h1>
           <p>{t("GENERAL.homeP")}</p>
+          <p>{t("GENERAL.homeP2")}</p>
           <Link to={`/${lang}/contact`} className="button-link">
             <button className="welcome-button">
-              <svg
-                className="svg-icon"
-                height="22"
-                viewBox="0 0 20 20"
-                width="22"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g stroke-linecap="round" stroke-width="1.5">
-                  <path d="m6.66669 6.66667h6.66671"></path>
-                  <path
-                    clip-rule="evenodd"
-                    d="m3.33331 5.00001c0-.92047.74619-1.66667 1.66667-1.66667h10.00002c.9205 0 1.6666.7462 1.6666 1.66667v6.66669c0 .9205-.7461 1.6666-1.6666 1.6666h-4.8274c-.1105 0-.21654.044-.29462.122l-2.50004 2.5c-.26249.2625-.71129.0766-.71129-.2945v-1.9108c0-.2301-.18655-.4167-.41667-.4167h-1.25c-.92048 0-1.66667-.7461-1.66667-1.6666z"
-                    fill-rule="evenodd"
-                  ></path>
-                  <path d="m6.66669 10h2.5"></path>
-                </g>
-              </svg>
+              
               <span className="lable">{t("GENERAL.contactUs")}</span>
             </button>
           </Link>
         </div>
         <div className="image-container">
-          <img src="/media/hero-image.png" alt="Background" />
+          {/* <OrbitingCirclesDemo/> */}
         </div>
       </div>
+      {/* <LogoLine logos={logos} /> */}
       <div className="button-box-container">
         {/* <h1 className="insurances-header"> Placeholder for checking if we want text here?</h1> */}
         <div
@@ -108,7 +95,7 @@ const Home: React.FC = () => {
           />
         </div>
       </div>
-      <LogoLine logos={logos} />
+
     </div>
   );
 };

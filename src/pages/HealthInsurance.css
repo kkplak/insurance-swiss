@@ -4,7 +4,7 @@
 .insurance-page.container {
   margin: var(--spacing-xxl);
   padding: var(--spacing-xl);
-  background-color: var(--background-color);
+  background-color:transparent;
   color: var(--text-color);
   line-height: 1.8;
   border-radius: var(--br-container);
@@ -19,7 +19,7 @@
 ----------------------------------------*/
 .main-title {
   font-size: var(--fs-h1);
-  color: var(--primary-color);
+  color: var(--h1);
   text-align: center;
   margin-bottom: var(--spacing-lg);
 }
@@ -57,20 +57,20 @@
 .insurance-section {
   margin: var(--spacing-xxl) 0;
   padding: var(--spacing-lg) var(--spacing-xl);
-  background-color: var(--background-color);
+  background-color: var(--box-color);
   border: 1px solid var(--border-color);
   border-radius: var(--br-element);
   box-shadow: var(--shadow-medium);
 }
 .section-title {
   font-size: var(--fs-h2);
-  color: var(--secondary-color);
+  color: var(--h1);
   text-align: center;
   margin: var(--spacing-xxl) 0 var(--spacing-lg);
 }
 .subsection-title {
   font-size: var(--fs-h3);
-  color: var(--secondary-color);
+  color: var(--h2);
   font-weight: bold;
   text-align: left;
   margin: var(--spacing-xxl) 0 var(--spacing-sm);
@@ -83,12 +83,12 @@
 ----------------------------------------*/
 .example-text {
   font-style: italic;
-  color: var(--light-text);
+  color: var(--text-color);
   margin-top: var(--spacing-md);
 }
 .small-text {
   font-size: var(--fs-small);
-  color: var(--muted-text);
+  color: var( --text-color);
   margin: var(--spacing-sm) 0;
 }
 
@@ -126,7 +126,7 @@
 .toggle-content {
   margin-top: var(--spacing-sm);
   font-size: var(--fs-toggle-content);
-  color: var(--muted-text);
+  color: var(--text-color);
   line-height: 1.5;
   overflow: hidden;
 }
