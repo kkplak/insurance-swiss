@@ -124,7 +124,7 @@
   transform-origin: center;
 }
 .toggle-content {
-  margin-top: var(--spacing-sm);
+
   font-size: var(--fs-toggle-content);
   color: var(--text-color);
   line-height: 1.5;
