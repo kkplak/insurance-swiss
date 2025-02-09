@@ -11,17 +11,17 @@ const Contact: React.FC = () => {
         <p>{t("GENERAL.contactUsP")}</p>
         <ContactForm />
       </div>
-      <div className="container2">
-        <div className="GENERAL-box-container">
-          <div className="box">
+      <div className="container">
+        <div className="contact-box-container">
+          <div className="contact-box">
             <h2>{t("GENERAL.introduction")}</h2>
             <p>{t("GENERAL.introductionP")}</p>
           </div>
-          <div className="box">
+          <div className="contact-box">
             <h2>{t("GENERAL.meeting")}</h2>
             <p>{t("GENERAL.meetingP")}</p>
           </div>
-          <div className="box">
+          <div className="contact-box">
             <h2>{t("GENERAL.ongoingSupport")}</h2>
             <p>{t("GENERAL.ongoingSupportP")}</p>
           </div>

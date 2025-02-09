@@ -25,8 +25,8 @@
     "houseInsuranceDescription": "Burglary, Fire, Lost keys",
     "lawProtection": "Legal Protection",
     "lawProtectionDescription": "Consultations with a lawyer, Representation in court",
-    "petInsurance": "Pet Insurance",
-    "petInsuranceDescription": "Veterinarian, Vaccinations, Treatments",
+    "swissInsurance": "Pet Insurance",
+    "swissInsuranceDescription": "Veterinarian, Vaccinations, Treatments",
     "healthInsuranceDescriptionLong": "Health insurance is a critical financial tool designed to cover medical and surgical costs. Depending on the type of health insurance plan, either the insured pays out-of-pocket and is later reimbursed, or the insurer makes direct payments to the provider. Health insurance policies typically cover doctor visits, hospital stays, preventive care, and prescription medications. Some plans may also offer coverage for mental health services, vision care, and dental care. Having health insurance is essential because it helps mitigate the high costs associated with healthcare, providing individuals and families with the necessary medical care without excessive financial burden.",
     "lifeInsuranceDescriptionLong": "Life insurance is an agreement between an individual and an insurance company, in which the insurer agrees to pay a designated beneficiary a specified sum of money upon the death of the insured person. This type of insurance provides financial protection and peace of mind by ensuring that loved ones are financially secured after the insured's death. Life insurance can cover various expenses, including funeral costs, outstanding debts, mortgage repayments, and daily living expenses. Some policies also offer living benefits, which may be available under certain conditions, providing additional financial support during the insured's lifetime.",
     "carInsuranceDescriptionLong": "Car insurance is a policy purchased by vehicle owners to minimize the costs associated with being involved in a car accident or vehicle damage. It covers various events such as collisions, theft, vandalism, and damages caused by natural disasters. Car insurance typically includes liability coverage, which covers damages or injuries you cause to others, and may also offer comprehensive and collision coverage for your own vehicle. Additionally, policies may cover medical payments, personal injury protection, and coverage against uninsured/underinsured drivers. Having car insurance is essential for financial protection and legal compliance, ensuring that drivers can cover unexpected expenses related to their vehicles.",
@@ -137,7 +137,8 @@
     }
   },
   "CONTACT": {
-    "formThanks": "Thank you! We will contact you soon!",
+    "formThanks": "Thank you! We will contact you soon.",
+    "formFooter": "Thank you for your trust!",
     "formLanguage": "Choose your preferred language",
     "formEnglish": "English",
     "formGerman": "German",

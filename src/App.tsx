@@ -20,7 +20,7 @@ import LifeInsurance from "./pages/LifeInsurance";
 import HouseInsurance from "./pages/HouseInsurance";
 import LawProtection from "./pages/LawProtection";
 import CarInsurance from "./pages/CarInsurance";
-import PetsInsurance from "./pages/PetsInsurance";
+import SwissInsurance from "./pages/SwissInsurance";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Arrow from "./components/Arrow/ScrollArrow";
@@ -69,7 +69,7 @@ const App = () => {
           <Route path="/:lang/house-insurance" element={<HouseInsurance />} />
           <Route path="/:lang/law-protection" element={<LawProtection />} />
           <Route path="/:lang/car-insurance" element={<CarInsurance />} />
-          <Route path="/:lang/pets-insurance" element={<PetsInsurance />} />
+          <Route path="/:lang/swiss-insurance" element={<SwissInsurance />} />
         </Routes>
         <Footer />
         <Arrow />

@@ -38,7 +38,6 @@ const Home: React.FC = () => {
           <p>{t("GENERAL.homeP2")}</p>
           <Link to={`/${lang}/contact`} className="button-link">
             <button className="welcome-button">
-              
               <span className="lable">{t("GENERAL.contactUs")}</span>
             </button>
           </Link>
@@ -88,10 +87,10 @@ const Home: React.FC = () => {
           />
 
           <ButtonBox
-            icon="/media/pets-icon.png"
-            titleKey="GENERAL.petInsurance"
-            descriptionKey="GENERAL.petInsuranceDescription"
-            link={`/${lang}/pets-insurance`}
+            icon="/media/swiss-icon.png"
+            titleKey="GENERAL.swissInsurance"
+            descriptionKey="GENERAL.swissInsuranceDescription"
+            link={`/${lang}/swiss-insurance`}
           />
         </div>
       </div>

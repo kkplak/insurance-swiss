@@ -135,27 +135,7 @@ const HealthInsurance: React.FC = () => {
         />
       </div>
 
-      <div className="insurance-section">
-        <h2 className="section-title">{t("HEALTH.newcommers.h2")}</h2>
-        <p>{t("HEALTH.newcommers.p")}</p>
-        <p>{t("HEALTH.newcommers.p2")}</p>
-        <ul className="info-list">
-          <li>
-            <b>{t("HEALTH.newcommers.item1")}</b>
-          </li>
-          <li>
-            <b>{t("HEALTH.newcommers.item2")}</b>
-          </li>
-          <li>
-            <b>{t("HEALTH.newcommers.item3")}</b>
-          </li>
-          <li>
-            <b>{t("HEALTH.newcommers.item4")}</b>
-          </li>
-        </ul>
-        <p className="small-text">{t("HEALTH.newcommers.p3")}</p>
-        <p>{t("HEALTH.newcommers.p4")}</p>
-      </div>
+      
     </div>
   );
 };

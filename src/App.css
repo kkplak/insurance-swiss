@@ -1,14 +1,14 @@
 
 :root {
 
-  --h1: #10065e;     
+  --h1: #00073e;     
   --h2: #000000;        
-  --text-color: #10065e;      
+  --text-color: #00073e;      
   --nav-text-color: #ffffff;       
   --background-color:#F5F5F5;
   --box-color: #ffffff;  
-  --box-text: #10065e;    
-  --button-color:#10065e; 
+  --box-text: #00073e;    
+  --button-color:#00073e; 
   --button-text: #ffffff;
     
  
@@ -72,7 +72,7 @@ body {
 }
 
 .nav-bar {
-  background-color: #0b003d;
+  background-color: #00073e;
   margin: 0.8rem 2rem;
   border-radius: 15px;
 }
@@ -109,7 +109,7 @@ a {
 .container,
 .container2,
 .container-home {
-  background: rgba(0, 0, 0, 0.08);
+  /* background: rgba(0, 0, 0, 0.08); */
   border-radius: var(--br-container);
   margin:  auto;
   padding: 4% 7% 0 ;
@@ -123,7 +123,68 @@ a {
 }
 .container-home {
   text-align: center;
+ 
 }
+.contact-box-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+.contact-box {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft, clean shadow */
+  border: 1px solid rgba(0, 0, 0, 0.176);  /* Very subtle border */
+text-align: left;
+}
+.contact-box h2 {
+  white-space: nowrap;
+}
+.newcommer {
+  text-align: left;
+}
+.newcommer ul {
+  list-style-type: none;
+ 
+}
+.small-list {
+  list-style: disc outside !important;
+  margin-bottom: 1.5rem;
+  
+}
+.small-list li p{
+margin: 0;
+  line-height: 0;
+  padding: 0;
+}
+.small-text {
+  margin: 0 !important;
+  padding-left: 40px;
+}
+.small-text:first-of-type {
+  padding-left: 20px;
+}
+.info-list {
+  margin-bottom: 0;
+}
+
+.text-center {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text-center .bgcolor {
+background-color: #00073e;
+color: white;
+max-width: max-content;
+padding: 0.5rem 2rem;
+border-radius: 10px;
+}
+.text-trick {display: flex;}
+
 
 /*========================================
   Homepage & Hero Section
@@ -162,6 +223,11 @@ a {
   z-index: 11;
   width: 100%;
   text-align: left;
+}
+.text-container a{
+display: flex;
+  width: max-content;
+
 }
 .text-container h1 {
   line-height: 3.2rem;
@@ -286,6 +352,7 @@ h1 {
 }
 .button-link {
   text-decoration: none;
+  
 }
 .welcome-button {
   margin-top: var(--spacing-lg);
@@ -303,24 +370,19 @@ h1 {
   transition: background var(--transition-fast);
 }
 .welcome-button:hover {
-  background: var(--primary-color);
+  background: white;
+ 
 }
 .lable {
   color: var(--button-text);
   font-family: sans-serif;
   letter-spacing: 1px;
 }
-.svg-icon {
-  stroke: #056dfa;
-  fill: transparent;
-}
+
 .welcome-button:hover .lable {
-  color: var(--background-color);
+  color: var(--h1);
 }
-.welcome-button:hover .svg-icon {
-  stroke: var(--background-color);
-  animation: msg var(--transition-slow) linear infinite;
-}
+
 
 @keyframes msg {
   0% { transform: translate(0, 0) scale(1); }

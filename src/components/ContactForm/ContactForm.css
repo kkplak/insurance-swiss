@@ -3,12 +3,12 @@
 ========================================*/
 .contact-form {
   max-width: 60%;
-  margin: var(--spacing-xxl) auto;
-  padding: var(--spacing-lg);
-  background-color: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(182, 182, 182, 0.39);
+  margin: 5rem auto;
+  padding: 4rem 3rem 2rem 3rem;
+  background-color: rgba(41, 41, 41, 0.12);
+  border: 1px solid rgba(177, 177, 177, 0.721);
   border-radius: var(--br-element);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.175);
 }
 
 .form-label {
@@ -26,20 +26,20 @@
 .form-textarea {
   width: calc(100% - 12px);
   padding: 0.6rem;
-  margin-bottom: var(--spacing-lg);
-  border: 1px solid #ccc;
+  margin-bottom: 1.4rem;
+  border: 1px solid #e0e0e0;
   border-radius: var(--br-small);
   font-size: var(--font-base);
   box-sizing: border-box;
-  background-color: rgba(234, 234, 234, 0.91);
+  background-color: rgba(255, 255, 255, 0.881);
   color: #000;
 }
 .form-input:focus,
 .form-select:focus,
 .form-textarea:focus {
-  border-color: var(--primary-color);
+  border-color: rgb(0, 187, 255);
   outline: none;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 5px rgb(0, 187, 255);
 }
 .form-textarea {
   resize: vertical;
@@ -52,16 +52,18 @@
 .form-button {
   display: inline-block;
   padding: 0.625rem 1.25rem;
-  background-color: var(--primary-color);
-  color: var(--background-color);
+  background-color: var(--background-color);
+  color: var(--box-text);
   border: none;
-  border-radius: var(--br-small);
-  font-size: var(--font-base);
+  border-radius: 5px;
+  font-size: 1rem;
   cursor: pointer;
+  margin-top: 0.6rem;
   transition: background var(--transition-fast);
 }
 .form-button:hover {
-  background-color: #0056b3;
+  background-color: var(--box-text);;
+  color: white;
 }
 .form-error {
   margin-top: -0.9375rem;
@@ -82,12 +84,15 @@ select {
   Thank You Message
 ----------------------------------------*/
 .form-thank-you {
-  padding: 2rem;
+  padding: 3rem;
   background-color: rgba(255, 255, 255, 0.16);
-  border-radius: var(--br-small);
+  border: 1px solid rgba(177, 177, 177, 0.721);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.175);
+  border-radius: var(--br-element);
   width: max-content;
   text-align: center;
-  margin: 2rem auto;
+  font-size: 1.4rem;
+  margin: 5rem auto;
 }
 
 /*----------------------------------------
