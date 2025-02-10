@@ -43,7 +43,7 @@ const Home: React.FC = () => {
           </Link>
         </div>
         <div className="image-container">
-          {/* <OrbitingCirclesDemo/> */}
+       <img src="/media/hero3.png"></img>
         </div>
       </div>
       {/* <LogoLine logos={logos} /> */}

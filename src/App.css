@@ -144,7 +144,7 @@ justify-self: center;
   /* background: rgba(0, 0, 0, 0.08); */
   border-radius: var(--br-container);
   margin:  auto;
-  padding: 4% 7% 0 ;
+  padding: 6% 7% 0 ;
   color: var(--box-text);
 }
 .container {
@@ -231,7 +231,7 @@ border-radius: 10px;
   position: relative;
   z-index: 10;
   justify-content: space-between;
-  height: 50vh;
+  height: 60vh;
   color: var(--h1);
   background: transparent;
 }
@@ -269,13 +269,15 @@ display: flex;
 .image-container {
   z-index: 11;
   display: flex;
-  align-items: center;
-  width: 50%;
+  align-items: start;
+  width: 60%;
   max-width: 500px;
+ 
 }
 .image-container img {
   width: 100%;
   height: auto;
+  padding-top: 3rem;
 }
 
 /*========================================
