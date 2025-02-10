@@ -47,6 +47,22 @@
   font-size: var(--fs-medium);
   text-align: left;
 }
+.list-roman {
+  margin: var(--spacing-md) auto;
+  padding-left: 20px;
+  font-size: var(--fs-medium);
+  text-align: left;
+  list-style: upper-roman !important;
+}
+.list-arab {
+  margin: var(--spacing-md) auto;
+  padding-left: 20px;
+  font-size: var(--fs-medium);
+  text-align: left;
+  list-style: decimal !important;
+}
+
+
 .info-list li {
   margin-bottom: var(--spacing-xs);
 }

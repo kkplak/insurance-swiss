@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import LogoSlider from "../components/LogoSlider/LogoSlider";
+// import LogoSlider from "../components/LogoSlider/LogoSlider";
 import { useParams } from "react-router-dom";
 const Info: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -23,7 +23,7 @@ const Info: React.FC = () => {
       <p>{t("GENERAL.infoContent")}</p> <p>{t("GENERAL.infoContent")}</p>
       <p>{t("GENERAL.infoContent")} </p> <p>{t("GENERAL.infoContent")} </p>
       <p>{t("GENERAL.infoContent")} </p> <p>{t("GENERAL.infoContent")} </p>
-      <LogoSlider />
+      {/* <LogoSlider /> */}
     </div>
   );
 };

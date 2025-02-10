@@ -11,7 +11,7 @@ const HealthInsurance: React.FC = () => {
       <h1 className="main-title">{t("HEALTH.title")}</h1>
       <p className="intro-text">{t("HEALTH.info")}</p>
       <p className="info-list-title">{t("HEALTH.infoList")}</p>
-      <ol className="info-list">
+      <ol className="list-roman">
         <li>{t("HEALTH.infoListItem1")}</li>
         <li>{t("HEALTH.infoListItem2")}</li>
       </ol>
@@ -28,16 +28,16 @@ const HealthInsurance: React.FC = () => {
           <li>{t("HEALTH.basic.l5")}</li>
         </ul>
         <h3 className="subsection-title">{t("HEALTH.basic.p2")}</h3>
-        <ul className="info-list">
+        <ul className="list-arab">
           <li>{t("HEALTH.basic.pl1")}</li>
           <li>{t("HEALTH.basic.pl2")}</li>
         </ul>
      
 
     
-        <h2 className="section-title">{t("HEALTH.fran.title")}</h2>
+        <h3 className="section-title">{t("HEALTH.fran.title")}</h3>
         <p>{t("HEALTH.fran.p")}</p>
-        <h3 className="subsection-title">{t("HEALTH.fran.p1")}</h3>
+        <h4 className="subsection-title">{t("HEALTH.fran.p1")}</h4>
         <ul className="info-list">
           <li>
             {t("HEALTH.fran.p2")} {t("HEALTH.fran.p3")}
@@ -51,7 +51,7 @@ const HealthInsurance: React.FC = () => {
         </ul>
         <p className="example-text">{t("HEALTH.fran.p8")}</p>
 
-        <h2 className="section-title">{t("HEALTH.model.title")}</h2>
+        <h3 className="section-title">{t("HEALTH.model.title")}</h3>
         <p>{t("HEALTH.model.p")}</p>
         <ul className="info-list">
           <li>{t("HEALTH.model.p2")}</li>

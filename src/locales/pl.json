@@ -48,7 +48,7 @@
   "HEALTH": {
     "title": "Ubezpieczenie zdrowotne",
     "info": "System ubezpieczeń zdrowotnych w Szwajcarii wyróżnia się na tle systemów funkcjonujących w innych państwach. Każda osoba mieszkająca w Szwajcarii, jest zobowiązana do samodzielnego wyboru ubezpieczyciela oraz regularnego opłacania składek zdrowotnych. W przeciwieństwie do większości krajów europejskich i wielu innych państw na świecie, składki te nie są automatycznie potrącane z wynagrodzenia.",
-    "infoList": "Wyróżniamy dwa rodzaje ubezpieczeń:",
+    "infoList": "Wyróżniamy dwa rodzaje ubezpieczeń zdrowotnych:",
     "infoListItem1": "Ubezpieczenie podstawowe",
     "infoListItem2": "Ubezpieczenie dodatkowe",
     "basic": {
@@ -60,7 +60,7 @@
       "l3": "Wysokość franszyzy",
       "l4": "Model ubezpieczenia",
       "l5": "Ubezpieczyciel",
-      "p2": "Filary ubezpieczenia podstawowego:",
+      "p2": "Najważniejsze dwie składowe ubezpieczenia podstawowego:",
       "pl1": "Franszyza",
       "pl2": "Model ubezpieczenia"
     },
@@ -127,7 +127,7 @@
     "newcommers": {
       "h2": "Nowy/Nowa w Szwajcarii",
   
-        "p": "Pamiętaj, że masz <b>90 dni od rozpoczęcia pracy</b>, aby wykupić ubezpieczenie. Jeśli tego nie zrobisz, zostanie naliczona kara.",
+        "p": "Pamiętaj, że masz <b>90 dni od rozpoczęcia pracy</b>, aby wykupić ubezpieczenie. Jeśli tego nie zrobisz, zostanie naliczona kara. <br> Rachunki trzeba będzie opłacić wstecz - dokładnie od pierwszego dnia zameldowania.",
   
       
       "p2": "Dokumenty, które potrzebujesz do założenia ubezpieczenia:",

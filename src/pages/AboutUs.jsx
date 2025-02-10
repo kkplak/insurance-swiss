@@ -11,36 +11,6 @@ const AboutUs = () => {
         <h1>{t("GENERAL.aboutUs")}</h1>
         <p>{t("GENERAL.aboutUsContent")}</p>
       </div>
-      {/* {currentLanguage === "pl" || currentLanguage === "el" ? (
-        <div className="people-container">
-          <div className="ioannis-container">
-            <img src={`${process.env.PUBLIC_URL}/media/img-placeholder.webp`} alt="Ioannis" />
-            <h2>{t("ioannis")}</h2>
-            <p>{t("aboutIoannis")}</p>
-          </div>
-          <div className="lukasz-container">
-            <img src={`${process.env.PUBLIC_URL}/media/img-placeholder.webp`} alt="Lukasz" />
-            <h2>{t("lukasz")}</h2>
-            <p>{t("aboutLukasz")}</p>
-          </div>
-        </div>
-      ) : (
-        <div className="wrapper">
-        <div className="people-container">
-        <div className="ioannis-container">
-          <img src={`${process.env.PUBLIC_URL}/media/img-placeholder.webp`} alt="Ioannis" />
-          <h2>{t("ioannis")}</h2>
-        </div>
-        <div className="lukasz-container">
-          <img src={`${process.env.PUBLIC_URL}/media/img-placeholder.webp`} alt="Lukasz" />
-          <h2>{t("lukasz")}</h2>
-        
-        </div>
-       
-        </div>
-        <p>{t("aboutUsTogetherContent")}</p>
-      </div>
-      )} */}
       <div className="wrapper">
         <div className="people-container">
           <div className="ioannis-container">
