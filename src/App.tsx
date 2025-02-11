@@ -52,7 +52,7 @@ const RedirectToDefaultLanguage = () => {
   return null;
 };
 
-const App = () => {
+const App = () => { 
   return (
     <I18nextProvider i18n={i18next}>
       <Router>
