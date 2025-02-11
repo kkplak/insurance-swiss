@@ -35,7 +35,7 @@ const ScrollArrow = () => {
 
   return (
     <div className="scroll-arrow">
-      <img src={`${process.env.PUBLIC_URL}/media/DownArrow.svg`} alt="Scroll down arrow" />
+      <img src={`/media/DownArrow.svg`} alt="Scroll down arrow" />
     </div>
   );
 };

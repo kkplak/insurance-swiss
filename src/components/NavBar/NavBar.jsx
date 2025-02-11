@@ -12,7 +12,7 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
     <div  style={{ display: 'flex', alignItems: 'center' }}>
       <img
           className='icon'
-          src={`${process.env.PUBLIC_URL}/media/logo-favicon.png`}
+          src={`/media/logo-favicon.png`}
           alt='icon'
         />
     <div className='nav-left' style={{ display: 'flex', alignItems: 'center' }}>

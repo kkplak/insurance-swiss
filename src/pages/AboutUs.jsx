@@ -15,14 +15,14 @@ const AboutUs = () => {
         <div className="people-container">
           <div className="ioannis-container">
             <img
-              src={`${process.env.PUBLIC_URL}/media/ioannis.jpg`}
+              src={`media/ioannis.jpg`}
               alt="Ioannis"
             />
             <h2>{t("GENERAL.ioannisSarafidis")}</h2>
           </div>
           <div className="lukasz-container">
             <img
-              src={`${process.env.PUBLIC_URL}/media/lukasz.png`}
+              src={"/media/lukasz.png"}
               alt="Lukasz"
             />
             <h2>{t("GENERAL.lukaszBergel")}</h2>

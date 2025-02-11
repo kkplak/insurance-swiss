@@ -55,12 +55,10 @@
   Global Layout & Utilities
 ========================================*/
 html {
-  background-image: url(/public/media/bg22.png);
-  background-size: cover;
-  background-position: top;
   background-color: var(--background-color);
   scroll-behavior: smooth;
   position: relative;
+
 }
 
 body {
@@ -68,6 +66,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
   /* font-family: 'Open Sans', sans-serif;  Uncomment or change as needed */
 }
 
@@ -425,4 +424,199 @@ h1 {
   75% { transform: scale(1); }
   90% { transform: translateX(-1px); }
   100% { transform: translate(0, 0) scale(1); }
+}
+
+
+@media only screen and (max-width: 768px) {
+  /*------------------------------------------------
+    Adjust Root Variables (Optional: Fine-Tune Typography)
+  ------------------------------------------------*/
+  :root {
+    /* Reduce heading sizes for smaller screens */
+    --fs-h1: 2rem;
+    --fs-h2: 1.6rem;
+    --fs-h3: 1.3rem;
+
+    /* Optional: Adjust spacing variables if needed */
+    --spacing-lg: 1rem;
+    --spacing-xl: 1.5rem;
+    --spacing-xxl: 2rem;
+  }
+
+  /*------------------------------------------------
+    General Layout Adjustments
+  ------------------------------------------------*/
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    /* Ensure full-width usage on mobile */
+    width: 100%;
+  }
+
+  /*------------------------------------------------
+    Navigation & Header Adjustments
+  ------------------------------------------------*/
+  .nav-bar {
+    margin: 0.5rem 1rem;
+    border-radius: 15px;
+  }
+  .nav-left a {
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  .nav-right {
+    display: none;
+  }
+  nav ul {
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .nav-phone-numbers a {
+    font-size: 0.65rem;
+}
+.phone-line p {
+  font-size: 0.65rem;
+}
+  .nav-phone-numbers {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .nav-center {
+    position: static;
+    margin: 0.5rem 0;
+  }
+
+  /*------------------------------------------------
+    Homepage / Hero Section Adjustments
+  ------------------------------------------------*/
+  .home {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    align-items: center;
+  }
+  .homepage{
+    overflow: hidden;
+  }
+  .text-container {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .image-container {
+    width: 50%;
+    padding-top: 0rem;
+    margin: 0;
+    align-self: flex-end;
+  }
+  .image-container img {
+    padding-top: 3rem;
+}
+
+  h1 {
+    text-align: center;
+  }
+  .button-box {
+    min-width: 250px;
+  }
+  /*------------------------------------------------
+    People / Image Containers Adjustments
+  ------------------------------------------------*/
+  .people-container {
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0;
+    gap: 2rem;
+  }
+  
+  .ioannis-container,
+  .lukasz-container {
+    width: 90%;
+    height: auto;
+  }
+
+  .ioannis-container img,
+  .lukasz-container img {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /*------------------------------------------------
+    Content and Wrapper Adjustments
+  ------------------------------------------------*/
+  .wrapper p {
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: var(--fs-medium);
+    border-radius: 10px;
+  }
+
+  .container,
+  .container2,
+  .container-home {
+    padding: 4% 3%;
+    text-align: center;
+  }
+
+  /*------------------------------------------------
+    Contact Box Adjustments
+  ------------------------------------------------*/
+  .contact-box-container {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .contact-box {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  /*------------------------------------------------
+    Home Buttons & Call-to-Action Adjustments
+  ------------------------------------------------*/
+  .welcome-button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin-top: var(--spacing-md);
+  }
+
+  /*------------------------------------------------
+    Miscellaneous
+  ------------------------------------------------*/
+  /* Center links and text in small screens */
+  .text-center {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+.insurance-page.container {
+  margin: 1rem;
+  padding: 0;
+}
+.contact {
+  padding: 1rem;
+  margin: 0 1rem;
+}
+.button-box-container {
+  margin: 4rem 2rem;
+}
+  .contact-text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.contact-text h3 {
+  padding: 0;
+}
+.contact-people {
+  padding: 2rem;
+  text-align: center;
+}
 }

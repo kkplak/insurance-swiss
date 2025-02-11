@@ -94,7 +94,7 @@ const Home: React.FC = () => {
           />
         </div>
       </div>
-<LogoLine logos={logos}/>
+<LogoLine logos={logos} mobileBreakpoint={900} marqueeSpeed={30}/>
     </div>
   );
 };
