@@ -40,7 +40,7 @@ const NavCenter = ({ scrollPosition, windowWidth }) => {
   const centerClass = scrollPosition > 20 && windowWidth < 700 ? 'hide' : 'show';
 
   return (
-    <div className={`nav-center ${centerClass}`}>
+    <div className={`nav-center`}>
       <LanguageSwitcher />
     </div>
   );
@@ -114,7 +114,7 @@ const NavBar = () => {
     };
   }, []);
 
-  const padding = " 0.2% 5% 0.2% 2%";
+  const padding = windowWidth > 768 ? "0.2% 5% 0.2% 2%" : "0.2% 5% 0.2% 5%";
 const navbarStyle = {
   // backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.7)" : "rgba(0, 0, 0, 0.4)",
   padding: padding,

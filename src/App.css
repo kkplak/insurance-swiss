@@ -126,7 +126,7 @@ height: 30rem;
 }
   .wrapper p {
     background-color: white;
-    width: 100%;
+
   padding: 3rem 3rem;
   margin: 2rem;
   margin-bottom: 8rem;
@@ -503,10 +503,14 @@ h1 {
   }
   .text-container {
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 1rem;
   }
-  
+  .text-container h1 {
+
+    text-align: left;
+ 
+  }
   .image-container {
     width: 50%;
     padding-top: 0rem;
@@ -549,16 +553,17 @@ h1 {
     Content and Wrapper Adjustments
   ------------------------------------------------*/
   .wrapper p {
-    margin: 1rem;
-    padding: 1.5rem;
+    margin: 0;
+    padding: 1.8rem 1.2rem;
     font-size: var(--fs-medium);
     border-radius: 10px;
+    margin-bottom: 4rem;
   }
 
   .container,
   .container2,
   .container-home {
-    padding: 4% 3%;
+    padding: 1rem;
     text-align: center;
   }
 
@@ -616,7 +621,19 @@ h1 {
   padding: 0;
 }
 .contact-people {
-  padding: 2rem;
+  padding:2rem 1rem ;
   text-align: center;
+}
+.contact-people a {
+font-size: 0.7rem;
+}
+.contact-people p {
+  font-size: 0.7rem;
+  }
+  .people-name {
+    font-size: 0.9rem !important;
+  }
+  .contact-people-en {
+    justify-content: space-between;
 }
 }

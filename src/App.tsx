@@ -54,7 +54,7 @@ const RedirectToDefaultLanguage = () => {
 
 const App = () => { 
   return (
-<div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/media/bg22.png)`, backgroundSize: "cover" }}>
+<div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/media/bg22.jpg)`, backgroundSize: "cover" }}>
 <I18nextProvider i18n={i18next}>
       <Router>
       <ScrollToTop />

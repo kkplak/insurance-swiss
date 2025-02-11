@@ -43,11 +43,14 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(41, 41, 41, 0.62);
+    border: 1px solid rgba(41, 41, 41, 0.72);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.175);
     width: 113%;
     z-index: 1;
     border-radius: 5px;
+    backdrop-filter: blur(100px); /* Adds a blur effect */
+    -webkit-backdrop-filter: blur(100px); /* Safari support */
     /* left: 0.4rem; */
   }
 
