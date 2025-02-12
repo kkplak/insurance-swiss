@@ -19,7 +19,7 @@ const HealthInsurance: React.FC = () => {
         <li>{t("HEALTH.infoListItem2")}</li>
       </ol>
       <div className="img-section-container">
-        <img className="img-section" src="/media/img-placeholder.webp"/>
+        <img className="img-section" src="/media/image-6.jpeg"/>
       </div>
       <div className="insurance-section">
         <h2 className="section-title">{t("HEALTH.basic.title")}</h2>
@@ -38,7 +38,7 @@ const HealthInsurance: React.FC = () => {
           <li>{t("HEALTH.basic.pl2")}</li>
         </ul>
         <div className="img-section-container">
-        <img className="img-section" src="/media/img-placeholder.webp"/>
+        <img className="img-section" src="/media/image-4.jpeg"/>
       </div>
 
     
@@ -57,7 +57,9 @@ const HealthInsurance: React.FC = () => {
           <p>{t("HEALTH.fran.p7")}</p>
         </ul>
         <p className="example-text">{t("HEALTH.fran.p8")}</p>
-
+        <div className="img-section-container">
+        <img className="img-section" src="/media/image-3.jpeg"/>
+      </div>
         <h3 className="section-title">{t("HEALTH.model.title")}</h3>
         <p>{t("HEALTH.model.p")}</p>
         <ul className="info-list">
@@ -66,7 +68,11 @@ const HealthInsurance: React.FC = () => {
           <li>{t("HEALTH.model.p4")}</li>
           <li>{t("HEALTH.model.p5")}</li>
         </ul>
+        <div className="img-section-container">
+        <img className="img-section" src="/media/image-4.jpeg"/>
       </div>
+      </div>
+      
 
       <div className="insurance-section">
         <h2 className="section-title">{t("HEALTH.add.title")}</h2>
@@ -78,6 +84,9 @@ const HealthInsurance: React.FC = () => {
           <li>{t("HEALTH.add.i4")}</li>
           <li>{t("HEALTH.add.i5")}</li>
         </ul>
+        <div className="img-section-container">
+        <img className="img-section" src="/media/image-5.jpeg"/>
+      </div>
         <p>{t("HEALTH.add.p2")}</p>
       </div>
 

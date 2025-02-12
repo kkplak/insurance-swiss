@@ -152,17 +152,25 @@
 /* image */
 .img-section-container {
   width: 100%;
-  align-items: center;
-
-  height: 20rem;
+  max-width: 800px; /* Adjust as needed */
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  margin: 4rem auto; /* Centers the container */
+  overflow: hidden; /* Prevents images from overflowing */
 
 }
+
 .img-section {
-  width: 100%;
-  max-width: 35%;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  border-radius: 5px;
 }
+
 /*----------------------------------------
   Responsive Adjustments
 ----------------------------------------*/
