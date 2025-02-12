@@ -148,6 +148,21 @@
   overflow: hidden;
 }
 
+
+/* image */
+.img-section-container {
+  width: 100%;
+  align-items: center;
+
+  height: 20rem;
+  display: flex;
+  justify-content: end;
+
+}
+.img-section {
+  width: 100%;
+  max-width: 35%;
+}
 /*----------------------------------------
   Responsive Adjustments
 ----------------------------------------*/

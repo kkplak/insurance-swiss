@@ -9,13 +9,18 @@ const HealthInsurance: React.FC = () => {
   return (
     <div className="insurance-page container">
       <h1 className="main-title">{t("HEALTH.title")}</h1>
+      
       <p className="intro-text">{t("HEALTH.info")}</p>
+    
       <p className="info-list-title">{t("HEALTH.infoList")}</p>
+   
       <ol className="list-roman">
         <li>{t("HEALTH.infoListItem1")}</li>
         <li>{t("HEALTH.infoListItem2")}</li>
       </ol>
-
+      <div className="img-section-container">
+        <img className="img-section" src="/media/img-placeholder.webp"/>
+      </div>
       <div className="insurance-section">
         <h2 className="section-title">{t("HEALTH.basic.title")}</h2>
         <p>{t("HEALTH.basic.p")}</p>
@@ -32,7 +37,9 @@ const HealthInsurance: React.FC = () => {
           <li>{t("HEALTH.basic.pl1")}</li>
           <li>{t("HEALTH.basic.pl2")}</li>
         </ul>
-     
+        <div className="img-section-container">
+        <img className="img-section" src="/media/img-placeholder.webp"/>
+      </div>
 
     
         <h3 className="section-title">{t("HEALTH.fran.title")}</h3>

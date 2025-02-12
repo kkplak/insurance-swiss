@@ -73,7 +73,7 @@ body {
 .nav-bar {
   background-color: #00073e;
   margin: 0.8rem 2rem;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 .text-container p {
  
@@ -459,7 +459,7 @@ h1 {
   ------------------------------------------------*/
   .nav-bar {
     margin: 0.5rem 1rem;
-    border-radius: 15px;
+    /* border-radius: 15px; */
   }
   .nav-left a {
     font-size: 0.9rem;
@@ -634,6 +634,7 @@ font-size: 0.7rem;
     font-size: 0.9rem !important;
   }
   .contact-people-en {
+  
     justify-content: space-between;
 }
 }
