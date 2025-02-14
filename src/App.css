@@ -1,18 +1,14 @@
-
 :root {
-
-  --h1: #00073e;     
-  --h2: #000000;        
-  --text-color: #00073e;      
-  --nav-text-color: #ffffff;       
-  --background-color:#F5F5F5;
-  --box-color: #ffffff;  
-  --box-text: #00073e;    
-  --button-color:#00073e; 
+  --h1: #00073e;
+  --h2: #000000;
+  --text-color: #00073e;
+  --nav-text-color: #ffffff;
+  --background-color: #f5f5f5;
+  --box-color: #ffffff;
+  --box-text: #00073e;
+  --button-color: #00073e;
   --button-text: #ffffff;
-    
- 
-  
+
   /* Typography */
   --font-base: 1rem;
   --fs-small: 0.85rem;
@@ -23,10 +19,10 @@
   --fs-h3: 1.6rem;
   --fs-toggle-title: 1.125rem;
   --fs-toggle-content: 1rem;
-  
+
   /* Font Family */
-  --font-primary: 'Montserrat', sans-serif; /* Modern, bold, professional */
-  --font-secondary: 'Lato', sans-serif;     /* Clean and minimalistic */
+  --font-primary: "Montserrat", sans-serif; /* Modern, bold, professional */
+  --font-secondary: "Lato", sans-serif; /* Clean and minimalistic */
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -37,7 +33,7 @@
   --spacing-xxl: 4rem;
 
   /* Border Radius */
-  --br-container: 0.5rem;  /* Softer rounded corners */
+  --br-container: 0.5rem; /* Softer rounded corners */
   --br-element: 0.35rem;
   --br-small: 0.25rem;
 
@@ -50,7 +46,6 @@
   --transition-slow: 1s ease-in-out;
 }
 
-
 /*========================================
   Global Layout & Utilities
 ========================================*/
@@ -58,7 +53,6 @@ html {
   background-color: var(--background-color);
   scroll-behavior: smooth;
   position: relative;
-
 }
 
 body {
@@ -66,7 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
   /* font-family: 'Open Sans', sans-serif;  Uncomment or change as needed */
 }
 
@@ -76,11 +70,11 @@ body {
   /* border-radius: 15px; */
 }
 .text-container p {
- 
   color: var(--text-color);
 }
 /* Utility Classes */
-.hide, .show {
+.hide,
+.show {
   transition: opacity var(--transition-fast) ease-out;
 }
 .hide {
@@ -105,45 +99,46 @@ a {
 }
 .people-container {
   width: 100%;
-margin: 8rem 0 10rem;
+  margin: 8rem 0 10rem;
   gap: 3rem;
   display: flex;
   justify-content: center;
 }
-.ioannis-container , .lukasz-container  {
-width: 30rem;
-height: 30rem;
-
+.ioannis-container,
+.lukasz-container {
+  width: 30rem;
+  height: 30rem;
 }
-.ioannis-container img , .lukasz-container  img{
+.ioannis-container img,
+.lukasz-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
-  }
+}
 .wrapper {
   height: max-content;
 }
-  .wrapper p {
-    background-color: white;
+.wrapper p {
+  background-color: white;
 
   padding: 3rem 3rem;
   margin: 2rem;
   margin-bottom: 8rem;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft, clean shadow */
-  border: 1px solid rgba(0, 0, 0, 0.176);  /* Very subtle border */
-text-align: center;
-justify-self: center;
-  }
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft, clean shadow */
+  border: 1px solid rgba(0, 0, 0, 0.176); /* Very subtle border */
+  text-align: center;
+  justify-self: center;
+}
 /* Standard container with a subtle overlay effect */
 .container,
 .container2,
 .container-home {
   /* background: rgba(0, 0, 0, 0.08); */
   border-radius: var(--br-container);
-  margin:  auto;
-  padding: 6% 7% 0 ;
+  margin: auto;
+  padding: 6% 7% 0;
   color: var(--box-text);
 }
 .container {
@@ -154,7 +149,6 @@ justify-self: center;
 }
 .container-home {
   text-align: center;
- 
 }
 .contact-box-container {
   display: flex;
@@ -165,9 +159,9 @@ justify-self: center;
   background-color: white;
   padding: 1rem 2rem;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft, clean shadow */
-  border: 1px solid rgba(0, 0, 0, 0.176);  /* Very subtle border */
-text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft, clean shadow */
+  border: 1px solid rgba(0, 0, 0, 0.176); /* Very subtle border */
+  text-align: left;
 }
 .contact-box h2 {
   white-space: nowrap;
@@ -177,15 +171,13 @@ text-align: left;
 }
 .newcommer ul {
   list-style-type: none;
- 
 }
 .small-list {
   list-style: disc outside !important;
   margin-bottom: 1.5rem;
-  
 }
-.small-list li p{
-margin: 0;
+.small-list li p {
+  margin: 0;
   line-height: 0;
   padding: 0;
 }
@@ -208,21 +200,21 @@ margin: 0;
   justify-content: center;
 }
 .text-center .bgcolor {
-background-color: #00073e;
-color: white;
-max-width: max-content;
-padding: 0.5rem 2rem;
-border-radius: 10px;
+  background-color: #00073e;
+  color: white;
+  max-width: max-content;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
 }
-.text-trick {display: flex;}
-
+.text-trick {
+  display: flex;
+}
 
 /*========================================
   Homepage & Hero Section
 ========================================*/
 .icon {
   width: 28px;
-
 }
 
 .home {
@@ -237,7 +229,8 @@ border-radius: 10px;
 .home::before {
   content: "";
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   /* background-color: rgba(0, 0, 0, 0.2); */
@@ -255,14 +248,13 @@ border-radius: 10px;
   width: 100%;
   text-align: left;
 }
-.text-container a{
-display: flex;
+.text-container a {
+  display: flex;
   width: max-content;
-
 }
 .text-container h1 {
   line-height: 3.2rem;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .image-container {
@@ -271,7 +263,6 @@ display: flex;
   align-items: start;
   width: 60%;
   max-width: 500px;
- 
 }
 .image-container img {
   width: 100%;
@@ -294,22 +285,19 @@ display: flex;
 }
 
 .nav-phone-numbers {
-  color: var(  --nav-text-color);
+  color: var(--nav-text-color);
   font-size: var(--fs-small);
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-
- 
 }
 .nav-phone-numbers p {
   margin: 0;
   font-weight: 500;
   text-decoration: none;
-  
 }
 .nav-phone-numbers a {
-font-size: 0.93rem;
+  font-size: 0.93rem;
   text-decoration: none;
 }
 .phone-line {
@@ -331,7 +319,6 @@ nav ul li a {
   text-decoration: none;
   font-weight: 600;
   z-index: 1111111;
- 
 }
 nav ul li a:hover {
   color: rgba(243, 243, 243, 0.8);
@@ -351,8 +338,6 @@ h1 {
 .smaller-p {
   font-size: 0.8rem;
 }
-
-
 
 /*========================================
   Language Switcher
@@ -383,7 +368,6 @@ h1 {
 }
 .button-link {
   text-decoration: none;
-  
 }
 .welcome-button {
   margin-top: var(--spacing-lg);
@@ -397,12 +381,13 @@ h1 {
   border: none;
   background: var(--button-color);
   border-radius: var(--br-container);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background var(--transition-fast);
 }
 .welcome-button:hover {
   background: white;
- 
+  border-bottom: 2px solid var(--button-color);
 }
 .lable {
   color: var(--button-text);
@@ -414,18 +399,32 @@ h1 {
   color: var(--h1);
 }
 
-
 @keyframes msg {
-  0% { transform: translate(0, 0) scale(1); }
-  15% { transform: translateX(1px); }
-  30% { transform: scale(1.1); }
-  45% { transform: translateY(1px); }
-  60% { transform: translateY(0); }
-  75% { transform: scale(1); }
-  90% { transform: translateX(-1px); }
-  100% { transform: translate(0, 0) scale(1); }
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  15% {
+    transform: translateX(1px);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  45% {
+    transform: translateY(1px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: scale(1);
+  }
+  90% {
+    transform: translateX(-1px);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
 }
-
 
 @media only screen and (max-width: 768px) {
   /*------------------------------------------------
@@ -474,10 +473,10 @@ h1 {
   }
   .nav-phone-numbers a {
     font-size: 0.65rem;
-}
-.phone-line p {
-  font-size: 0.65rem;
-}
+  }
+  .phone-line p {
+    font-size: 0.65rem;
+  }
   .nav-phone-numbers {
     flex-direction: column;
     align-items: center;
@@ -498,7 +497,7 @@ h1 {
     padding: 1rem;
     align-items: center;
   }
-  .homepage{
+  .homepage {
     overflow: hidden;
   }
   .text-container {
@@ -507,9 +506,7 @@ h1 {
     padding: 1rem;
   }
   .text-container h1 {
-
     text-align: left;
- 
   }
   .image-container {
     width: 50%;
@@ -519,7 +516,7 @@ h1 {
   }
   .image-container img {
     padding-top: 3rem;
-}
+  }
 
   h1 {
     text-align: center;
@@ -536,7 +533,7 @@ h1 {
     margin: 4rem 0;
     gap: 2rem;
   }
-  
+
   .ioannis-container,
   .lukasz-container {
     width: 90%;
@@ -575,7 +572,7 @@ h1 {
     gap: 1rem;
     margin-bottom: 3rem;
   }
-  
+
   .contact-box {
     padding: 1rem;
     text-align: center;
@@ -600,41 +597,40 @@ h1 {
     gap: 0.5rem;
   }
 
-.insurance-page.container {
-  margin: 1rem;
-  padding: 0;
-}
-.contact {
-  padding: 1rem;
-  margin: 0 1rem;
-}
-.button-box-container {
-  margin: 4rem 2rem;
-}
+  .insurance-page.container {
+    margin: 1rem;
+    padding: 0;
+  }
+  .contact {
+    padding: 1rem;
+    margin: 0 1rem;
+  }
+  .button-box-container {
+    margin: 4rem 2rem;
+  }
   .contact-text {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding-top: 1rem;
-}
-.contact-text h3 {
-  padding: 0;
-}
-.contact-people {
-  padding:2rem 1rem ;
-  text-align: center;
-}
-.contact-people a {
-font-size: 0.7rem;
-}
-.contact-people p {
-  font-size: 0.7rem;
+  }
+  .contact-text h3 {
+    padding: 0;
+  }
+  .contact-people {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .contact-people a {
+    font-size: 0.7rem;
+  }
+  .contact-people p {
+    font-size: 0.7rem;
   }
   .people-name {
     font-size: 0.9rem !important;
   }
   .contact-people-en {
-  
     justify-content: space-between;
-}
+  }
 }
