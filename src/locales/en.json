@@ -128,14 +128,17 @@
     },
     "newcommers": {
       "h2": "New to Switzerland",
-      "p": "Remember that you have 90 days from the start of your employment to purchase insurance, otherwise a penalty will be imposed.",
-      "p2": "Documents you need to set up insurance:",
-      "item1": "1. Registration confirmation",
+      "p": "Remember, you have <b>90 days from the start of your employment</b> to get insurance. If you don't, a penalty will be applied. <br> Bills will need to be paid retroactively - exactly from the first day of registration.",
+      "p2": "Documents you need to get insurance:",
+      "item1": "1. Registration confirmation (Meldebestätigung)",
       "item2": "2. Employment contract",
-      "item3": "3. Proof of identity (ID card or passport).",
-      "item4": "4. Bank account",
-      "p3": "This is a registration confirmation with the start date of employment and your residential address. To obtain this document, you must go to the local municipality (Gemeinde) with: an employment contract, a rental agreement, and your ID.",
-      "p4": "To open a bank account, you will need an employment contract and a residence permit (Bewilligung). The process of obtaining a residence permit (Swiss ID) can take several weeks, and the entire insurance process may be significantly delayed. An alternative solution is to open an account with PostFinance. In this case, you only need your ID, employment contract, and registration confirmation (Meldebestätigung)."
+      "item3": "3. ID card or passport",
+      "item4": "4. Bank account (optional)",
+      "p3": "This is the registration confirmation with the start date of employment and your address. To obtain this document, you need to go to the local municipality (Gemeinde) with:",
+      "p3item1": "employment contract",
+      "p3item2": "rental agreement",
+      "p3item3": "ID card",
+      "p4": "To open a bank account, you need an employment contract and a residence permit (Bewiligung). The process of getting the residence permit (Swiss ID) can take several weeks, and the whole insurance process can take significantly longer. The solution is to open an account with PostFinance bank. In this case, you only need an ID, employment contract, and registration confirmation (Meldebestätigung)."
     }
   },
   "CONTACT": {

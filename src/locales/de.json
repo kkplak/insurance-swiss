@@ -128,14 +128,17 @@
     },
     "newcommers": {
       "h2": "Neu in der Schweiz",
-      "p": "Denken Sie daran, dass Sie 90 Tage nach Arbeitsbeginn Zeit haben, um die Versicherung abzuschließen, andernfalls wird eine Strafe verhängt.",
-      "p2": "Dokumente, die Sie für den Abschluss einer Versicherung benötigen:",
-      "item1": "1. Anmeldebestätigung",
+      "p": "Denke daran, dass du <b>90 Tage ab Arbeitsbeginn</b> hast, um eine Versicherung abzuschließen. Wenn du dies nicht tust, wird eine Strafe erhoben. <br> Rechnungen müssen rückwirkend bezahlt werden - genau ab dem ersten Tag der Anmeldung.",
+      "p2": "Dokumente, die du für die Versicherung benötigst:",
+      "item1": "1. Anmeldebestätigung (Meldebestätigung)",
       "item2": "2. Arbeitsvertrag",
-      "item3": "3. Identitätsnachweis (Personalausweis oder Reisepass).",
-      "item4": "4. Bankkonto",
-      "p3": "Dies ist eine Anmeldebestätigung mit dem Datum des Arbeitsbeginns und Ihrer Wohnadresse. Um dieses Dokument zu erhalten, müssen Sie zur örtlichen Gemeinde (Gemeinde) gehen und Folgendes mitbringen: - Arbeitsvertrag, - Mietvertrag, - Personalausweis.",
-      "p4": "Für die Eröffnung eines Bankkontos benötigen Sie einen Arbeitsvertrag sowie eine Aufenthaltsgenehmigung (Bewilligung). Die Ausstellung der Aufenthaltsgenehmigung (Schweizer Ausweis) kann mehrere Wochen dauern, wodurch sich auch der gesamte Versicherungsprozess erheblich verzögern kann. Eine Lösung ist die Eröffnung eines Kontos bei PostFinance. In diesem Fall benötigen Sie nur Ihren Personalausweis, den Arbeitsvertrag und die Anmeldebestätigung."
+      "item3": "3. Personalausweis oder Reisepass",
+      "item4": "4. Bankkonto (optional)",
+      "p3": "Dies ist die Anmeldebestätigung mit dem Beginn des Arbeitsverhältnisses und der Adresse. Um dieses Dokument zu erhalten, musst du zum örtlichen Gemeindeamt (Gemeinde) gehen mit:",
+      "p3item1": "Arbeitsvertrag",
+      "p3item2": "Mietvertrag",
+      "p3item3": "Personalausweis",
+      "p4": "Für die Eröffnung eines Bankkontos benötigst du einen Arbeitsvertrag und eine Aufenthaltserlaubnis (Bewiligung). Der Prozess der Erlangung der Aufenthaltserlaubnis (Schweizer ID) kann mehrere Wochen dauern, und der gesamte Versicherungsprozess kann sich erheblich verlängern. Die Lösung ist, ein Konto bei der PostFinance Bank zu eröffnen. In diesem Fall benötigst du nur einen Ausweis, den Arbeitsvertrag und die Anmeldebestätigung (Meldebestätigung)."
     }
   },
   "CONTACT": {
