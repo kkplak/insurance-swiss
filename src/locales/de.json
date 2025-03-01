@@ -1,5 +1,7 @@
 {
   "GENERAL": {
+    "maintenanceh1": "🚧 Seite im Aufbau 🚧",
+    "maintenancep": "Wir arbeiten hart daran, den Service zu verbessern. Bitte komm später wieder!",
     "contact": "Kontakt",
     "home": "Startseite",
     "introduction": "1. Einführung",
@@ -25,8 +27,8 @@
     "houseInsuranceDescription": "Einbruch, Feuer, Schlüsselverlust",
     "lawProtection": "Rechtsschutz",
     "lawProtectionDescription": "Rechtsberatung, Vertretung vor Gericht",
-    "swissInsurance": "Tierkrankenversicherung",
-    "swissInsuranceDescription": "Tierarzt, Impfungen, Behandlungen",
+    "swissInsurance": "Erste Schritte in der Schweiz",
+    "swissInsuranceDescription": "Alles, was du brauchst, um eine Versicherung zu bekommen",
     "healthInsuranceDescriptionLong": "Die Krankenversicherung ist ein wichtiges finanzielles Instrument, das darauf ausgelegt ist, die Kosten für medizinische und chirurgische Behandlungen zu decken. Je nach Art des Krankenversicherungsplans zahlt der Versicherte entweder zunächst aus eigener Tasche und wird später entschädigt, oder der Versicherer leistet direkte Zahlungen an den Dienstleister. Krankenversicherungspolicen decken in der Regel Arztbesuche, Krankenhausaufenthalte, Vorsorgeuntersuchungen und verschreibungspflichtige Medikamente ab. Einige Pläne können auch die Kosten für psychische Gesundheitsleistungen, Sehbehandlungen und Zahnbehandlungen übernehmen. Eine Krankenversicherung ist unerlässlich, da sie dazu beiträgt, die hohen Kosten im Gesundheitswesen zu mildern, und Einzelpersonen sowie Familien die notwendige medizinische Versorgung ohne übermäßige finanzielle Belastung bietet.",
     "lifeInsuranceDescriptionLong": "Lebensversicherung ist ein Vertrag zwischen einer Person und einem Versicherungsunternehmen, bei dem sich der Versicherer verpflichtet, dem benannten Begünstigten einen bestimmten Geldbetrag nach dem Tod der versicherten Person zu zahlen. Diese Art der Versicherung bietet finanziellen Schutz und Seelenfrieden, indem sie sicherstellt, dass die Angehörigen nach dem Tod der versicherten Person finanziell abgesichert sind. Eine Lebensversicherung kann verschiedene Ausgaben abdecken, darunter Bestattungskosten, offene Schulden, Hypothekendarlehen und tägliche Lebenshaltungskosten. Einige Policen bieten auch Lebensleistungen, die unter bestimmten Bedingungen verfügbar sein können und zusätzliche finanzielle Unterstützung während des Lebens der versicherten Person bieten.",
     "carInsuranceDescriptionLong": "Die Autoversicherung ist eine Police, die von Fahrzeugbesitzern abgeschlossen wird, um die Kosten im Zusammenhang mit einem Autounfall oder Fahrzeugbeschädigungen zu minimieren. Sie deckt verschiedene Ereignisse ab, wie z. B. Kollisionen, Diebstahl, Vandalismus und Schäden durch Naturkatastrophen. Die Autoversicherung umfasst in der Regel eine Haftpflichtversicherung, die Schäden oder Verletzungen abdeckt, die Sie anderen zufügen, und kann auch eine Vollkasko- oder Teilkaskoversicherung für Ihr eigenes Fahrzeug bieten. Darüber hinaus können Policen auch medizinische Zahlungen, Personenschadenschutz und Schutz gegen un- oder unterversicherte Fahrer umfassen. Eine Autoversicherung ist unerlässlich für den finanziellen Schutz und die Einhaltung gesetzlicher Vorschriften, da sie sicherstellt, dass Fahrer unerwartete Ausgaben im Zusammenhang mit ihren Fahrzeugen abdecken können.",

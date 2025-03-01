@@ -1,5 +1,7 @@
 {
   "GENERAL": {
+    "maintenanceh1": "🚧 Strona w budowie 🚧",
+    "maintenancep": "Pracujemy nad ulepszeniem serwisu. Wróć do nas później!",
     "contact": "Kontakt",
     "home": "Strona główna",
     "introduction": "1. Kontakt",
@@ -27,11 +29,11 @@
     "swissInsurance": "Pierwsze kroki w Szwajcarii",
     "swissInsuranceDescription": "Wszystko czego potrzebujesz, aby dostać ubezpieczenie",
     "healthInsuranceDescriptionLong": "Ubezpieczenie zdrowotne jest krytycznym narzędziem finansowym, zaprojektowanym do pokrywania kosztów medycznych i chirurgicznych. W zależności od rodzaju planu ubezpieczenia zdrowotnego, albo ubezpieczony płaci z własnej kieszeni i jest później zwracany, albo ubezpieczyciel dokonuje płatności bezpośrednio do dostawcy. Polisy ubezpieczenia zdrowotnego zazwyczaj obejmują wizyty u lekarza, pobyty w szpitalu, opiekę zapobiegawczą i leki na receptę. Niektóre plany mogą również oferować pokrycie dla usług zdrowia psychicznego, opieki wzrokowej i stomatologicznej. Posiadanie ubezpieczenia zdrowotnego jest niezbędne, ponieważ pomaga łagodzić wysokie koszty związane z opieką zdrowotną, zapewniając indywidualnym osobom i rodzinom niezbędną opiekę medyczną bez nadmiernego obciążenia finansowego.",
-    "lifeInsuranceDescriptionLong": "Ubezpieczenie na życie to umowa między jednostką a firmą ubezpieczeniową, w której ubezpieczyciel zobowiązuje się wypłacić wyznaczonemu beneficjentowi określoną kwotę pieniędzy po śmierci osoby ubezpieczonej. Ten rodzaj ubezpieczenia zapewnia ochronę finansową i spokój ducha, gwarantując, że bliscy są zabezpieczeni finansowo po śmierci ubezpieczonego. Ubezpieczenie na życie może pokrywać różne wydatki, w tym koszty pogrzebu, niespłacone długi, spłaty kredytu hipotecznego i codzienne wydatki na życie. Niektóre polisy oferują również świadczenia życiowe, które mogą być dostępne pod pewnymi warunkami, zapewniając dodatkowe wsparcie finansowe w czasie życia ubezpieczonego.",
-    "carInsuranceDescriptionLong": "Ubezpieczenie samochodowe to polisa kupowana przez właścicieli pojazdów w celu zminimalizowania kosztów związanych z udziałem w wypadku samochodowym lub uszkodzeniem pojazdu. Obejmuje różne zdarzenia, takie jak kolizje, kradzieże, wandalizm i szkody spowodowane klęskami żywiołowymi. Ubezpieczenie samochodowe zazwyczaj obejmuje ochronę odpowiedzialności cywilnej, która pokrywa szkody lub obrażenia, które wyrządzisz innym osobom, a może również oferować kompleksowe i kolizyjne pokrycie dla Twojego własnego pojazdu. Ponadto polisy mogą obejmować płatności medyczne, ochronę od obrażeń osobistych i ochronę przed nieubezpieczonym/niedoubezpieczonym kierowcą. Posiadanie ubezpieczenia samochodowego jest niezbędne dla ochrony finansowej i zgodności z prawem, zapewniając, że kierowcy mogą pokryć nieoczekiwane wydatki związane z ich pojazdami.",
-    "houseInsuranceDescriptionLong": "Ubezpieczenie domu, znane również jako ubezpieczenie dla właścicieli domów, zapewnia ochronę finansową przed uszkodzeniem Twojego domu i osobistych rzeczy w wyniku objętych polisą zdarzeń, takich jak pożar, kradzież, wandalizm i klęski żywiołowe. Oferuje również pokrycie odpowiedzialności cywilnej, jeśli ktoś zostanie ranny na Twojej posesji lub spowodujesz szkodę na mieniu innej osoby. Polisy ubezpieczenia domu zazwyczaj obejmują strukturę domu, osobiste mienie, dodatkowe koszty utrzymania, jeśli musisz tymczasowo się przenieść, oraz odpowiedzialność cywilną. Posiadanie ubezpieczenia domu jest kluczowe dla ochrony jednej z Twoich największych inwestycji i zapewnienia stabilności finansowej w przypadku nieprzewidzianych zdarzeń.",
-    "lawProtectionDescriptionLong": "Ubezpieczenie ochrony prawnej, znane również jako ubezpieczenie ochrony prawnej, pokrywa koszty związane z wydatkami prawnymi ponoszonymi przez ubezpieczonego w przypadku sporów prawnych. Ten rodzaj ubezpieczenia może pomóc w pokryciu opłat adwokackich, kosztów sądowych i innych wydatków prawnych w różnych sytuacjach, takich jak spory pracownicze, problemy z umowami, roszczenia z tytułu obrażeń ciała i sprawy rodzinne. Ubezpieczenie ochrony prawnej zapewnia dostęp do porad prawnych i reprezentacji, zmniejszając obciążenie finansowe związane z postępowaniem sądowym i zapewniając, że osoby mogą dochodzić sprawiedliwości i chronić swoje prawa bez obaw o wysokie koszty.",
-    "petInsuranceDescriptionLong": "Ubezpieczenie zwierząt pomaga pokryć koszty opieki weterynaryjnej dla Twoich zwierząt, zapewniając im niezbędne leczenie bez powodowania obciążeń finansowych. Ten rodzaj ubezpieczenia zazwyczaj obejmuje wypadki, choroby, operacje i rutynową opiekę, taką jak szczepienia i leczenie profilaktyczne. Niektóre polisy mogą również oferować pokrycie dla dziedzicznych i wrodzonych schorzeń, opieki stomatologicznej i terapii alternatywnych. Ubezpieczenie zwierząt pozwala właścicielom zwierząt skupić się na zdrowiu i dobrostanie swoich pupili, a nie na kosztach związanych z wizytami u weterynarza, zapewniając spokój ducha i wsparcie finansowe, gdy ich futrzani przyjaciele tego najbardziej potrzebują.",
+    "lifeInsuranceDescriptionLong": "",
+    "carInsuranceDescriptionLong": "",
+    "houseInsuranceDescriptionLong": "",
+    "lawProtectionDescriptionLong": "",
+    "petInsuranceDescriptionLong": "",
     "lukasz": "Łukasz",
     "lukaszBergel": "Łukasz Bergel",
     "lukaszPhone": "+41 79 482 38 96",
@@ -126,10 +128,9 @@
 
     "newcommers": {
       "h2": "Nowy/Nowa w Szwajcarii",
-  
-        "p": "Pamiętaj, że masz <b>90 dni od rozpoczęcia pracy</b>, aby wykupić ubezpieczenie. Jeśli tego nie zrobisz, zostanie naliczona kara. <br> Rachunki trzeba będzie opłacić wstecz - dokładnie od pierwszego dnia zameldowania.",
-  
-      
+
+      "p": "Pamiętaj, że masz <b>90 dni od rozpoczęcia pracy</b>, aby wykupić ubezpieczenie. Jeśli tego nie zrobisz, zostanie naliczona kara. <br> Rachunki trzeba będzie opłacić wstecz - dokładnie od pierwszego dnia zameldowania.",
+
       "p2": "Dokumenty, które potrzebujesz do założenia ubezpieczenia:",
       "item1": "1. Meldebestätigung",
       "item2": "2. Umowa o pracę",

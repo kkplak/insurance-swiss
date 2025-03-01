@@ -175,10 +175,12 @@ a {
 .small-list {
   list-style: disc outside !important;
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 .small-list li p {
   margin: 0;
-  line-height: 0;
+
+  line-height: 0.9;
   padding: 0;
 }
 .small-text {
@@ -363,6 +365,34 @@ h1 {
 /*========================================
   Home Buttons & Call-to-Action
 ========================================*/
+
+/* MaintenanceNotice.css */
+.container-maintenance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.notice {
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.notice h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.notice p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #666;
+}
+
 .home-buttons-container {
   width: 100%;
 }
