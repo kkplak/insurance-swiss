@@ -9,41 +9,36 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
   // const shouldHide = scrollPosition > 20 && windowWidth < 980;
 
   return (
-    <div  style={{ display: 'flex', alignItems: 'center' }}>
-      <img
-          className='icon'
-          src={`/media/logo-favicon.png`}
-          alt='icon'
-        />
-    <div className='nav-left' style={{ display: 'flex', alignItems: 'center' }}>
-      {/* {!shouldHide && ( */}
-      
-      {/* )} */}
-      <div className='links'>
-        <ul>
-          <li>
-            <Link to={`/${language}/home`}>{t("GENERAL.home")}</Link>
-          </li>
-          <li>
-            <Link to={`/${language}/about-us`}>
-              {t("GENERAL.aboutUs")}
-            </Link>
-          </li>
-        </ul>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <img className='icon' src={`/media/logo-favicon.png`} alt='icon' />
+      {/* <h2>PROTEGOS</h2> */}
+      <div
+        className='nav-left'
+        style={{ display: "flex", alignItems: "center" }}
+      >
+        {/* {!shouldHide && ( */}
+
+        {/* )} */}
+        <div className='links'>
+          <ul>
+            <li>
+              <Link to={`/${language}/home`}>{t("GENERAL.home")}</Link>
+            </li>
+            <li>
+              <Link to={`/${language}/about-us`}>{t("GENERAL.aboutUs")}</Link>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
     </div>
   );
 };
 
 const NavCenter = ({ scrollPosition, windowWidth }) => {
-  const centerClass = scrollPosition > 20 && windowWidth < 700 ? 'hide' : 'show';
+  const centerClass =
+    scrollPosition > 20 && windowWidth < 700 ? "hide" : "show";
 
-  return (
-    <div className={`nav-center`}>
-      <LanguageSwitcher />
-    </div>
-  );
+  return <div className={`nav-center`}>{/* <LanguageSwitcher /> */}</div>;
 };
 
 const NavRight = ({ scrollPosition, windowWidth }) => {
@@ -52,41 +47,49 @@ const NavRight = ({ scrollPosition, windowWidth }) => {
   // const rightClass = scrollPosition > 20 && windowWidth < 980 ? 'hide' : 'show';
 
   return (
-    <div className={`nav-right`} style={{ justifyContent: 'flex-end' }}>
-    <div className='nav-phone-numbers'>
-      {currentLanguage === "pl" ? (
-        <div className='phone-line'>
-          <p>
-            <b>{t("GENERAL.lukasz")}</b>
-          </p>
-          <a href={`tel:${t("GENERAL.lukaszPhone")}`}>{t("GENERAL.lukaszPhone")}</a>
-        </div>
-      ) : currentLanguage === "el" ? (
-        <div className='phone-line'>
-          <p>
-            <b>{t("GENERAL.ioannis")}</b>
-          </p>
-          <a href={`tel:${t("GENERAL.ioannisPhone")}`}>{t("GENERAL.ioannisPhone")}</a>
-        </div>
-      ) : (
-        <>
-        <div className='phone-line'>
-          <p>
-            <b>{t("GENERAL.lukasz")}</b>
-          </p>
-          <a href={`tel:${t("GENERAL.lukaszPhone")}`}>{t("GENERAL.lukaszPhone")}</a>
-        </div>
-                <div className='phone-line'>
-                <p>
-                  <b>{t("GENERAL.ioannis")}</b>
-                </p>
-                <a href={`tel:${t("GENERAL.ioannisPhone")}`}>{t("GENERAL.ioannisPhone")}</a>
-              </div>
-              </>
-      )}
+    <div className={`nav-right`} style={{ justifyContent: "flex-end" }}>
+      <LanguageSwitcher />
+      {/* <div className='nav-phone-numbers'>
+        {currentLanguage === "pl" ? (
+          <div className='phone-line'>
+            <p>
+              <b>{t("GENERAL.lukasz")}</b>
+            </p>
+            <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
+              {t("GENERAL.lukaszPhone")}
+            </a>
+          </div>
+        ) : currentLanguage === "el" ? (
+          <div className='phone-line'>
+            <p>
+              <b>{t("GENERAL.ioannis")}</b>
+            </p>
+            <a href={`tel:${t("GENERAL.ioannisPhone")}`}>
+              {t("GENERAL.ioannisPhone")}
+            </a>
+          </div>
+        ) : (
+          <>
+            <div className='phone-line'>
+              <p>
+                <b>{t("GENERAL.lukasz")}</b>
+              </p>
+              <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
+                {t("GENERAL.lukaszPhone")}
+              </a>
+            </div>
+            <div className='phone-line'>
+              <p>
+                <b>{t("GENERAL.ioannis")}</b>
+              </p>
+              <a href={`tel:${t("GENERAL.ioannisPhone")}`}>
+                {t("GENERAL.ioannisPhone")}
+              </a>
+            </div>
+          </>
+        )}
+      </div> */}
     </div>
-  </div>
-  
   );
 };
 
@@ -114,25 +117,29 @@ const NavBar = () => {
     };
   }, []);
 
-  const padding = windowWidth > 768 ? "0.2% 5% 0.2% 2%" : "0.2% 5% 0.2% 5%";
-  const borderR = scrollPosition < 10 ? "15px" : "0 0 15px 15px";
-const navbarStyle = {
-  // backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.7)" : "rgba(0, 0, 0, 0.4)",
-  padding: padding,
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "space-between",
-  position: "sticky",
-  top: 0,
-  zIndex: 1000,
-  transition: "0.3s ease-out",
-  backdropFilter: "blur(3px)",
-  borderRadius: borderR,
-};
+  // const padding = windowWidth > 768 ? "0.2% 5% 0.2% 2%" : "0.2% 5% 0.2% 5%";
+  // const borderR = scrollPosition < 10 ? "15px" : "0 0 15px 15px";
+  const navbarStyle = {
+    // backgroundColor: scrollPosition > 20 ? "rgba(0, 0, 0, 0.7)" : "rgba(0, 0, 0, 0.4)",
+    padding: "0.5rem 4rem",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    position: "static",
+    top: 0,
+    zIndex: 1000,
+    transition: "0.3s ease-out",
+    backdropFilter: "blur(3px)",
+    borderRadius: 0,
+  };
 
   return (
     <nav style={navbarStyle} className='nav-bar'>
-      <NavLeft language={language} scrollPosition={scrollPosition} windowWidth={windowWidth} />
+      <NavLeft
+        language={language}
+        scrollPosition={scrollPosition}
+        windowWidth={windowWidth}
+      />
       <NavCenter scrollPosition={scrollPosition} windowWidth={windowWidth} />
       <NavRight scrollPosition={scrollPosition} windowWidth={windowWidth} />
     </nav>

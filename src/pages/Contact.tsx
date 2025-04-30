@@ -6,12 +6,12 @@ const Contact: React.FC = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="contact-page container">
+      <div className='contact-page container'>
         <h1>{t("GENERAL.contact")}</h1>
         <p>{t("GENERAL.contactUsP")}</p>
         <ContactForm />
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="contact-box-container">
           <div className="contact-box">
             <h2>{t("GENERAL.introduction")}</h2>
@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
             <p>{t("GENERAL.ongoingSupportP")}</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

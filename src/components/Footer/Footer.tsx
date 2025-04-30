@@ -8,44 +8,52 @@ const Layout: React.FC = () => {
   const currentLanguage = i18n.language;
 
   return (
-    <div className="layout">
+    <div className='layout'>
       <Outlet />
-      <footer id="contact">
-        <div className="contact">
-          <div className="contact-text">
-            <h3>{t("CONTACT.formFooter")}</h3>
-            <div/>
-            <div className="contact-people">
+      <footer id='contact'>
+        <div className='contact'>
+          <div className='contact-text'>
+            {/* <h3>{t("CONTACT.formFooter")}</h3> */}
+            <div />
+            <div className='contact-people'>
               {currentLanguage === "pl" ? (
-                <div className="contact-people-pl">
-                  <p className="people-name">
+                <div className='contact-people-pl'>
+                  <p className='people-name'>
                     <b>{t("GENERAL.lukaszBergel")}</b>
                   </p>
-                  <a href={`tel:${t("GENERAL.lukaszPhone")}`}>{t("GENERAL.lukaszPhone")}</a>
+                  <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
+                    {t("GENERAL.lukaszPhone")}
+                  </a>
                   <p>{t("GENERAL.lukaszMail")}</p>
                 </div>
               ) : currentLanguage === "el" ? (
                 <div>
-                  <p className="people-name">
+                  <p className='people-name'>
                     <b>{t("GENERAL.ioannisSarafidis")}</b>
                   </p>
-                  <a href={`tel:${t("GENERAL.ioannisPhone")}`}>{t("GENERAL.ioannisPhone")}</a>
+                  <a href={`tel:${t("GENERAL.ioannisPhone")}`}>
+                    {t("GENERAL.ioannisPhone")}
+                  </a>
                   <p>{t("GENERAL.ioannisMail")}</p>
                 </div>
               ) : (
-                <div className="contact-people-en">
+                <div className='contact-people-en'>
                   <div>
-                    <p className="people-name">
+                    <p className='people-name'>
                       <b>{t("GENERAL.ioannisSarafidis")}</b>
                     </p>
-                    <a href={`tel:${t("GENERAL.ioannisPhone")}`}>{t("GENERAL.ioannisPhone")}</a>
+                    <a href={`tel:${t("GENERAL.ioannisPhone")}`}>
+                      {t("GENERAL.ioannisPhone")}
+                    </a>
                     <p>{t("GENERAL.ioannisMail")}</p>
                   </div>
                   <div>
-                    <p className="people-name">
+                    <p className='people-name'>
                       <b>{t("GENERAL.lukaszBergel")}</b>
                     </p>
-                    <a href={`tel:${t("GENERAL.lukaszPhone")}`}>{t("GENERAL.lukaszPhone")}</a>
+                    <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
+                      {t("GENERAL.lukaszPhone")}
+                    </a>
                     <p>{t("GENERAL.lukaszMail")}</p>
                   </div>
                 </div>

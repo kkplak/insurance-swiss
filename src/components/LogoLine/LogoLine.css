@@ -5,15 +5,15 @@
   align-items: center;
   padding: 1rem 2rem;
 
-  margin: 0 2rem 3rem;
-  background-color: rgba(41, 41, 41, 0.12);
+  margin: 0;
+  /* background-color: rgba(41, 41, 41, 0.12); */
   border-radius: var(--br-element);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.175);
 }
 @media only screen and (max-width: 900px) {
   .logo-line {
     border-radius: 0;
-    padding: 1rem ;
+    padding: 1rem;
     margin: 0 0 2rem 0;
   }
 }
@@ -33,4 +33,3 @@
   align-items: center;
   margin: 0 1rem;
 }
-

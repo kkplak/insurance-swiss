@@ -24,7 +24,7 @@ import SwissInsurance from "./pages/SwissInsurance";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import Arrow from "./components/Arrow/ScrollArrow";
-import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 import "./App.css";
 import Contact from "./pages/Contact";
@@ -52,30 +52,38 @@ const RedirectToDefaultLanguage = () => {
   return null;
 };
 
-const App = () => { 
+const App = () => {
   return (
-<div style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/media/bg22.jpg)`, backgroundSize: "cover" }}>
-<I18nextProvider i18n={i18next}>
-      <Router>
-      <ScrollToTop />
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<RedirectToDefaultLanguage />} />
-          <Route path="/:lang/home" element={<Home />} />
-          <Route path="/:lang/info" element={<Info />} />
-          <Route path="/:lang/contact" element={<Contact />} />
-          <Route path="/:lang/about-us" element={<AboutUs />} />
-          <Route path="/:lang/health-insurance" element={<HealthInsurance />} />
-          <Route path="/:lang/life-insurance" element={<LifeInsurance />} />
-          <Route path="/:lang/house-insurance" element={<HouseInsurance />} />
-          <Route path="/:lang/law-protection" element={<LawProtection />} />
-          <Route path="/:lang/car-insurance" element={<CarInsurance />} />
-          <Route path="/:lang/swiss-insurance" element={<SwissInsurance />} />
-        </Routes>
-        <Footer />
-        <Arrow />
-      </Router>
-    </I18nextProvider>
+    <div
+    // style={{
+    //   backgroundImage: `url(${process.env.PUBLIC_URL}/media/bg22.jpg)`,
+    //   backgroundSize: "cover",
+    // }}
+    >
+      <I18nextProvider i18n={i18next}>
+        <Router>
+          <ScrollToTop />
+          <NavBar />
+          <Routes>
+            <Route path='/' element={<RedirectToDefaultLanguage />} />
+            <Route path='/:lang/home' element={<Home />} />
+            <Route path='/:lang/info' element={<Info />} />
+            <Route path='/:lang/contact' element={<Contact />} />
+            <Route path='/:lang/about-us' element={<AboutUs />} />
+            <Route
+              path='/:lang/health-insurance'
+              element={<HealthInsurance />}
+            />
+            <Route path='/:lang/life-insurance' element={<LifeInsurance />} />
+            <Route path='/:lang/house-insurance' element={<HouseInsurance />} />
+            <Route path='/:lang/law-protection' element={<LawProtection />} />
+            <Route path='/:lang/car-insurance' element={<CarInsurance />} />
+            <Route path='/:lang/swiss-insurance' element={<SwissInsurance />} />
+          </Routes>
+          <Footer />
+          {/* <Arrow /> */}
+        </Router>
+      </I18nextProvider>
     </div>
   );
 };

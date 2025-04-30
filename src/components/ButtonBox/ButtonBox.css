@@ -3,38 +3,51 @@
 ========================================*/
 .button-box {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0.176);  /* Very subtle border */
-  border-radius: var(--br-element);
-  padding: 20px;  /* Increased padding for spaciousness */
+  border: 1px solid rgba(0, 0, 0, 0.176); /* Very subtle border */
+
+  padding: 0 0 20px 0;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft, clean shadow */
-  transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s;  /* Smooth transitions */
-  background-color: rgb(255, 255, 255);  /* Very light background to stand out subtly */
-  margin: 15px;  /* Slightly larger margin for better spacing */
-  width: 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft, clean shadow */
+  transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Very light background to stand out subtly */
+  margin: 15px; /* Slightly larger margin for better spacing */
+  flex: 1 1 calc(33.333% - 30px); /* 3 per row minus the gap */
+  max-width: calc(33.333% - 30px);
+  height: max-content;
+  min-height: 15rem;
   min-width: 200px;
-  color: #333;  /* Dark text for readability */
+  color: #333; /* Dark text for readability */
 }
 .button-box:last-of-type {
-border-bottom: 2px solid rgb(220, 0, 0);
+  border-bottom: 2px solid rgb(220, 0, 0);
 }
 .button-box:hover {
-  transform: translateY(-2px);  /* Slight hover lift for a professional feel */
-  background-color: rgba(255, 255, 255, 1);  /* Subtle change in background color */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);  /* Slightly stronger shadow on hover */
+  transform: translateY(-2px); /* Slight hover lift for a professional feel */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    1
+  ); /* Subtle change in background color */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
 }
-
 
 /*----------------------------------------
   Child Elements
 ----------------------------------------*/
 .button-box-icon {
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 11rem;
+  object-fit: cover;
   margin-bottom: var(--spacing-sm);
 }
 .button-box-title {
@@ -53,10 +66,25 @@ border-bottom: 2px solid rgb(220, 0, 0);
 .button-box-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
   justify-content: center;
-  margin: 2rem;
+  padding-bottom: 5rem;
 }
 .button-box-container {
-  margin: 7rem 3rem;
+  padding: 4rem 3rem;
+  background-color: white;
+}
+
+@media (max-width: 1000px) {
+  .button-box {
+    flex: 1 1 calc(50% - 30px);
+    max-width: calc(50% - 30px);
+  }
+}
+
+@media (max-width: 600px) {
+  .button-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }

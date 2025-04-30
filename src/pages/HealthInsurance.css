@@ -2,9 +2,9 @@
   Health Insurance Component Styles
 ========================================*/
 .insurance-page.container {
-  margin: var(--spacing-xxl);
-  padding: var(--spacing-xl);
-  background-color:transparent;
+  /* margin: var(--spacing-xxl); */
+  padding: 6.5;
+  background-color: white;
   color: var(--text-color);
   line-height: 1.8;
   border-radius: var(--br-container);
@@ -63,7 +63,6 @@
   list-style: decimal !important;
 }
 
-
 .info-list li {
   margin-bottom: var(--spacing-xs);
 }
@@ -72,12 +71,12 @@
   Section Styling
 ----------------------------------------*/
 .insurance-section {
-  margin: var(--spacing-xxl) 0;
+  margin-bottom: 2;
   padding: var(--spacing-lg) var(--spacing-xl);
   background-color: var(--box-color);
   border: 1px solid var(--border-color);
   border-radius: var(--br-element);
-  box-shadow: var(--shadow-medium);
+  /* box-shadow: var(--shadow-medium); */
 }
 .section-title {
   font-size: var(--fs-h2);
@@ -105,7 +104,7 @@
 }
 .small-text {
   font-size: var(--fs-small);
-  color: var( --text-color);
+  color: var(--text-color);
   margin: var(--spacing-sm) 0;
 }
 
@@ -113,10 +112,10 @@
   Toggle Description Component
 ----------------------------------------*/
 .toggle-description-container {
-  border: 1px solid var(--border-color);
-  border-radius: var(--br-element);
+  border: 1px solid var(--text-color);
+  /* border-radius: var(--br-element); */
   padding: 16px;
-  background-color: var(--background-color);
+  background-color: white;
   box-shadow: var(--shadow-light);
   margin-bottom: 16px;
 }
@@ -141,13 +140,11 @@
   transform-origin: center;
 }
 .toggle-content {
-
   font-size: var(--fs-toggle-content);
   color: var(--text-color);
   line-height: 1.5;
   overflow: hidden;
 }
-
 
 /* image */
 .img-section-container {
@@ -159,7 +156,6 @@
   height: 20rem;
   margin: 4rem auto; /* Centers the container */
   overflow: hidden; /* Prevents images from overflowing */
-
 }
 
 .img-section {
