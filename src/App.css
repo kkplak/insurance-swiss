@@ -559,9 +559,7 @@ h1 {
     font-size: 0.9rem;
     white-space: nowrap;
   }
-  .nav-right {
-    display: none;
-  }
+
   nav ul {
     align-items: center;
     gap: 0.75rem;

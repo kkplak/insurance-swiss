@@ -125,7 +125,7 @@ const NavBar = () => {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    position: "static",
+    position: "relative",
     top: 0,
     zIndex: 1000,
     transition: "0.3s ease-out",
