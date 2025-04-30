@@ -592,16 +592,27 @@ h1 {
     padding: 1rem;
     align-items: center;
   }
+  .hero-section {
+    height: 70vh;
+  }
+
   .homepage {
     overflow: hidden;
   }
   .text-container {
-    width: 100%;
+    width: 80%;
     text-align: left;
     padding: 1rem;
   }
+  .wrapper-text {
+    width: 90%;
+    margin: 0;
+  }
   .text-container h1 {
     text-align: left;
+  }
+  .text-new {
+    width: 100%;
   }
   .image-container {
     width: 50%;
@@ -652,12 +663,12 @@ h1 {
   }
 
   .container,
-  .container2,
-  .container-home {
-    padding: 1rem;
+  .container2 {
     text-align: center;
   }
-
+  .container-home {
+    padding: 0;
+  }
   /*------------------------------------------------
     Contact Box Adjustments
   ------------------------------------------------*/
@@ -692,15 +703,13 @@ h1 {
   }
 
   .insurance-page.container {
-    margin: 1rem;
-    padding: 0;
+    margin: 0;
+    padding: 1rem;
   }
   .contact {
     padding: 1rem;
-    margin: 0 1rem;
   }
   .button-box-container {
-    margin: 4rem 2rem;
   }
   .contact-text {
     flex-direction: column;
@@ -726,5 +735,8 @@ h1 {
   }
   .contact-people-en {
     justify-content: space-between;
+  }
+  .contact-page {
+    padding: 1rem;
   }
 }
