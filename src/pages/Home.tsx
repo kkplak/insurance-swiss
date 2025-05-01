@@ -79,39 +79,39 @@ const Home: React.FC = () => {
           }`}
         >
           <ButtonBox
-            icon='/media/image-4.jpeg'
+            icon='/media/image-health.png'
             titleKey='GENERAL.healthInsurance'
             descriptionKey='GENERAL.healthInsuranceDescription'
             link={`/${lang}/health-insurance`}
           />
           <ButtonBox
-            icon='/media/image-1.jpeg'
+            icon='/media/image-life.jpg'
             titleKey='GENERAL.lifeInsurance'
             descriptionKey='GENERAL.lifeInsuranceDescription'
             link={`/${lang}/life-insurance`}
           />
           <ButtonBox
-            icon='/media/hero-car.jpeg'
+            icon='/media/image-car.png'
             titleKey='GENERAL.carInsurance'
             descriptionKey='GENERAL.carInsuranceDescription'
             link={`/${lang}/car-insurance`}
           />
 
           <ButtonBox
-            icon='/media/image-3.jpeg'
+            icon='/media/image-legal.jpeg'
             titleKey='GENERAL.lawProtection'
             descriptionKey='GENERAL.lawProtectionDescription'
             link={`/${lang}/law-protection`}
           />
           <ButtonBox
-            icon='/media/hero-home.jpeg'
+            icon='/media/image-home.png'
             titleKey='GENERAL.houseInsurance'
             descriptionKey='GENERAL.houseInsuranceDescription'
             link={`/${lang}/house-insurance`}
           />
 
           <ButtonBox
-            icon='/media/hero-first.jpeg'
+            icon='/media/image-switzerland.jpeg'
             titleKey='GENERAL.swissInsurance'
             descriptionKey='GENERAL.swissInsuranceDescription'
             link={`/${lang}/swiss-insurance`}
