@@ -317,6 +317,12 @@ h5,
 /*----------------------------------------
   Responsive Adjustments
 ----------------------------------------*/
+@media (max-width: 1024px) {
+  .img-section-container-1 {
+    right: 0;
+    top: 50%;
+  }
+}
 @media (max-width: 768px) {
   .section-wrapper-hero {
     display: block;
@@ -328,6 +334,7 @@ h5,
     width: 100%;
     height: 40vh;
   }
+
   .section-collumn {
     display: block;
   }
