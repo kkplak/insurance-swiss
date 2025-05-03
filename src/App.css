@@ -3,7 +3,7 @@
   --h2: #000000;
   --text-color: #00073e;
   --nav-text-color: #ffffff;
-  --background-color: #d3d3d3;
+  --background-color: #eee;
   --box-color: #ffffff;
   --box-text: #00073e;
   --button-color: #0b253c;
@@ -17,6 +17,9 @@
   --fs-h1: 2.8rem; /* Larger, bolder headings */
   --fs-h2: 2.2rem;
   --fs-h3: 1.6rem;
+  --fs-h3: 1.5rem;
+  --fs-h4: 1.3rem;
+  --fs-h5: 1rem;
   --fs-toggle-title: 1.125rem;
   --fs-toggle-content: 1rem;
 

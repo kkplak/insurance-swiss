@@ -7,11 +7,55 @@
   background-color: white;
   color: var(--text-color);
   line-height: 1.8;
-  border-radius: var(--br-container);
+}
+.section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.divider {
+  margin-top: 5rem;
+}
+.section-wrapper-hero {
+  display: flex;
+  justify-content: space-between;
+}
+.section-text-wrapper-hero {
+  width: 60%;
+  display: block;
+  align-content: center;
+  padding: 6% 7%;
+}
+.section-text-wrapper {
+  width: 60%;
+  display: block;
+  align-content: center;
+  padding-right: 4rem;
+  p {
+    margin-top: 0;
+  }
+}
+.extra-section {
+  padding: 6% 7%;
+
+  color: var(--text-color);
+  line-height: 1.8;
+  text-align: left;
+  background-color: #eee !important;
+  padding: 4rem;
+  h2 {
+    text-align: center;
+  }
 }
 
-.extra-section {
-  text-align: left;
+.health-header {
+  background-color: #eee;
+  color: var(--text-color);
+  line-height: 1.8;
+  .main-title {
+    text-align: left;
+  }
 }
 
 /*----------------------------------------
@@ -19,7 +63,6 @@
 ----------------------------------------*/
 .main-title {
   font-size: var(--fs-h1);
-  color: var(--h1);
   text-align: center;
   margin-bottom: var(--spacing-lg);
   font-weight: 900;
@@ -29,6 +72,7 @@
   font-size: var(--fs-large);
   text-align: center;
   margin-bottom: var(--spacing-xl);
+  text-align: left;
 }
 
 .info-list-title {
@@ -47,6 +91,26 @@
   list-style: disc inside;
   font-size: var(--fs-medium);
   text-align: left;
+}
+.info-check {
+  margin: var(--spacing-md) auto;
+  padding-left: 0;
+  list-style: none;
+  font-size: var(--fs-medium);
+  text-align: left;
+}
+.indent {
+  display: inline-block;
+  margin-left: 3rem; /* same as padding-left above */
+  margin-bottom: 1rem;
+}
+
+.info-check li::before {
+  content: "✔";
+  color: #21598a;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-weight: bold;
 }
 .list-roman {
   margin: var(--spacing-md) auto;
@@ -72,39 +136,81 @@
 ----------------------------------------*/
 .insurance-section {
   margin-bottom: 2;
-  padding: var(--spacing-lg) var(--spacing-xl);
+
   background-color: var(--box-color);
   border: 1px solid var(--border-color);
   border-radius: var(--br-element);
+  text-align: left;
   /* box-shadow: var(--shadow-medium); */
 }
 .section-title {
   font-size: var(--fs-h2);
-  color: var(--h1);
-  text-align: center;
-  margin: var(--spacing-xxl) 0 var(--spacing-lg);
+  text-align: left;
+}
+.subsection-wrapper {
+  position: relative;
+  background-color: #eee;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  display: flex;
+  .subsection-title {
+    margin: 0;
+  }
 }
 .subsection-title {
   font-size: var(--fs-h3);
-  color: var(--h2);
   font-weight: bold;
   text-align: left;
   margin: var(--spacing-xxl) 0 var(--spacing-sm);
   cursor: pointer;
   z-index: 10;
 }
-
+h4,
+.h4 {
+  font-size: var(--fs-h4);
+  text-align: center;
+}
+h5,
+.h5 {
+  font-size: var(--fs-h5);
+  margin: 1rem 0 0 0;
+}
+.centered {
+  text-align: center;
+}
+.column-title {
+  font-size: var(--fs-h3);
+  font-weight: bold;
+  text-align: center;
+  margin: var(--spacing-xxl) 0 var(--spacing-sm);
+  cursor: pointer;
+  z-index: 10;
+}
+.table-wrapper {
+  background-color: #eee3;
+  min-width: 120px;
+}
+.table-column {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.table-wrapper:first-of-type p {
+  line-height: 2.1;
+}
 /*----------------------------------------
   Additional Text Styles
 ----------------------------------------*/
 .example-text {
   font-style: italic;
-  color: var(--text-color);
+
   margin-top: var(--spacing-md);
 }
 .small-text {
   font-size: var(--fs-small);
-  color: var(--text-color);
+
   margin: var(--spacing-sm) 0;
 }
 
@@ -112,12 +218,17 @@
   Toggle Description Component
 ----------------------------------------*/
 .toggle-description-container {
-  border: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
   /* border-radius: var(--br-element); */
   padding: 16px;
-  background-color: white;
-  box-shadow: var(--shadow-light);
-  margin-bottom: 16px;
+}
+.toggle-description-container:first-of-type {
+  border-top: 1px solid var(--text-color);
+}
+.toggles-wrapper {
+  width: 60%;
+  display: block;
+  margin: 5rem auto;
 }
 .toggle-header {
   display: flex;
@@ -128,7 +239,6 @@
 .toggle-title {
   font-size: var(--fs-toggle-title);
   font-weight: 600;
-  color: var(--text-color);
   margin: 0;
 }
 .toggle-icon {
@@ -141,36 +251,111 @@
 }
 .toggle-content {
   font-size: var(--fs-toggle-content);
-  color: var(--text-color);
   line-height: 1.5;
   overflow: hidden;
 }
 
 /* image */
 .img-section-container {
-  width: 100%;
-  max-width: 800px; /* Adjust as needed */
+  width: 40%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20rem;
-  margin: 4rem auto; /* Centers the container */
-  overflow: hidden; /* Prevents images from overflowing */
+}
+.img-section-container-1 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  aspect-ratio: auto;
+  top: 15%;
+  right: 7%;
 }
 
 .img-section {
-  max-width: 100%;
-  max-height: 100%;
-  height: auto;
-  width: auto;
-  object-fit: contain;
-  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+}
+.section-collumn {
+  display: flex;
 }
 
+.column {
+  width: 50%;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+
+  .toggle-content {
+    text-align: left;
+  }
+  .toggle-header {
+    justify-content: unset;
+  }
+  .toggle-title {
+    padding-right: 1rem;
+  }
+  .toggle-description-container {
+    padding: 0;
+    border: none;
+  }
+}
+.left {
+  text-align: left;
+}
+.column:first-of-type::after {
+  content: "";
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  width: 1px;
+  height: 90%; /* set your custom height here */
+  background-color: rgb(203, 203, 203);
+}
 /*----------------------------------------
   Responsive Adjustments
 ----------------------------------------*/
 @media (max-width: 768px) {
+  .section-wrapper-hero {
+    display: block;
+  }
+  .section-text-wrapper-hero {
+    width: 88%;
+  }
+  .img-section-container {
+    width: 100%;
+    height: 40vh;
+  }
+  .section-collumn {
+    display: block;
+  }
+  .column {
+    width: 100%;
+    padding: 0;
+    .toggle-header {
+      justify-content: center;
+    }
+  }
+  .column:first-of-type::after {
+    display: none;
+  }
+  .column:first-of-type {
+    margin-bottom: 4rem;
+  }
+  .section-wrapper {
+    display: block;
+  }
+  .section-text-wrapper {
+    width: 88%;
+  }
+  .toggles-wrapper {
+    width: 100%;
+  }
+  .extra-section {
+    padding: 1rem;
+  }
   .insurance-page.container {
     padding: 15px;
   }

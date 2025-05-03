@@ -26,6 +26,7 @@
   min-height: 15rem;
   min-width: 200px;
   color: #333; /* Dark text for readability */
+  max-width: 400px;
 }
 .button-box:last-of-type {
   border-bottom: 2px solid rgb(220, 0, 0);

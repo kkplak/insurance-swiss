@@ -91,14 +91,14 @@ const Home: React.FC = () => {
             link={`/${lang}/life-insurance`}
           />
           <ButtonBox
-            icon='/media/image-car.png'
+            icon='/media/image-car.jpeg'
             titleKey='GENERAL.carInsurance'
             descriptionKey='GENERAL.carInsuranceDescription'
             link={`/${lang}/car-insurance`}
           />
 
           <ButtonBox
-            icon='/media/image-legal.jpeg'
+            icon='/media/image-law.jpeg'
             titleKey='GENERAL.lawProtection'
             descriptionKey='GENERAL.lawProtectionDescription'
             link={`/${lang}/law-protection`}
