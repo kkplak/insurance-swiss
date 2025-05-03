@@ -33,7 +33,7 @@ const Home: React.FC = () => {
       <div className='container-home home'>
         <div id='home' className={`hero-section`}>
           <div className='background-video-desktop'>
-            <img src='/media/hiker1.jpg' alt='Background' />
+            <img src='/media/hiker1.png' alt='Background' />
           </div>
 
           <div className='overlay'>
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
           }`}
         >
           <ButtonBox
-            icon='/media/image-health.png'
+            icon='/media/image-one.png'
             titleKey='GENERAL.healthInsurance'
             descriptionKey='GENERAL.healthInsuranceDescription'
             link={`/${lang}/health-insurance`}
@@ -111,7 +111,7 @@ const Home: React.FC = () => {
           />
 
           <ButtonBox
-            icon='/media/image-switzerland.jpeg'
+            icon='/media/image-switzerland.png'
             titleKey='GENERAL.swissInsurance'
             descriptionKey='GENERAL.swissInsuranceDescription'
             link={`/${lang}/swiss-insurance`}
