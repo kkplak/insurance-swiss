@@ -73,13 +73,21 @@ const HealthInsurance: React.FC = () => {
                 title={t("HEALTH.fran.p8")}
                 description={
                   <>
-                    <p>{t("HEALTH.fran.p9")}</p>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p9") }}
+                    ></p>
                     <p
                       dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p10") }}
                     ></p>
-                    <p>{t("HEALTH.fran.p11")}</p>
-                    <p>{t("HEALTH.fran.p12")}</p>
-                    <p>{t("HEALTH.fran.p13")}</p>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p11") }}
+                    ></p>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p12") }}
+                    ></p>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p13") }}
+                    ></p>
                   </>
                 }
               />

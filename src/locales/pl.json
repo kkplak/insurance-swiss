@@ -79,11 +79,11 @@
       "p6": "0 <br> 100 <br> 200 <br> 300 <br> 400 <br> 500 <br> 600",
       "p7": "Gdy franszyza zostanie osiągnięta, musimy pokryć 10% pozostałych kosztów, ale nie więcej niż CHF 700 (dla dorosłych) lub CHF 350 (dla dzieci). Powyżej tego limitu wszystkie koszty pokrywa ubezpieczyciel.",
       "p8": "Przykład",
-      "p9": "Po 5 dniowym pobycie w szpitalu dostajemy rachunek CHF 10’000.",
-      "p10": " 1. Zakładamy, że nasza franszyza to CHF 300. <br>W pierwszej kolejności musimy zapłacić wysokość naszej franszyzy, a więc CHF 300",
-      "p11": " 2. Następnie 10% z reszty. Nasza reszta to CHF 10’000 – CHF 300 = CHF 9’700",
-      "p12": "3. 10% z CHF 9’700 to CHF 970 ale pamiętajmy że maksymalna kwota z pozostałych 10% to CHF 700, Więc z CHF 970 robi nam się CHF 700",
-      "p13": "4. Należy dodać CHF 300 + CHF 700 = CHF 1000 to jest kwota, którą będziemy musieli pokryć z własnej kieszeni"
+      "p9": "Po 5 dniowym pobycie w szpitalu dostajemy rachunek CHF 10’000. <br> Zakładamy, że nasza franszyza to CHF 300.",
+      "p10": "1. W pierwszej kolejności musimy zapłacić wysokość naszej franszyzy, a więc CHF 300.",
+      "p11": "2. Następnie 10% z reszty. <br>  Nasza reszta to CHF 10’000 – CHF 300 = CHF 9’700.",
+      "p12": "3. 10% z CHF 9’700 to CHF 970 <br> (pamiętajmy że maksymalna kwota z pozostałych 10% to CHF 700) <br> więc z CHF 970 robi nam się CHF 700. ",
+      "p13": "4. Należy dodać CHF 300 + CHF 700 = <b> CHF 1000 </b>. <br> To jest kwota, którą będziemy musieli pokryć z własnej kieszeni."
     },
     "model": {
       "title": "Model ubezpieczenia",

@@ -14,3 +14,19 @@
     margin: 0;
   }
 }
+@media (max-width: 1024px) {
+  .img-section-container-1 {
+    right: 0;
+    top: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .law-protection {
+    .column {
+      width: 88%;
+      border: 1px solid #b8b8b8;
+      padding: 1rem;
+      margin: 3rem auto;
+    }
+  }
+}

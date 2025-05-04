@@ -79,11 +79,11 @@
       "p6": "0 <br> 100 <br> 200 <br> 300 <br> 400 <br> 500 <br> 600",
       "p7": "Sobald der Selbstbehalt erreicht ist, müssen wir 10 % der verbleibenden Kosten übernehmen, jedoch nicht mehr als CHF 700 für Erwachsene bzw. CHF 350 für Kinder. Über diesen Betrag hinaus übernimmt der Versicherer alle Kosten.",
       "p8": "Beispiel",
-      "p9": "Nach einem 5-tägigen Krankenhausaufenthalt erhalten wir eine Rechnung über CHF 10’000.",
-      "p10": "1. Nehmen wir an, unser Selbstbehalt beträgt CHF 300. <br>Zuerst müssen wir unseren Selbstbehalt von CHF 300 bezahlen.",
-      "p11": "2. Dann 10% vom Restbetrag. Der Restbetrag beträgt CHF 10’000 – CHF 300 = CHF 9’700.",
-      "p12": "3. 10% von CHF 9’700 sind CHF 970, aber denken wir daran, dass der maximale Betrag aus den restlichen 10% CHF 700 beträgt. Daher werden aus CHF 970 CHF 700.",
-      "p13": "4. Man muss CHF 300 + CHF 700 = CHF 1’000 addieren. Dies ist der Betrag, den wir aus eigener Tasche zahlen müssen."
+      "p9": "Nach einem fünftägigen Krankenhausaufenthalt erhalten wir eine Rechnung über CHF 10’000. <br> Wir gehen davon aus, dass unser Selbstbehalt CHF 300 beträgt.",
+      "p10": "1. Zuerst müssen wir unseren Selbstbehalt in Höhe von CHF 300 bezahlen.",
+      "p11": "2. Anschließend 10% des verbleibenden Betrags. <br> Der verbleibende Betrag ist CHF 10’000 – CHF 300 = CHF 9’700.",
+      "p12": "3. 10% von CHF 9’700 sind CHF 970 <br> (denken wir daran, dass der maximale Betrag der verbleibenden 10% CHF 700 beträgt) <br> also werden aus CHF 970 nur CHF 700.",
+      "p13": "4. Wir addieren CHF 300 + CHF 700 = <b> CHF 1’000 </b>. <br> Das ist der Betrag, den wir aus eigener Tasche bezahlen müssen."
     },
     "model": {
       "title": "Versicherungsmodell",
@@ -170,6 +170,54 @@
       "il5": "Patientenrecht",
       "il6": "Vertragsrecht",
       "il7": "Versicherungsrecht"
+    }
+  },
+  "HOUSE": {
+    "title": "Hausratversicherung",
+    "info": "Dies ist eine freiwillige Versicherung für bewegliche Güter in der Schweiz, die vor finanziellen Verlusten durch Ereignisse wie Brand, Wasserschäden, Diebstahl oder Naturgewalten schützt. Sie deckt Alltagsgegenstände wie Möbel, Elektronik, Kleidung oder Fahrräder. Im Schadensfall übernimmt der Versicherer die Kosten für Reparatur oder Ersatz. Obwohl sie nicht obligatorisch ist, wird der Abschluss einer Hausratversicherung dringend empfohlen, um sich vor unerwarteten Ausgaben zu schützen.",
+    "infoList": "Versicherte Risiken",
+    "infoListItem1": "Feuer und Elementarschäden",
+    "infoListItem2": "Wasser (z. B. Überschwemmung)",
+    "infoListItem3": "Diebstahl",
+    "infoListItem4": "Glasbruch (z. B. Spiegel, Glastüren)",
+    "what": {
+      "title": "Was ist versichert?",
+      "il1": "Alle Gegenstände, die nicht fest mit dem Gebäude verbunden sind",
+      "il2": "Fahrräder (ohne Nummernschild)",
+      "il3": "Gegenstände, die für geschäftliche Zwecke genutzt werden, sind nicht versichert",
+      "il4": "Gepachtete oder gemietete Gegenstände",
+      "il5": "Anvertraute Gegenstände",
+      "il6": "Gegenstände von Gästen"
+    },
+    "where": {
+      "title": "Wo gilt die Versicherung?",
+      "il1": "Am Wohnort",
+      "il2": "Während eines Umzugs",
+      "il3": "Während eines vorübergehenden Aufenthalts"
+    },
+    "additional": {
+      "title": "Was kann zusätzlich versichert werden?",
+      "il1": "Verglasung von Möbeln",
+      "il2": "Glaselemente des Gebäudes",
+      "il3": "Kleindiebstahl außerhalb des Hauses",
+      "il4": "Diebstahl von Mofas und E-Bikes mit Nummernschild",
+      "il5": "Kosten für den Austausch von Türschlössern"
+    },
+    "important": {
+      "title": "Wichtige Informationen!",
+      "li1": "Der Selbstbehalt für alle versicherten Risiken beträgt CHF 200.",
+      "li2": "Der Selbstbehalt bei Naturereignissen beträgt CHF 500."
+    },
+    "casco": {
+      "title": "Casco-Versicherung (Hausrat – KASKO)",
+      "p": "Diese Versicherung deckt Schäden, die direkt durch den Besitzer verursacht wurden. Die Versicherung erstattet den Kauf eines gleichwertigen neuen Gegenstands (abzüglich Selbstbehalt).",
+      "p1": "Häufig versicherte Gegenstände (je nach Anbieter unterschiedlich):",
+      "i1": "Elektrische Haushaltsgeräte",
+      "i2": "Telefone",
+      "i3": "Musikinstrumente",
+      "i4": "PCs und Laptops",
+      "i5": "Sportgeräte",
+      "i6": "Reisegepäck"
     }
   },
   "CONTACT": {

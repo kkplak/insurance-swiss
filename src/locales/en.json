@@ -80,11 +80,11 @@
       "p6": "0 <br> 100 <br> 200 <br> 300 <br> 400 <br> 500 <br> 600",
       "p7": "Once the deductible has been reached, we must cover 10% of the remaining costs, but no more than CHF 700 for adults or CHF 350 for children. Beyond this limit, all costs are covered by the insurer.",
       "p8": "Example",
-      "p9": "After a 5-day hospital stay, we receive a bill for CHF 10,000.",
-      "p10": "1. Let's assume our deductible is CHF 300. <br>First, we have to pay our deductible amount, which is CHF 300.",
-      "p11": "2. Then 10% of the remainder. Our remainder is CHF 10,000 – CHF 300 = CHF 9,700.",
-      "p12": "3. 10% of CHF 9,700 is CHF 970, but remember that the maximum amount from the remaining 10% is CHF 700. So the CHF 970 becomes CHF 700.",
-      "p13": "4. Add CHF 300 + CHF 700 = CHF 1,000. This is the amount we will have to pay out of pocket."
+      "p9": "After a 5-day hospital stay, we receive a bill of CHF 10,000. <br> We assume our deductible is CHF 300.",
+      "p10": "1. First, we must pay the amount of our deductible, which is CHF 300.",
+      "p11": "2. Next, 10% of the remaining amount. <br> The remaining amount is CHF 10,000 – CHF 300 = CHF 9,700.",
+      "p12": "3. 10% of CHF 9,700 is CHF 970 <br> (remember that the maximum amount from the remaining 10% is CHF 700) <br> so CHF 970 becomes CHF 700.",
+      "p13": "4. Add CHF 300 + CHF 700 = <b> CHF 1,000 </b>. <br> This is the amount we will have to pay out of pocket."
     },
     "model": {
       "title": "Insurance Model",
@@ -171,6 +171,54 @@
       "il5": "Patient rights law",
       "il6": "Contract law",
       "il7": "Insurance law"
+    }
+  },
+  "HOUSE": {
+    "title": "Home Insurance",
+    "info": "This is a voluntary household contents insurance in Switzerland that protects against financial losses caused by events such as fire, flooding, theft, or damage caused by natural forces. It covers everyday items like furniture, electronics, clothing, or bicycles. In the event of damage, the insurer covers the cost of repair or replacement. Although not mandatory, having Hausratversicherung is highly recommended to protect against unexpected expenses.",
+    "infoList": "Insured risks",
+    "infoListItem1": "Fire and natural hazard damage",
+    "infoListItem2": "Water (e.g., flooding)",
+    "infoListItem3": "Theft",
+    "infoListItem4": "Glass breakage (e.g., mirrors, glass doors)",
+    "what": {
+      "title": "What is insured?",
+      "il1": "All items not permanently attached to the building/property",
+      "il2": "Bicycles (without license plates)",
+      "il3": "Items used for business purposes are not insured",
+      "il4": "Leased or rented items",
+      "il5": "Items entrusted to you",
+      "il6": "Guest property"
+    },
+    "where": {
+      "title": "Where does the insurance apply?",
+      "il1": "At your place of residence",
+      "il2": "During relocation",
+      "il3": "During temporary travel"
+    },
+    "additional": {
+      "title": "What can be additionally insured?",
+      "il1": "Furniture glazing",
+      "il2": "Glass building elements",
+      "il3": "Petty theft outside the home",
+      "il4": "Theft of mopeds and e-bikes with license plates",
+      "il5": "Lock replacement costs"
+    },
+    "important": {
+      "title": "Important information!",
+      "li1": "Deductible for all insured risks is CHF 200.",
+      "li2": "Deductible for natural damage is CHF 500."
+    },
+    "casco": {
+      "title": "Casco Insurance (Household – KASKO)",
+      "p": "This insurance covers damages caused directly by the owner. It reimburses the purchase of a new item of equivalent value (minus the deductible).",
+      "p1": "Most commonly insured items (varies by provider):",
+      "i1": "Electric household appliances",
+      "i2": "Phones",
+      "i3": "Musical instruments",
+      "i4": "PCs and laptops",
+      "i5": "Sports equipment",
+      "i6": "Luggage"
     }
   },
   "CONTACT": {
