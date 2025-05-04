@@ -31,7 +31,7 @@ const SwissInsurance: React.FC = () => {
           </li>
         </ul>
 
-        <p>{t("HEALTH.newcommers.p4")}</p>
+        <p className='indent-swiss'>{t("HEALTH.newcommers.p4")}</p>
         <div className='text-center'>
           <p
             className='bgcolor'

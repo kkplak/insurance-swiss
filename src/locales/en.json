@@ -81,19 +81,19 @@
       "p7": "Once the deductible has been reached, we must cover 10% of the remaining costs, but no more than CHF 700 for adults or CHF 350 for children. Beyond this limit, all costs are covered by the insurer.",
       "p8": "Example",
       "p9": "After a 5-day hospital stay, we receive a bill of CHF 10,000. <br> We assume our deductible is CHF 300.",
-      "p10": "1. First, we must pay the amount of our deductible, which is CHF 300.",
-      "p11": "2. Next, 10% of the remaining amount. <br> The remaining amount is CHF 10,000 – CHF 300 = CHF 9,700.",
-      "p12": "3. 10% of CHF 9,700 is CHF 970 <br> (remember that the maximum amount from the remaining 10% is CHF 700) <br> so CHF 970 becomes CHF 700.",
-      "p13": "4. Add CHF 300 + CHF 700 = <b> CHF 1,000 </b>. <br> This is the amount we will have to pay out of pocket."
+      "p10": "First, we must pay the amount of our deductible, which is CHF 300.",
+      "p11": "Next, 10% of the remaining amount. <br> The remaining amount is CHF 10,000 – CHF 300 = CHF 9,700.",
+      "p12": "10% of CHF 9,700 is CHF 970 <br> (remember that the maximum amount from the remaining 10% is CHF 700) <br> so CHF 970 becomes CHF 700.",
+      "p13": "Add CHF 300 + CHF 700 = <b> CHF 1,000 </b>. <br> This is the amount we will have to pay out of pocket."
     },
     "model": {
       "title": "Insurance Model",
       "p": "The insurance model refers to the way you access medical services under your health insurance. In Switzerland, different models are available that affect the premium amount as well as the organization of healthcare services. <br> In cases of emergencies, vision problems, or annual gynecological check-ups, the choice of model does not matter.",
       "p1": "The most popular models are:",
-      "p2": "<b> Traditional </b> <br><span class='indent'> You can freely choose your primary care physician and specialists (without a referral from a family doctor). It is the most expensive but offers the greatest flexibility.",
-      "p3": "<b> HMO (Health Maintenance Organization) </b> <br><span class='indent'> Treatment is provided within a network of designated doctors (clinics) and hospitals. Premiums are lower, but the choice of doctors is limited.",
-      "p4": "<b> Telmed </b> <br><span class='indent'> You first contact a telephone center, which directs you to the appropriate doctor.",
-      "p5": "<b> Family doctor model </b> <br><span class='indent'> You always first visit your primary care physician, who coordinates further treatment. You must choose your doctor from a list of available specialists when signing up for the policy."
+      "p2": "<b> Traditional </b> <br>  You can freely choose your primary care physician and specialists (without a referral from a family doctor). It is the most expensive but offers the greatest flexibility.",
+      "p3": "<b> HMO (Health Maintenance Organization) </b> <br>  Treatment is provided within a network of designated doctors (clinics) and hospitals. Premiums are lower, but the choice of doctors is limited.",
+      "p4": "<b> Telmed </b> <br>  You first contact a telephone center, which directs you to the appropriate doctor.",
+      "p5": "<b> Family doctor model </b> <br>  You always first visit your primary care physician, who coordinates further treatment. You must choose your doctor from a list of available specialists when signing up for the policy."
     },
     "add": {
       "title": "Supplementary Insurance",

@@ -121,18 +121,42 @@ body {
   font-size: var(--fs-medium);
   text-align: left;
 }
-.indent {
-  display: inline-block;
-  margin-left: 3rem; /* same as padding-left above */
-  margin-bottom: 1rem;
+.info-check-old {
+  margin: var(--spacing-md) auto;
+  padding-left: 0;
+  list-style: none;
+  font-size: var(--fs-medium);
+  text-align: left;
 }
 
+.info-check li {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 0.5rem;
+}
+.health-insurance {
+  .info-check-old li {
+    display: block;
+    padding-bottom: 0.5rem;
+  }
+}
 .info-check li::before {
   content: "✔";
   color: #21598a;
   margin-right: 15px;
-  margin-left: 15px;
   font-weight: bold;
+}
+
+.info-check-old li::before {
+  content: "✔";
+  color: #21598a;
+  margin-right: 15px;
+  font-weight: bold;
+}
+.indent {
+  display: inline-block;
+  margin-left: 3rem; /* same as padding-left above */
+  margin-bottom: 1rem;
 }
 .list-roman {
   margin: var(--spacing-md) auto;
@@ -140,6 +164,9 @@ body {
   font-size: var(--fs-medium);
   text-align: left;
   list-style: upper-roman !important;
+}
+.list-arab li {
+  padding-bottom: 0.5rem;
 }
 .list-arab {
   margin: var(--spacing-md) auto;
@@ -259,6 +286,12 @@ a {
 }
 .newcommer {
   text-align: left;
+}
+.newcommer p {
+  text-align: left;
+}
+.indent-swiss {
+  margin-left: 20px;
 }
 .newcommer ul {
   list-style-type: none;

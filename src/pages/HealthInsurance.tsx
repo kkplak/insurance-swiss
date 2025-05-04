@@ -7,7 +7,7 @@ const HealthInsurance: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div className='health-insurance'>
       <div className='health-header'>
         <div className='section-wrapper-hero'>
           <div className='section-text-wrapper-hero'>
@@ -76,18 +76,28 @@ const HealthInsurance: React.FC = () => {
                     <p
                       dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p9") }}
                     ></p>
-                    <p
-                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p10") }}
-                    ></p>
-                    <p
-                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p11") }}
-                    ></p>
-                    <p
-                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p12") }}
-                    ></p>
-                    <p
-                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p13") }}
-                    ></p>
+                    <ul className='list-arab'>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("HEALTH.fran.p10"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("HEALTH.fran.p11"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("HEALTH.fran.p12"),
+                        }}
+                      ></li>
+                      <li
+                        dangerouslySetInnerHTML={{
+                          __html: t("HEALTH.fran.p13"),
+                        }}
+                      ></li>
+                    </ul>
                   </>
                 }
               />
@@ -95,7 +105,7 @@ const HealthInsurance: React.FC = () => {
             <div className='column'>
               <h3 className='column-title'>{t("HEALTH.model.title")}</h3>
               <p dangerouslySetInnerHTML={{ __html: t("HEALTH.model.p") }}></p>
-              <ul className='info-check'>
+              <ul className='info-check-old'>
                 <li
                   dangerouslySetInnerHTML={{ __html: t("HEALTH.model.p2") }}
                 ></li>
@@ -193,7 +203,7 @@ const HealthInsurance: React.FC = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

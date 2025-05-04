@@ -80,19 +80,19 @@
       "p7": "Gdy franszyza zostanie osiągnięta, musimy pokryć 10% pozostałych kosztów, ale nie więcej niż CHF 700 (dla dorosłych) lub CHF 350 (dla dzieci). Powyżej tego limitu wszystkie koszty pokrywa ubezpieczyciel.",
       "p8": "Przykład",
       "p9": "Po 5 dniowym pobycie w szpitalu dostajemy rachunek CHF 10’000. <br> Zakładamy, że nasza franszyza to CHF 300.",
-      "p10": "1. W pierwszej kolejności musimy zapłacić wysokość naszej franszyzy, a więc CHF 300.",
-      "p11": "2. Następnie 10% z reszty. <br>  Nasza reszta to CHF 10’000 – CHF 300 = CHF 9’700.",
-      "p12": "3. 10% z CHF 9’700 to CHF 970 <br> (pamiętajmy że maksymalna kwota z pozostałych 10% to CHF 700) <br> więc z CHF 970 robi nam się CHF 700. ",
-      "p13": "4. Należy dodać CHF 300 + CHF 700 = <b> CHF 1000 </b>. <br> To jest kwota, którą będziemy musieli pokryć z własnej kieszeni."
+      "p10": "W pierwszej kolejności musimy zapłacić wysokość naszej franszyzy, a więc CHF 300.",
+      "p11": "Następnie 10% z reszty. <br>  Nasza reszta to CHF 10’000 – CHF 300 = CHF 9’700.",
+      "p12": "10% z CHF 9’700 to CHF 970 <br> (pamiętajmy że maksymalna kwota z pozostałych 10% to CHF 700) <br> więc z CHF 970 robi nam się CHF 700. ",
+      "p13": "Należy dodać CHF 300 + CHF 700 = <b> CHF 1000 </b>. <br> To jest kwota, którą będziemy musieli pokryć z własnej kieszeni."
     },
     "model": {
       "title": "Model ubezpieczenia",
       "p": "Model ubezpieczenia to sposób, w jaki korzystasz z usług medycznych w ramach swojego ubezpieczenia zdrowotnego. W Szwajcarii dostępne są różne modele, które wpływają na wysokość składki oraz organizację opieki zdrowotnej. <br> W przypadku nagłych wypadków, problemów ze wzrokiem lub corocznych badań ginekologicznych wybór modelu nie ma znaczenia.",
       "p1": "Najpopularniejsze modele to:",
-      "p2": "<b> Tradycyjny </b> <br><span class='indent'> Możesz swobodnie wybierać lekarza pierwszego kontaktu i specjalistów (bez skierowania od lekarza rodzinnego). Jest najdroższy, ale daje największą elastyczność.",
-      "p3": "<b> HMO (Organizacja opieki zdrowotnej) </b> <br><span class='indent'> Leczenie odbywa się w sieci określonych lekarzy (przychodniach) i szpitali. Składki są niższe, ale wybór lekarzy ograniczony.",
-      "p4": "<b> Telmed </b> <br><span class='indent'> Najpierw kontaktujesz się z centrum telefonicznym, które kieruje cię do odpowiedniego lekarza.",
-      "p5": "<b> Model lekarza rodzinnego </b> <br><span class='indent'> Zawsze najpierw udajesz się do swojego lekarza pierwszego kontaktu, który koordynuje dalsze leczenie. Należy wybrać swojego lekarza z listy dostępnych specjalistów podczas zawierania umowy."
+      "p2": "<b> Tradycyjny </b> <br> Możesz swobodnie wybierać lekarza pierwszego kontaktu i specjalistów (bez skierowania od lekarza rodzinnego). Jest najdroższy, ale daje największą elastyczność.",
+      "p3": "<b> HMO (Organizacja opieki zdrowotnej) </b> <br> Leczenie odbywa się w sieci określonych lekarzy (przychodniach) i szpitali. Składki są niższe, ale wybór lekarzy ograniczony.",
+      "p4": "<b> Telmed </b> <br> Najpierw kontaktujesz się z centrum telefonicznym, które kieruje cię do odpowiedniego lekarza.",
+      "p5": "<b> Model lekarza rodzinnego </b> <br> Zawsze najpierw udajesz się do swojego lekarza pierwszego kontaktu, który koordynuje dalsze leczenie. Należy wybrać swojego lekarza z listy dostępnych specjalistów podczas zawierania umowy."
     },
     "add": {
       "title": "Ubezpieczenie dodatkowe",

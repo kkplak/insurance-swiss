@@ -33,7 +33,10 @@ const Home: React.FC = () => {
       <div className='container-home home'>
         <div id='home' className={`hero-section`}>
           <div className='background-video-desktop'>
-            <img src='/media/hiker1.png' alt='Background' />
+            <img
+              src='/media/hiker1.png'
+              alt='A male climber on top of a snowy swiss mountain'
+            />
           </div>
 
           <div className='overlay'>

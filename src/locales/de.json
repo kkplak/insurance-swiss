@@ -80,19 +80,19 @@
       "p7": "Sobald der Selbstbehalt erreicht ist, müssen wir 10 % der verbleibenden Kosten übernehmen, jedoch nicht mehr als CHF 700 für Erwachsene bzw. CHF 350 für Kinder. Über diesen Betrag hinaus übernimmt der Versicherer alle Kosten.",
       "p8": "Beispiel",
       "p9": "Nach einem fünftägigen Krankenhausaufenthalt erhalten wir eine Rechnung über CHF 10’000. <br> Wir gehen davon aus, dass unser Selbstbehalt CHF 300 beträgt.",
-      "p10": "1. Zuerst müssen wir unseren Selbstbehalt in Höhe von CHF 300 bezahlen.",
-      "p11": "2. Anschließend 10% des verbleibenden Betrags. <br> Der verbleibende Betrag ist CHF 10’000 – CHF 300 = CHF 9’700.",
-      "p12": "3. 10% von CHF 9’700 sind CHF 970 <br> (denken wir daran, dass der maximale Betrag der verbleibenden 10% CHF 700 beträgt) <br> also werden aus CHF 970 nur CHF 700.",
-      "p13": "4. Wir addieren CHF 300 + CHF 700 = <b> CHF 1’000 </b>. <br> Das ist der Betrag, den wir aus eigener Tasche bezahlen müssen."
+      "p10": "Zuerst müssen wir unseren Selbstbehalt in Höhe von CHF 300 bezahlen.",
+      "p11": "Anschließend 10% des verbleibenden Betrags. <br> Der verbleibende Betrag ist CHF 10’000 – CHF 300 = CHF 9’700.",
+      "p12": "10% von CHF 9’700 sind CHF 970 <br> (denken wir daran, dass der maximale Betrag der verbleibenden 10% CHF 700 beträgt) <br> also werden aus CHF 970 nur CHF 700.",
+      "p13": "Wir addieren CHF 300 + CHF 700 = <b> CHF 1’000 </b>. <br> Das ist der Betrag, den wir aus eigener Tasche bezahlen müssen."
     },
     "model": {
       "title": "Versicherungsmodell",
       "p": "Das Versicherungsmodell beschreibt, wie Sie die medizinischen Leistungen Ihrer Krankenversicherung in Anspruch nehmen. In der Schweiz gibt es verschiedene Modelle, die sich auf die Prämienhöhe und die Organisation der Gesundheitsversorgung auswirken. <br> Bei Notfällen, Sehstörungen oder jährlichen gynäkologischen Untersuchungen spielt die Wahl des Modells keine Rolle.",
       "p1": "Die beliebtesten Modelle sind:",
-      "p2": "<b> Traditionell </b> <br><span class='indent'> Sie können Ihren Hausarzt und Spezialisten frei wählen (ohne Überweisung vom Hausarzt). Dies ist die teuerste Option, bietet jedoch die größte Flexibilität.",
-      "p3": "<b> HMO (Health Maintenance Organization) </b> <br><span class='indent'> Die Behandlung erfolgt innerhalb eines Netzwerks von festgelegten Ärzten (Praxen) und Krankenhäusern. Die Prämien sind niedriger, aber die Auswahl an Ärzten ist begrenzt.",
-      "p4": "<b> Telmed </b> <br><span class='indent'> Zunächst kontaktieren Sie ein telefonisches Zentrum, das Sie an den passenden Arzt weiterleitet.",
-      "p5": "<b> Hausarztmodell </b> <br><span class='indent'> Sie gehen stets zuerst zu Ihrem Hausarzt, der die weitere Behandlung koordiniert. Ihren Hausarzt wählen Sie aus einer Liste verfügbarer Fachärzte beim Vertragsabschluss."
+      "p2": "<b> Traditionell </b> <br>  Sie können Ihren Hausarzt und Spezialisten frei wählen (ohne Überweisung vom Hausarzt). Dies ist die teuerste Option, bietet jedoch die größte Flexibilität.",
+      "p3": "<b> HMO (Health Maintenance Organization) </b> <br>  Die Behandlung erfolgt innerhalb eines Netzwerks von festgelegten Ärzten (Praxen) und Krankenhäusern. Die Prämien sind niedriger, aber die Auswahl an Ärzten ist begrenzt.",
+      "p4": "<b> Telmed </b> <br>  Zunächst kontaktieren Sie ein telefonisches Zentrum, das Sie an den passenden Arzt weiterleitet.",
+      "p5": "<b> Hausarztmodell </b> <br>  Sie gehen stets zuerst zu Ihrem Hausarzt, der die weitere Behandlung koordiniert. Ihren Hausarzt wählen Sie aus einer Liste verfügbarer Fachärzte beim Vertragsabschluss."
     },
     "add": {
       "title": "Zusatzversicherung",
