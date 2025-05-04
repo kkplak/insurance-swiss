@@ -38,15 +38,15 @@ const resources = {
 
 i18next.use(initReactI18next).init({
   resources,
-  lng: "pl",
-  fallbackLng: "pl",
+  lng: "en",
+  fallbackLng: "en",
   interpolation: { escapeValue: false },
 });
 
 const RedirectToDefaultLanguage = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    const defaultLanguage = "pl";
+    const defaultLanguage = "en";
     navigate(`/${defaultLanguage}/home`);
   }, [navigate]);
   return null;
