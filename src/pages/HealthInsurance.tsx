@@ -74,7 +74,9 @@ const HealthInsurance: React.FC = () => {
                 description={
                   <>
                     <p>{t("HEALTH.fran.p9")}</p>
-                    <p>{t("HEALTH.fran.p10")}</p>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: t("HEALTH.fran.p10") }}
+                    ></p>
                     <p>{t("HEALTH.fran.p11")}</p>
                     <p>{t("HEALTH.fran.p12")}</p>
                     <p>{t("HEALTH.fran.p13")}</p>
@@ -120,7 +122,7 @@ const HealthInsurance: React.FC = () => {
             <img className='img-section' src='/media/image-gym.png' />
           </div>
         </div>
-        <p>{t("HEALTH.add.p2")}</p>
+        <p dangerouslySetInnerHTML={{ __html: t("HEALTH.add.p2") }}></p>
       </div>
       <div className='insurance-section extra-section'>
         <h2 className='section-title'>{t("HEALTH.extra.title")}</h2>

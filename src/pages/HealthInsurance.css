@@ -294,6 +294,17 @@ h5,
   .toggle-header {
     justify-content: unset;
   }
+  .toggle-header::before {
+    content: "";
+    display: inline-block;
+    width: 32px; /* adjust as needed */
+    height: 32px;
+    background-image: url("/public/media/icon-bulb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px; /* spacing between icon and text */
+    vertical-align: middle;
+  }
   .toggle-title {
     padding-right: 1rem;
   }

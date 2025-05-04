@@ -65,7 +65,7 @@
       "l2": "Place of residence",
       "l3": "Deductible amount",
       "l4": "Insurance model",
-      "l5": "Insurer",
+      "l5": "Insurance company",
       "p2": "Pillars of basic insurance",
       "pl1": "Deductible",
       "pl2": "Insurance model"
@@ -76,16 +76,15 @@
       "p1": "The following deductible levels are available",
       "p2": "For adults",
       "p3": "300 <br> 500 <br> 1000 <br> 1500 <br> 2000 <br> 2500",
-      "p4": "Once the deductible is met, you must cover 10% of the remaining costs, but no more than CHF 700. Beyond this limit, all costs are covered by the insurer.",
       "p5": "For children",
       "p6": "0 <br> 100 <br> 200 <br> 300 <br> 400 <br> 500 <br> 600",
-      "p7": "Once the deductible is met, you must cover 10% of the remaining costs, but no more than CHF 700. Beyond this limit, all costs are covered by the insurer.",
+      "p7": "Once the deductible has been reached, we must cover 10% of the remaining costs, but no more than CHF 700 for adults or CHF 350 for children. Beyond this limit, all costs are covered by the insurer.",
       "p8": "Example",
-      "p9": "After a 5-day stay in the hospital, we receive a bill for 10,000 CHF.",
-      "p10": "1. Let's assume our deductible is 300 CHF. First, we must pay the amount of our deductible, which is 300 CHF.",
-      "p11": "2. Then 10% of the remaining amount. The remainder is 10,000 CHF – 300 CHF = 9,700 CHF.",
-      "p12": "3. 10% of 9,700 CHF is 970 CHF, but remember that the maximum amount from the remaining 10% is 700 CHF. So, from 970 CHF, it becomes 700 CHF.",
-      "p13": "4. We add 300 CHF + 700 CHF = 1,000 CHF, which is the amount we will have to pay out of pocket."
+      "p9": "After a 5-day hospital stay, we receive a bill for CHF 10,000.",
+      "p10": "1. Let's assume our deductible is CHF 300. <br>First, we have to pay our deductible amount, which is CHF 300.",
+      "p11": "2. Then 10% of the remainder. Our remainder is CHF 10,000 – CHF 300 = CHF 9,700.",
+      "p12": "3. 10% of CHF 9,700 is CHF 970, but remember that the maximum amount from the remaining 10% is CHF 700. So the CHF 970 becomes CHF 700.",
+      "p13": "4. Add CHF 300 + CHF 700 = CHF 1,000. This is the amount we will have to pay out of pocket."
     },
     "model": {
       "title": "Insurance Model",
@@ -104,7 +103,7 @@
       "i3": "alternative treatments (e.g., homeopathy, acupuncture),",
       "i4": "medical care abroad.",
       "i5": "reimbursement for the purchase of glasses, gym memberships.",
-      "p2": "Opting for supplementary insurance provides greater freedom in choosing doctors, hospitals, and treatment methods, as well as better treatment conditions. Although it comes with higher premiums, the investment in supplementary insurance offers more comprehensive health protection and comfort when needed, helping to avoid high costs for medical services that are not covered by basic insurance."
+      "p2": "Opting for supplementary insurance provides greater freedom in choosing doctors, hospitals, and treatment methods, as well as better treatment conditions. Although it comes with higher premiums, the investment in supplementary insurance offers more comprehensive health protection and comfort when needed, helping to avoid high costs for medical services that are not covered by basic insurance. <br> <b> Supplementary insurance can usually be changed every 3 years, until the end of September. </b>"
     },
     "extra": {
       "title": "More About Basic Insurance",

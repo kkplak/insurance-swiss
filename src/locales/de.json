@@ -64,7 +64,7 @@
       "l2": "Wohnort",
       "l3": "Höhe der Franchise",
       "l4": "Versicherungsmodell",
-      "l5": "Versicherer",
+      "l5": "Versicherungsgesellschaft",
       "p2": "Säulen der Grundversicherung",
       "pl1": "Franchise",
       "pl2": "Versicherungsmodell"
@@ -75,16 +75,15 @@
       "p1": "Folgende Franchise-Stufen stehen zur Auswahl",
       "p2": "Für Erwachsene",
       "p3": "300 <br> 500 <br> 1000 <br> 1500 <br> 2000 <br> 2500",
-      "p4": "Sobald die Franchise erreicht ist, müssen Sie 10% der verbleibenden Kosten selbst tragen, jedoch nicht mehr als CHF 700. Über diesen Betrag hinaus übernimmt der Versicherer alle Kosten.",
       "p5": "Für Kinder",
       "p6": "0 <br> 100 <br> 200 <br> 300 <br> 400 <br> 500 <br> 600",
-      "p7": "Sobald die Franchise erreicht ist, müssen Sie 10% der verbleibenden Kosten selbst tragen, jedoch nicht mehr als CHF 700. Über diesen Betrag hinaus übernimmt der Versicherer alle Kosten.",
+      "p7": "Sobald der Selbstbehalt erreicht ist, müssen wir 10 % der verbleibenden Kosten übernehmen, jedoch nicht mehr als CHF 700 für Erwachsene bzw. CHF 350 für Kinder. Über diesen Betrag hinaus übernimmt der Versicherer alle Kosten.",
       "p8": "Beispiel",
-      "p9": "Nach einem 5-tägigen Krankenhausaufenthalt erhalten wir eine Rechnung über 10’000 CHF.",
-      "p10": "1. Nehmen wir an, unser Selbstbehalt beträgt 300 CHF. Zuerst müssen wir diesen Selbstbehalt bezahlen, also 300 CHF.",
-      "p11": "2. Danach 10 % vom Restbetrag. Der Restbetrag beträgt 10’000 CHF – 300 CHF = 9’700 CHF.",
-      "p12": "3. 10 % von 9’700 CHF sind 970 CHF, aber denken wir daran, dass der maximale Betrag der restlichen 10 % auf 700 CHF begrenzt ist. Also werden aus 970 CHF nur 700 CHF.",
-      "p13": "4. Wir addieren 300 CHF + 700 CHF = 1’000 CHF. Das ist der Betrag, den wir selbst bezahlen müssen."
+      "p9": "Nach einem 5-tägigen Krankenhausaufenthalt erhalten wir eine Rechnung über CHF 10’000.",
+      "p10": "1. Nehmen wir an, unser Selbstbehalt beträgt CHF 300. <br>Zuerst müssen wir unseren Selbstbehalt von CHF 300 bezahlen.",
+      "p11": "2. Dann 10% vom Restbetrag. Der Restbetrag beträgt CHF 10’000 – CHF 300 = CHF 9’700.",
+      "p12": "3. 10% von CHF 9’700 sind CHF 970, aber denken wir daran, dass der maximale Betrag aus den restlichen 10% CHF 700 beträgt. Daher werden aus CHF 970 CHF 700.",
+      "p13": "4. Man muss CHF 300 + CHF 700 = CHF 1’000 addieren. Dies ist der Betrag, den wir aus eigener Tasche zahlen müssen."
     },
     "model": {
       "title": "Versicherungsmodell",
@@ -103,7 +102,7 @@
       "i3": "alternative Behandlungsmethoden (z. B. Homöopathie, Akupunktur),",
       "i4": "medizinische Versorgung im Ausland.",
       "i5": "Kostenrückerstattung für den Kauf von Brillen, Fitnessstudio-Mitgliedschaften.",
-      "p2": "Die Wahl einer Zusatzversicherung bietet größere Freiheit bei der Auswahl von Ärzten, Krankenhäusern und Behandlungsmethoden sowie bessere Behandlungsbedingungen. Obwohl sie mit höheren Prämien verbunden ist, bietet die Investition in eine Zusatzversicherung einen umfassenderen Gesundheitsschutz und mehr Komfort im Bedarfsfall, sodass hohe Kosten für medizinische Leistungen, die nicht von der Grundversicherung abgedeckt sind, vermieden werden können."
+      "p2": "Die Wahl einer Zusatzversicherung bietet größere Freiheit bei der Auswahl von Ärzten, Krankenhäusern und Behandlungsmethoden sowie bessere Behandlungsbedingungen. Obwohl sie mit höheren Prämien verbunden ist, bietet die Investition in eine Zusatzversicherung einen umfassenderen Gesundheitsschutz und mehr Komfort im Bedarfsfall, sodass hohe Kosten für medizinische Leistungen, die nicht von der Grundversicherung abgedeckt sind, vermieden werden können. <br> <b> Die Zusatzversicherung kann in der Regel alle drei Jahre bis spätestens Ende September geändert werden. </b>"
     },
     "extra": {
       "title": "Mehr zur Grundversicherung",
