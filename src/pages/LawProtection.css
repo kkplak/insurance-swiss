@@ -1,0 +1,16 @@
+.law-protection {
+  .column {
+    width: 40%;
+    border: 1px solid #b8b8b8;
+  }
+  .column:first-of-type::after {
+    display: none;
+  }
+  .section-collumn {
+    justify-content: space-evenly;
+  }
+  .column-title {
+    text-align: left;
+    margin: 0;
+  }
+}

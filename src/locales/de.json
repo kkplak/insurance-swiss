@@ -147,6 +147,31 @@
       "p4": "Für die Eröffnung eines Bankkontos benötigst du einen Arbeitsvertrag und eine Aufenthaltserlaubnis (Bewiligung). Der Prozess der Erlangung der Aufenthaltserlaubnis (Schweizer ID) kann mehrere Wochen dauern, und der gesamte Versicherungsprozess kann sich erheblich verlängern. Die Lösung ist, ein Konto bei der PostFinance Bank zu eröffnen. In diesem Fall benötigst du nur einen Ausweis, den Arbeitsvertrag und die Anmeldebestätigung (Meldebestätigung)."
     }
   },
+  "LAW": {
+    "title": "Rechtsschutz",
+    "info": "Dies ist eine freiwillige Versicherung, die vor Kosten im Zusammenhang mit rechtlichen Verfahren schützt. Bei rechtlichen Konflikten, wie Streitigkeiten mit dem Arbeitgeber, Vermieter oder nach Verkehrsunfällen, übernimmt diese Versicherung unter anderem Anwaltsgebühren, Gerichtskosten sowie eventuelle Entschädigungen für die Gegenseite. Sie bietet auch Unterstützung in Form von Rechtsberatung und, falls erforderlich, Vertretung durch einen Anwalt. <br> <br> Der Besitz dieser Versicherung kann ein beruhigendes Gefühl vermitteln, da man bei rechtlichen Problemen nicht allein mit hohen Kosten und komplizierten Verfahren dasteht. <br> <br> <b> Die Versicherung hat eine Wartefrist von drei Monaten. </b>",
+    "costs": {
+      "title": "Welche Kosten deckt die Versicherung ab?",
+      "il1": "Rechtsberatung",
+      "il2": "Kosten möglicher Mediationsverfahren",
+      "il3": "Anwaltsgebühren",
+      "il4": "Gutachterkosten im Verfahren",
+      "il5": "Gerichtsgebühren und sonstige Verfahrenskosten",
+      "il6": "Prozessentschädigung zugunsten der Gegenseite",
+      "il7": "Vorschusszahlung auf vom Gericht festgelegte Beträge",
+      "il8": "Inkassokosten für Forderungen, die der Versicherte nach dem Verfahren geltend machen kann"
+    },
+    "priv": {
+      "title": "Welche Rechtsbereiche sind durch den privaten Rechtsschutz abgedeckt?",
+      "il1": "Arbeitsrecht",
+      "il2": "Mietrecht",
+      "il3": "Strafrecht",
+      "il4": "Schadenersatzrecht",
+      "il5": "Patientenrecht",
+      "il6": "Vertragsrecht",
+      "il7": "Versicherungsrecht"
+    }
+  },
   "CONTACT": {
     "formThanks": "Vielen Dank! Wir werden uns in Kürze mit Ihnen in Verbindung setzen.",
     "formLanguage": "Wählen Sie Ihre bevorzugte Sprache",

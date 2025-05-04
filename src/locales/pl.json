@@ -150,6 +150,32 @@
       "p4": "Do założenia konta w banku potrzebna jest umowa o pracę oraz pozwolenie na pobyt (Bewiligung). Proces wyrabiania pozwolenia na pobyt (dowodu szwajcarskiego) może trwać do kilku tygodni i cała sprawa związana z ubezpieczeniem może się znacznie wydłużyć. Rozwiązaniem jest założenie konta w banku PostFinance. W tym wypadku potrzebujemy tylko dowodu tożsamości, umowy o pracę oraz potwierdzenie zameldowania (Meldebestätigung)."
     }
   },
+  "LAW": {
+    "title": "Ochorona prawna",
+    "info": "Jest to dobrowolne ubezpieczenie, które chroni przed kosztami związanymi z postępowaniami prawnymi. W przypadku konfliktów prawnych, takich jak spory z pracodawcą, wynajmującym czy po wypadkach drogowych, ubezpieczenie to pokrywa m.in. honoraria adwokackie, koszty sądowe oraz ewentualne odszkodowania dla strony przeciwnej. Ubezpieczenie to oferuje również wsparcie w postaci porad prawnych, a w razie potrzeby zapewnia reprezentację przez prawnika. <br> <br> Posiadanie tego ubezpieczenia może zapewnić spokój ducha, wiedząc, że w przypadku problemów prawnych nie zostaniesz sam z wysokimi kosztami i skomplikowanymi procedurami. <br> <br> <b> Ubezpieczenie jest objęte trzymiesięcznym okresem karencji. </b> ",
+
+    "costs": {
+      "title": "Jakie koszty pokrywa ubezpiecznie ?",
+      "il1": "Porady prawne",
+      "il2": "Koszty ewentualnego postępowania mediacyjnego",
+      "il3": "Koszty adwokackie",
+      "il4": "Koszty opinii biegłych w procesie.",
+      "il5": "Opłaty sądowe i inne koszty postępowania",
+      "il6": "Odszkodowanie procesowe na rzecz strony przeciwnej",
+      "il7": "Zaliczkowa wpłata na kwotę ustaloną przez sąd",
+      "il8": "Koszty windykacyjne za roszczenia, które ubezpieczony może dochodzić od strony przeciwnej po zakończeniu procesu"
+    },
+    "priv": {
+      "title": "Jakie obszary prawa są objęte ubezpieczeniem ochrony prawnej dla osób prywatnych?",
+      "il1": "Prawo pracy",
+      "il2": "Prawo najmu",
+      "il3": "Prawo karne",
+      "il4": "Prawo odszkodowawcze",
+      "il5": "Prawo pacjenta",
+      "il6": "Prawo umów",
+      "il7": "Prawo ubezpieczeniowe"
+    }
+  },
   "CONTACT": {
     "formThanks": "Dziękujemy! Wkrótce się z Tobą skontaktujemy.",
     "formFooter": "Dziękujemy za zaufanie!",

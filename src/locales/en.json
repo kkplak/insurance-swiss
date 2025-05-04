@@ -148,6 +148,31 @@
       "p4": "To open a bank account, you need an employment contract and a residence permit (Bewiligung). The process of getting the residence permit (Swiss ID) can take several weeks, and the whole insurance process can take significantly longer. The solution is to open an account with PostFinance bank. In this case, you only need an ID, employment contract, and registration confirmation (Meldebestätigung)."
     }
   },
+  "LAW": {
+    "title": "Legal protection",
+    "info": "This is a voluntary insurance that protects against costs related to legal proceedings. In case of legal conflicts, such as disputes with an employer, landlord, or after road accidents, this insurance covers, among others, lawyer fees, court costs, and possible compensation for the opposing party. It also provides support in the form of legal advice and, if necessary, legal representation. <br> <br> Having this insurance can provide peace of mind, knowing that in case of legal issues, you won't be left alone with high costs and complex procedures. <br> <br> <b> The insurance has a three-month waiting period. </b>",
+    "costs": {
+      "title": "What costs are covered by the insurance?",
+      "il1": "Legal advice",
+      "il2": "Costs of possible mediation proceedings",
+      "il3": "Lawyer fees",
+      "il4": "Expert opinion costs during proceedings",
+      "il5": "Court fees and other procedural costs",
+      "il6": "Compensation for the opposing party",
+      "il7": "Advance payment of the amount determined by the court",
+      "il8": "Debt collection costs for claims the insured can pursue after the process"
+    },
+    "priv": {
+      "title": "Which legal areas are covered by private legal protection insurance?",
+      "il1": "Labor law",
+      "il2": "Tenancy law",
+      "il3": "Criminal law",
+      "il4": "Compensation law",
+      "il5": "Patient rights law",
+      "il6": "Contract law",
+      "il7": "Insurance law"
+    }
+  },
   "CONTACT": {
     "formThanks": "Thank you! We will contact you soon.",
     "formFooter": "Thank you for your trust!",
