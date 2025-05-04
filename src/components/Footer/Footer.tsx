@@ -40,15 +40,6 @@ const Layout: React.FC = () => {
                 <div className='contact-people-en'>
                   <div>
                     <p className='people-name'>
-                      <b>{t("GENERAL.ioannisSarafidis")}</b>
-                    </p>
-                    <a href={`tel:${t("GENERAL.ioannisPhone")}`}>
-                      {t("GENERAL.ioannisPhone")}
-                    </a>
-                    <p>{t("GENERAL.ioannisMail")}</p>
-                  </div>
-                  <div>
-                    <p className='people-name'>
                       <b>{t("GENERAL.lukaszBergel")}</b>
                     </p>
                     <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
