@@ -47,9 +47,84 @@
     "ioannisPhone": "Tel. +41 77 483 83 22",
     "ioannisMail": "Mail: ioannis@protegos.ch",
     "aboutUs": "About Us",
-    "aboutUsContent": "We are dedicated to helping you find the best insurance options in Switzerland. Meet our team:",
+    "aboutUsContent": "We are fully committed to finding the best insurance options in Switzerland.",
     "aboutLukasz": "Lukasz is a dedicated insurance agent with over a decade of experience in the industry. His deep understanding of various insurance products and commitment to continuous improvement ensure that he is always up-to-date with the latest trends and changes in the insurance market. Lukasz believes in building long-term relationships with clients based on trust, transparency, and mutual respect. He takes the time to understand each client's individual situation and offers tailored insurance solutions that provide the best protection at the most competitive prices. Lukasz is fluent in Polish, German, and English, allowing him to communicate effectively with a diverse clientele and deliver personalized services that meet their specific needs. His meticulous approach, combined with genuine care for his clients' well-being, makes him a reliable and trustworthy advisor for all your insurance needs.",
     "aboutIoannis": "Ioannis is a highly qualified insurance agent known for his expertise and client-focused approach. With strong experience in the insurance industry and many years of practice, Ioannis excels at providing comprehensive insurance options and reliable advice to his clients. He is committed to understanding each client's unique needs and delivering personalized insurance solutions that offer optimal protection. Ioannis is fluent in Greek, German, and English, enabling him to serve clients from various linguistic backgrounds with clear and effective communication. His dedication to excellence, attention to detail, and unwavering commitment to client satisfaction make him a reliable and trustworthy advisor. Whether you need assistance with health, life, home, or any other type of insurance, Ioannis is ready to help you navigate the complexities of insurance with confidence and ease."
+  },
+  "CAR": {
+    "title": "Car Insurance",
+    "infoList": "In Switzerland, we distinguish two types of car insurance:",
+    "infoListItem1": "Liability insurance (mandatory)",
+    "infoListItem2": "Casco insurance:",
+    "infoListItem3": "partial casco (Teilkasko)",
+    "infoListItem4": "full casco (Vollkasko)",
+    "intro": {
+      "title": "Basic Insurance",
+      "p": "Basic health insurance in Switzerland, called 'Grundversicherung', is mandatory for everyone living in the country. It must be purchased within 90 days of starting work in Switzerland. It covers essential medical services such as doctor visits, hospital treatment in general wards, prescription medications, and emergency care. Everyone can choose their own insurer from many companies that offer the same legally defined services. <br> <b>Basic insurance can be changed each year until the end of November.</b>",
+      "p1": "Factors influencing the insurance premium",
+      "l1": "Vehicle value",
+      "l2": "Driver’s age",
+      "l3": "Place of residence",
+      "l4": "Driving history",
+      "l5": "Nationality"
+    },
+    "OC": {
+      "title": "Liability Insurance",
+      "p": "In Switzerland, this is a mandatory insurance for owners of motor vehicles, such as cars and motorcycles. It is required by law and is a prerequisite for registering a vehicle and obtaining license plates.​ <br> Having this insurance provides financial protection in case of third-party claims arising from road accidents. Not having a valid policy makes it illegal to drive on Swiss roads and may lead to serious legal consequences. <br> <br> Examples:",
+      "i1": "While parking, the driver damages a vehicle behind them.",
+      "i2": "Due to sunlight, the driver fails to notice a pedestrian at a crosswalk and hits them.",
+      "i3": "Oil leaks from a parked car. A motorcyclist slips on the oil and is seriously injured; the motorcycle is totally destroyed.",
+      "i4": "When getting out of a parked car, the driver fails to see an approaching cyclist. The cyclist cannot avoid the door and falls heavily."
+    },
+    "casco": {
+      "title": "Casco Insurance",
+      "p": "This is a voluntary but very popular type of car insurance that provides broad protection for vehicle owners against financial consequences resulting from damage, destruction, or loss of the vehicle. It covers damages not caused by other road users, offering protection not only in case of collisions but also in situations caused by natural events or random incidents. Casco insurance provides peace of mind due to its wide coverage, especially valuable for owners of expensive or new cars exposed to risks such as theft, weather damage, or accidents beyond the owner's control.",
+      "p2": "There are two types of Casco insurance:"
+    },
+    "teilkasko": {
+      "title": "Partial Casco (Teilkasko)",
+      "p": "Covers damages not caused by the driver's fault, such as:",
+      "i1": "fire,",
+      "i2": "damage from natural forces,",
+      "i3": "theft, robbery,",
+      "i4": "glass damage,",
+      "i5": "collisions with animals,",
+      "i6": "damage caused by animals (e.g. martens),",
+      "i7": "vandalism (e.g. broken antennas, mirrors, punctured tires)"
+    },
+    "vollkasko": {
+      "title": "Full Casco (Vollkasko)",
+      "p": "Includes all Partial Casco benefits and additionally:",
+      "li1": "damages caused by the driver (e.g. collisions with other vehicles or objects),"
+    },
+    "kask": {
+      "p2": "When to consider Casco insurance?",
+      "li2": "Teilkasko: Recommended for mid-value vehicles, typically up to 7 years old.",
+      "li3": "Vollkasko: Especially recommended for new or leased vehicles, where financial risk is higher."
+    }
+  },
+  "OC": {
+    "title": "Personal Liability Insurance",
+    "info": "Personal liability insurance is optional coverage that protects you financially if you accidentally cause harm to another person—either through injury or property damage. It’s one of the most important types of insurance for renters, pet owners, and individuals in general. While it’s not legally required, it can save you from significant compensation costs, such as flooding a neighbor’s apartment, injuring a cyclist, or damage caused by your child or pet.",
+
+    "what": {
+      "title": "What the insurance covers",
+      "il1": "Injury caused to a third party – e.g., you accidentally hit a cyclist while riding an e-scooter",
+      "il2": "Damage to someone else’s property – e.g., you break someone’s phone or flood your neighbor’s flat",
+      "il3": "Damage caused by your underage child",
+      "il4": "Damage caused by your dog (if you have one)",
+      "il5": "Damage caused by you as a tenant – e.g., you damage the wall or floor in a rented apartment"
+    },
+    "example": {
+      "title": "Examples of covered incidents",
+      "il1": "Your friend accidentally spills a glass of red wine on your dress. The stain can’t be removed.",
+      "i1": "Personal liability insurance covers the damage.",
+      "il2": "A child playing with a ball breaks a neighbor’s window by accident.",
+      "il3": "Matches left within reach of a child cause a fire that spreads to a neighbor’s shed, damaging it.",
+      "il4": "You let your dog off the leash during a walk. Feeling threatened, it bites a boy playing football.",
+      "il5": "In your rented flat, a heavy object falls into the sink and breaks it.",
+      "il6": "A step at the entrance to your home is damaged. A guest slips on it and gets injured. You’re liable for the damage."
+    }
   },
   "HEALTH": {
     "title": "Health Insurance",

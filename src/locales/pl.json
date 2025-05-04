@@ -46,7 +46,7 @@
     "ioannisPhone": "+41 77 483 83 22",
     "ioannisMail": "ioannis@protegos.ch",
     "aboutUs": "O nas",
-    "aboutUsContent": "Jesteśmy oddani pomaganiu w znalezieniu najlepszych opcji ubezpieczenia w Szwajcarii. Poznaj nasz zespół:",
+    "aboutUsContent": "Jesteśmy w pełni zaangażowani w znalezieniu najlepszych opcji ubezpieczeń w Szwajcarii.",
     "aboutLukasz": "Łukasz jest oddanym agentem ubezpieczeniowym z ponad dziesięcioletnim doświadczeniem w branży. Jego dogłębne zrozumienie różnych produktów ubezpieczeniowych oraz zaangażowanie w ciągłe doskonalenie sprawiają, że zawsze jest na bieżąco z najnowszymi trendami i zmianami na rynku ubezpieczeniowym. Łukasz wierzy w budowanie długoterminowych relacji z klientami opartych na zaufaniu, przejrzystości i wzajemnym szacunku. Poświęca czas na zrozumienie indywidualnej sytuacji każdego klienta i oferuje dostosowane rozwiązania ubezpieczeniowe, które zapewniają najlepszą ochronę w najbardziej konkurencyjnych cenach. Łukasz biegle posługuje się językiem polskim, niemieckim i angielskim, co pozwala mu skutecznie komunikować się z różnorodną klientelą i świadczyć spersonalizowane usługi odpowiadające ich specyficznym potrzebom. Jego skrupulatne podejście, połączone z autentyczną troską o dobro klientów, czyni go niezawodnym i godnym zaufania doradcą w zakresie wszelkich potrzeb ubezpieczeniowych.",
     "aboutIoannis": "Ioannis jest wysoko wykwalifikowanym agentem ubezpieczeniowym znanym ze swojej wiedzy i podejścia zorientowanego na klienta. Z silnym doświadczeniem w branży ubezpieczeniowej i wieloletnim doświadczeniem, Ioannis doskonale radzi sobie w dostarczaniu kompleksowych opcji ubezpieczeniowych i rzetelnych porad swoim klientom. Jest zaangażowany w zrozumienie unikalnych potrzeb każdego klienta i dostarczanie spersonalizowanych rozwiązań ubezpieczeniowych, które oferują optymalną ochronę. Ioannis biegle posługuje się językiem greckim, niemieckim i angielskim, co pozwala mu obsługiwać klientów z różnych środowisk językowych, zapewniając jasną i skuteczną komunikację. Jego oddanie doskonałości, dbałość o szczegóły i niezachwiane zaangażowanie w zadowolenie klientów sprawiają, że Ioannis jest niezawodnym i godnym zaufania doradcą. Niezależnie od tego, czy potrzebujesz pomocy w zakresie ubezpieczeń zdrowotnych, na życie, domu czy jakiegokolwiek innego rodzaju ubezpieczenia, Ioannis jest gotowy pomóc Ci z pewnością siebie i spokojem przejść przez zawiłości ubezpieczeń."
   },
@@ -176,6 +176,29 @@
       "il7": "Prawo ubezpieczeniowe"
     }
   },
+  "OC": {
+    "title": "Ubezpieczenie od odpowiedzialności cywilnej",
+    "info": "Ubezpieczenie OC w życiu prywatnym to nieobowiązkowe ubezpieczenie, które chroni Cię finansowo, jeśli przypadkowo wyrządzisz szkodę osobie trzeciej – zarówno w postaci obrażeń ciała, jak i szkód majątkowych. Jest to jedno z najważniejszych ubezpieczeń dla najemców mieszkań, właścicieli zwierząt domowych oraz wszystkich osób prywatnych. Choć nie jest wymagane prawnie, może uchronić Cię przed wysokimi kosztami odszkodowań wynikających np. z zalania mieszkania sąsiada, potrącenia rowerzysty czy szkód wyrządzonych przez Twoje dziecko lub pupila.",
+
+    "what": {
+      "title": "Co obejmuje ubezpieczenie",
+      "il1": "Szkody wyrządzone osobie trzeciej – np. potrącisz rowerzystę na hulajnodze",
+      "il2": "Zniszczenie czyjejś własności – np. stłuczesz komuś telefon lub zalejesz mieszkanie sąsiada,",
+      "il3": "Szkody wyrządzone przez Twoje dziecko (jeśli niepełnoletnie),",
+      "il4": "Szkody wyrządzone przez Twojego psa (jeśli go posiadasz),",
+      "il5": "Szkody spowodowane przez Ciebie jako najemcę mieszkania – np. uszkodzisz ścianę lub podłogę"
+    },
+    "example": {
+      "title": "Przykłady podlegające ubezpieczeniu",
+      "il1": "Twoja koleżanka przypadkowo wylewa kieliszek czerwonego wina na twoją sukienkę. Materiału nie da się już wyczyścić.",
+      "i1": "Prywatne ubezpieczenie OC pokrywa szkody.",
+      "il2": "Dziecko bawi się piłką na podwórku i przez brak nieuwagi wybija szybę w mieszkaniu sąsiada.",
+      "il3": "Źle przechowywane zapałki w domu trafiają w ręce dziecka, które bawiąc się nimi powoduje pożar. Ten przenosi się na szopę sąsiada i powoduje szkody.",
+      "il4": "Spuszczasz ze smyczy psa podczas spaceru. Ten czując zagrożenie gryzie chłopca grającego w piłkę.",
+      "il5": "W wynajmowanym mieszkaniu do umywalki wpada ciężki przedmiot i tłucze ją.",
+      "il6": "Jeden ze stopni przy wejściu do Twojego domu jest uszkodzony. Gość który Cię odwiedza poślizgnął się na nim i zranił. Ty jesteś odpowiedzialny za tę szkodę."
+    }
+  },
   "HOUSE": {
     "title": "Ubezpieczenie domu",
     "info": "Jest to dobrowolne ubezpieczenie mienia ruchomego w Szwajcarii, które chroni przed stratami finansowymi spowodowanymi przez zdarzenia takie jak pożar, zalanie, kradzież czy zniszczenia wywołane przez siły natury. Obejmuje ono przedmioty codziennego użytku, takie jak meble, sprzęt elektroniczny, ubrania czy rowery. W przypadku szkody, ubezpieczyciel pokrywa koszty naprawy lub zakupu nowych przedmiotów. Choć nie jest obowiązkowe, posiadanie Hausratversicherung jest zdecydowanie zalecane, aby zabezpieczyć się przed nieprzewidzianymi wydatkami związanymi z uszkodzeniem lub utratą mienia.",
@@ -222,6 +245,58 @@
       "i4": "Komputery PC i laptop",
       "i5": "Sprzęt sportowy",
       "i6": "Bagaż"
+    }
+  },
+  "CAR": {
+    "title": "Ubezpieczenie samochodu",
+    "infoList": "W Szwajcarii wyróżniamy dwa ubezpieczenia samochodowe:",
+    "infoListItem1": " Ubezpieczenie od odpowiedzialności cywilnej (obowiązkowe)",
+    "infoListItem2": "Ubezpieczenie kasko:",
+    "infoListItem3": "częściowe kasko (Teilkasko)",
+    "infoListItem4": "pełne kasko (Vollkasko)",
+    "intro": {
+      "title": "Ubezpieczenie podstawowe",
+      "p": "Podstawowe ubezpieczenie zdrowotne w Szwajcarii, nazywane „Grundversicherung” , jest obowiązkowe dla każdego, kto mieszka w tym kraju. Należy je wykupić do 90 dni od rozpoczęcia pracy w Szwajcarii. Obejmuje ono najważniejsze usługi medyczne, takie jak wizyty u lekarza, leczenie w szpitalu na oddziale ogólnym, leki na receptę oraz pomoc w nagłych wypadkach. Każdy może sam wybrać ubezpieczyciela spośród wielu dostępnych firm, które oferują takie same usługi, określone przez prawo. <br> <b> Ubezpieczenie podstawowe możemy zmieniać co roku do końca listopada. </b>",
+      "p1": "Co wpływa na wysokość ubezpieczenia",
+      "l1": "Wartość pojazdu",
+      "l2": "Wiek kierowcy",
+      "l3": "Miejsce zamieszkania",
+      "l4": "Historia jazdy",
+      "l5": " Narodowość"
+    },
+    "OC": {
+      "title": "Ubezpieczenie od odpowiedzialności cywilnej",
+      "p": "W Szwajcarii to obowiązkowe ubezpieczenie dla posiadaczy pojazdów mechanicznych, takich jak samochody czy motocykle. Jest ono wymagane prawnie i stanowi warunek konieczny do rejestracji pojazdu oraz uzyskania tablic rejestracyjnych.​ <br> Posiadanie tego ubezpieczenia zapewnia ochronę finansową w przypadku roszczeń osób trzecich wynikających z wypadków drogowych. Brak ważnej polisy uniemożliwia legalne poruszanie się pojazdem po szwajcarskich drogach i może prowadzić do poważnych konsekwencji prawnych. <br> <br> Przykłady:",
+      "i1": "Podczas parkowania kierowca uszkodził pojazd jadący za nim.",
+      "i2": " Z powodu światła słonecznego kierowca nie zauważa na czas pieszego na przejściu dla pieszych i potrąca go.",
+      "i3": "Z zaparkowanego samochodu wycieka olej. Motocyklista ślizga się na plamie oleju. Zostaje poważnie ranny, a motocykl uległ całkowitemu zniszczeniu.",
+      "i4": "Wysiadając z zaparkowanego samochodu kierowca nie zauważył nadjeżdżającego rowerzysty. Ten nie może już ominąć drzwi i ciężko upada."
+    },
+    "casco": {
+      "title": "Ubezpieczenie Kasko",
+      "p": "Jest dobrowolnym, ale bardzo popularnym rodzajem ubezpieczenia samochodowego, które zapewnia szeroką ochronę dla właścicieli pojazdów przed finansowymi konsekwencjami związanymi z uszkodzeniami, zniszczeniami lub utratą pojazdu. To ubezpieczenie obejmuje szkody, które nie są wynikiem winy innych uczestników ruchu drogowego, czyli zapewnia ochronę nie tylko w przypadku kolizji, ale także w sytuacjach, gdy szkody są spowodowane przez czynniki losowe lub działania sił natury. Ubezpieczenie Kasko daje właścicielom pojazdów poczucie bezpieczeństwa, ponieważ obejmuje szeroki zakres zdarzeń, które mogą prowadzić do poważnych kosztów napraw lub wymiany pojazdu. Jest to szczególnie cenne dla osób posiadających drogie lub nowe samochody, które mogą być narażone na różnorodne ryzyka, takie jak kradzież, uszkodzenia spowodowane przez warunki atmosferyczne czy wypadki niezależne od woli właściciela.",
+      "p2": "Wyróżniamy dwa rodzaje ubezpieczenia Casco:"
+    },
+    "teilkasko": {
+      "title": "Teilkasko",
+      "p": "Pokrywa szkody niezależne od winy kierowcy, takie jak:",
+      "i1": "pożar,",
+      "i2": "uszkodzenia spowodowane przez siły natury,",
+      "i3": "kradzież, rozbój,",
+      "i4": "uszkodzenia szyb,",
+      "i5": "kolizje ze zwierzętami,",
+      "i6": "szkody spowodowane przez zwierzęta (np. kuny),",
+      "i7": "wandalizm (np. zerwanie antenek, lusterek , przebicie opon)"
+    },
+    "vollkasko": {
+      "title": " Vollkasko",
+      "p": "Obejmuje wszystkie świadczenia Teilkasko oraz dodatkowo:",
+      "li1": "szkody spowodowane przez samego kierowcę (np. kolizje z innymi pojazdami lub obiektami),"
+    },
+    "kask": {
+      "p2": "Kiedy warto rozważyć Kaskoversicherung?",
+      "li2": "Teilkasko: Zalecane dla pojazdów o średniej wartości, zazwyczaj do 7 lat eksploatacji.",
+      "li3": "Vollkasko: Szczególnie polecane dla nowych lub leasingowanych pojazdów, gdzie ryzyko finansowe związane z ewentualnymi szkodami jest wyższe."
     }
   },
   "CONTACT": {

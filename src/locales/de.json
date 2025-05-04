@@ -46,9 +46,84 @@
     "ioannisPhone": "+41 77 483 83 22",
     "ioannisMail": "ioannis@protegos.ch",
     "aboutUs": "Über uns",
-    "aboutUsContent": "Wir engagieren uns dafür, Ihnen bei der Suche nach den besten Versicherungsoptionen in der Schweiz zu helfen. Lernen Sie unser Team kennen:",
+    "aboutUsContent": "Wir setzen uns voll und ganz dafür ein, die besten Versicherungsoptionen in der Schweiz zu finden.",
     "aboutLukasz": "Lukasz ist ein engagierter Versicherungsagent mit über zehn Jahren Branchenerfahrung. Sein tiefgehendes Verständnis verschiedener Versicherungsprodukte und sein Engagement für kontinuierliche Verbesserung sorgen dafür, dass er stets über die neuesten Trends und Änderungen auf dem Versicherungsmarkt informiert ist. Lukasz glaubt daran, langfristige Beziehungen zu seinen Kunden aufzubauen, basierend auf Vertrauen, Transparenz und gegenseitigem Respekt. Er nimmt sich die Zeit, die individuelle Situation jedes Kunden zu verstehen und bietet maßgeschneiderte Versicherungslösungen, die den bestmöglichen Schutz zu den wettbewerbsfähigsten Preisen gewährleisten. Lukasz spricht fließend Polnisch, Deutsch und Englisch, was ihm ermöglicht, effektiv mit einer vielfältigen Kundschaft zu kommunizieren und personalisierte Dienstleistungen anzubieten, die ihren spezifischen Bedürfnissen entsprechen. Sein sorgfältiger Ansatz, verbunden mit aufrichtigem Interesse am Wohl seiner Kunden, macht ihn zu einem zuverlässigen und vertrauenswürdigen Berater für alle Ihre Versicherungsbedürfnisse.",
     "aboutIoannis": "Ioannis ist ein hochqualifizierter Versicherungsagent, bekannt für sein Fachwissen und seine kundenorientierte Herangehensweise. Mit seiner umfangreichen Erfahrung in der Versicherungsbranche ist Ioannis hervorragend darin, seinen Kunden umfassende Versicherungsoptionen und fundierte Beratung anzubieten. Er engagiert sich dafür, die einzigartigen Bedürfnisse jedes Kunden zu verstehen und personalisierte Versicherungslösungen zu liefern, die optimalen Schutz bieten. Ioannis spricht fließend Griechisch, Deutsch und Englisch, was ihm ermöglicht, Kunden aus verschiedenen Sprachräumen zu betreuen und eine klare sowie effektive Kommunikation zu gewährleisten. Sein Engagement für Exzellenz, seine Liebe zum Detail und sein unerschütterliches Engagement für die Kundenzufriedenheit machen ihn zu einem zuverlässigen und vertrauenswürdigen Berater. Egal, ob Sie Hilfe bei Kranken-, Lebens-, Haus- oder einer anderen Art von Versicherung benötigen, Ioannis steht bereit, um Ihnen selbstsicher und gelassen durch die Komplexität der Versicherungen zu helfen."
+  },
+  "CAR": {
+    "title": "Autoversicherung",
+    "infoList": "In der Schweiz unterscheiden wir zwei Arten von Autoversicherungen:",
+    "infoListItem1": "Haftpflichtversicherung (obligatorisch)",
+    "infoListItem2": "Kaskoversicherung:",
+    "infoListItem3": "Teilkasko",
+    "infoListItem4": "Vollkasko",
+    "intro": {
+      "title": "Grundversicherung",
+      "p": "Die Grundversicherung in der Schweiz, auch „Grundversicherung“ genannt, ist für alle Personen mit Wohnsitz in der Schweiz obligatorisch. Sie muss innerhalb von 90 Tagen nach Arbeitsbeginn abgeschlossen werden. Sie deckt die wichtigsten medizinischen Leistungen ab, wie Arztbesuche, Behandlungen im Spital auf der allgemeinen Abteilung, verschreibungspflichtige Medikamente und Notfallhilfe. Jeder kann seinen Versicherer frei wählen – alle bieten die gesetzlich vorgeschriebenen Leistungen an. <br> <b>Die Grundversicherung kann jedes Jahr bis Ende November gewechselt werden.</b>",
+      "p1": "Einflussfaktoren auf die Prämie",
+      "l1": "Fahrzeugwert",
+      "l2": "Alter des Fahrers",
+      "l3": "Wohnort",
+      "l4": "Fahrverlauf",
+      "l5": "Nationalität"
+    },
+    "OC": {
+      "title": "Haftpflichtversicherung",
+      "p": "In der Schweiz ist diese Versicherung für Halter von Motorfahrzeugen wie Autos oder Motorrädern obligatorisch. Sie ist gesetzlich vorgeschrieben und Voraussetzung für die Zulassung eines Fahrzeugs und das Erhalten von Nummernschildern.​ <br> Sie bietet finanziellen Schutz bei Haftpflichtansprüchen Dritter nach Verkehrsunfällen. Ohne gültige Versicherung ist das Fahren auf Schweizer Straßen illegal und kann schwerwiegende rechtliche Folgen haben. <br> <br> Beispiele:",
+      "i1": "Beim Einparken beschädigt der Fahrer das nachfolgende Fahrzeug.",
+      "i2": "Durch Sonnenlicht sieht der Fahrer einen Fußgänger an einem Zebrastreifen zu spät und fährt ihn an.",
+      "i3": "Aus einem geparkten Auto läuft Öl aus. Ein Motorradfahrer rutscht aus, verletzt sich schwer und das Motorrad ist total beschädigt.",
+      "i4": "Beim Aussteigen aus dem Auto übersieht der Fahrer einen Radfahrer. Dieser kann nicht mehr ausweichen und stürzt schwer."
+    },
+    "casco": {
+      "title": "Kaskoversicherung",
+      "p": "Diese freiwillige, aber weit verbreitete Versicherung schützt Autobesitzer umfassend vor finanziellen Folgen durch Beschädigung, Zerstörung oder Verlust des Fahrzeugs. Sie deckt Schäden ab, die nicht durch andere Verkehrsteilnehmer verursacht wurden – also auch bei Naturereignissen oder unvorhersehbaren Umständen. Besonders sinnvoll ist sie für neue oder teure Fahrzeuge, die einem erhöhten Risiko ausgesetzt sind, z. B. Diebstahl oder Wetterereignisse.",
+      "p2": "Man unterscheidet zwei Arten von Kaskoversicherung:"
+    },
+    "teilkasko": {
+      "title": "Teilkasko",
+      "p": "Deckt Schäden ab, die nicht durch eigenes Verschulden entstanden sind, z. B.:",
+      "i1": "Brand,",
+      "i2": "Naturgewalten,",
+      "i3": "Diebstahl, Raub,",
+      "i4": "Glasschäden,",
+      "i5": "Kollisionen mit Tieren,",
+      "i6": "Tierschäden (z. B. Marder),",
+      "i7": "Vandalismus (z. B. abgerissene Antennen, Spiegel, zerstoßene Reifen)"
+    },
+    "vollkasko": {
+      "title": "Vollkasko",
+      "p": "Umfasst alle Leistungen der Teilkasko sowie zusätzlich:",
+      "li1": "Schäden durch eigenes Verschulden (z. B. Kollisionen mit anderen Fahrzeugen oder Objekten),"
+    },
+    "kask": {
+      "p2": "Wann lohnt sich eine Kaskoversicherung?",
+      "li2": "Teilkasko: Empfohlen für Fahrzeuge mittlerer Preisklasse, in der Regel bis 7 Jahre alt.",
+      "li3": "Vollkasko: Besonders geeignet für neue oder geleaste Fahrzeuge mit hohem finanziellen Risiko."
+    }
+  },
+  "OC": {
+    "title": "Privathaftpflichtversicherung",
+    "info": "Die Privathaftpflichtversicherung ist eine freiwillige Versicherung, die dich finanziell schützt, wenn du versehentlich einer dritten Person Schaden zufügst – sei es durch Körperverletzung oder Sachschäden. Sie zählt zu den wichtigsten Versicherungen für Mieter, Tierhalter und Privatpersonen im Allgemeinen. Auch wenn sie gesetzlich nicht vorgeschrieben ist, kann sie dich vor hohen Schadenersatzforderungen bewahren, z. B. bei der Überschwemmung der Wohnung des Nachbarn, einem Unfall mit einem Radfahrer oder Schäden, die durch dein Kind oder Haustier verursacht werden.",
+
+    "what": {
+      "title": "Was die Versicherung abdeckt",
+      "il1": "Schäden an Dritten – z. B. du stößt mit einem E-Scooter einen Radfahrer an",
+      "il2": "Zerstörung fremden Eigentums – z. B. du zerbrichst jemandes Handy oder verursachst einen Wasserschaden bei deinem Nachbarn",
+      "il3": "Schäden, die durch dein minderjähriges Kind verursacht werden",
+      "il4": "Schäden, die durch deinen Hund verursacht werden (falls vorhanden)",
+      "il5": "Schäden, die du als Mieter verursachst – z. B. du beschädigst Wände oder den Boden"
+    },
+    "example": {
+      "title": "Beispiele für versicherte Schäden",
+      "il1": "Eine Freundin verschüttet versehentlich ein Glas Rotwein auf dein Kleid. Der Stoff lässt sich nicht mehr reinigen.",
+      "i1": "Die Privathaftpflichtversicherung übernimmt den Schaden.",
+      "il2": "Ein Kind spielt mit einem Ball und zerbricht dabei versehentlich das Fenster des Nachbarn.",
+      "il3": "Schlecht aufbewahrte Streichhölzer geraten in Kinderhände. Beim Spielen entsteht ein Feuer, das auf die Nachbarscheune übergreift und Schäden verursacht.",
+      "il4": "Du lässt deinen Hund während des Spaziergangs von der Leine. Er fühlt sich bedroht und beißt einen spielenden Jungen.",
+      "il5": "In der Mietwohnung fällt ein schwerer Gegenstand ins Waschbecken und zerbricht es.",
+      "il6": "Eine Stufe am Hauseingang ist beschädigt. Ein Besucher rutscht aus und verletzt sich. Du haftest für den Schaden."
+    }
   },
   "HEALTH": {
     "title": "Krankenversicherung",

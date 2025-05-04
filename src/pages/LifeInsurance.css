@@ -1,0 +1,43 @@
+.oc-covers {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.8rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.oc {
+  .custom-padding li {
+    padding-bottom: 0;
+  }
+  .column {
+    height: max-content;
+  }
+}
+.wrapper-oc {
+  width: 50%;
+  padding: 2rem;
+  padding-top: 0;
+  .column {
+    width: auto !important;
+  }
+  .img-section-container {
+    width: 55%;
+    margin: 2rem auto;
+  }
+}
+@media (max-width: 768px) {
+  .law-protection {
+    .column {
+      width: 86%;
+      border: 1px solid #b8b8b8;
+      margin: 3rem auto;
+    }
+  }
+  .wrapper-oc {
+    width: 91%;
+    padding: 1rem;
+    margin: 3rem auto;
+  }
+}
