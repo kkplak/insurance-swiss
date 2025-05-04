@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./LawProtection.css";
+
 const LawProtection: React.FC = () => {
   const { t } = useTranslation();
   return (

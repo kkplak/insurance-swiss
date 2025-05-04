@@ -176,6 +176,54 @@
       "il7": "Prawo ubezpieczeniowe"
     }
   },
+  "HOUSE": {
+    "title": "Ubezpieczenie domu",
+    "info": "Jest to dobrowolne ubezpieczenie mienia ruchomego w Szwajcarii, które chroni przed stratami finansowymi spowodowanymi przez zdarzenia takie jak pożar, zalanie, kradzież czy zniszczenia wywołane przez siły natury. Obejmuje ono przedmioty codziennego użytku, takie jak meble, sprzęt elektroniczny, ubrania czy rowery. W przypadku szkody, ubezpieczyciel pokrywa koszty naprawy lub zakupu nowych przedmiotów. Choć nie jest obowiązkowe, posiadanie Hausratversicherung jest zdecydowanie zalecane, aby zabezpieczyć się przed nieprzewidzianymi wydatkami związanymi z uszkodzeniem lub utratą mienia.",
+    "infoList": "Ubezpieczone ryzyka",
+    "infoListItem1": "Pożar i szkody żywiołowe",
+    "infoListItem2": "Woda (np. zalania)",
+    "infoListItem3": "Kradzież",
+    "infoListItem4": "Stłuczenie szkła (np. lustra, szklane drzwi)",
+    "what": {
+      "title": "Co jest ubezpieczone?",
+      "il1": "Wszelkie przedmioty, które nie są trwale połączone z nieruchomością/budynkiem",
+      "il2": "Rowery (bez tablic rejestracyjnych)",
+      "il3": "Przedmioty, które są wykorzystywane do celów związanych z działalnością gospodarczą, nie podlegają ubezpieczeniu",
+      "il4": "Przedmioty dzierżawione lub wynajęte",
+      "il5": "Powierzone nam przedmioty",
+      "il6": "Rzeczy przywiezione przez gości"
+    },
+    "where": {
+      "title": "Gdzie obowiązuje ubezpieczenie?",
+      "il1": "W miejscu zamieszkania",
+      "il2": "Podczas przeprowadzki",
+      "il3": "Podczas tymczasowego wyjazdu"
+    },
+    "additional": {
+      "title": "Co można ubezpieczyć dodatkowo?",
+      "il1": "Oszklenie mebli",
+      "il2": "Szklane elementy budynku",
+      "il3": "Drobna kradzież poza domem",
+      "il4": "Kradzież motorowerów i rowerów elektrycznych z tablicą rejestracyjną",
+      "il5": "Koszty wymiany zamków w drzwiach"
+    },
+    "important": {
+      "title": "Ważne informacje!",
+      "li1": "Wkład własny za wszystkie ubezpieczone ryzyka wynosi CHF 200.",
+      "li2": "Wkład własny w przypadku szkód naturalnych wynosi CHF 500."
+    },
+    "casco": {
+      "title": "Ubezpiecznie Casco (Hausrat - KASKO)",
+      "p": "Jest to ubezpieczenie, które pokrywa szkody wyrządzone bezpośrednio przez właściciela. Ubezpieczenie wypłaca pieniądze na zakup nowego przedmiotu o równoważnej wartości (pomniejszone o wkład własny).",
+      "p1": "Najczęściej ubezpieczone przedmioty (różni się to w zależności od ubezpieczalni):",
+      "i1": "Elektryczne urządzenia AGD",
+      "i2": "Telefony",
+      "i3": "Instrumenty muzyczne",
+      "i4": "Komputery PC i laptop",
+      "i5": "Sprzęt sportowy",
+      "i6": "Bagaż"
+    }
+  },
   "CONTACT": {
     "formThanks": "Dziękujemy! Wkrótce się z Tobą skontaktujemy.",
     "formFooter": "Dziękujemy za zaufanie!",

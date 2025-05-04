@@ -85,11 +85,12 @@ const Home: React.FC = () => {
             link={`/${lang}/health-insurance`}
           />
           <ButtonBox
-            icon='/media/image-liability.jpeg'
-            titleKey='GENERAL.lifeInsurance'
-            descriptionKey='GENERAL.lifeInsuranceDescription'
-            link={`/${lang}/life-insurance`}
+            icon='/media/image-home.png'
+            titleKey='GENERAL.houseInsurance'
+            descriptionKey='GENERAL.houseInsuranceDescription'
+            link={`/${lang}/house-insurance`}
           />
+
           <ButtonBox
             icon='/media/image-car.jpeg'
             titleKey='GENERAL.carInsurance'
@@ -104,10 +105,10 @@ const Home: React.FC = () => {
             link={`/${lang}/law-protection`}
           />
           <ButtonBox
-            icon='/media/image-home.png'
-            titleKey='GENERAL.houseInsurance'
-            descriptionKey='GENERAL.houseInsuranceDescription'
-            link={`/${lang}/house-insurance`}
+            icon='/media/image-liability.jpeg'
+            titleKey='GENERAL.lifeInsurance'
+            descriptionKey='GENERAL.lifeInsuranceDescription'
+            link={`/${lang}/life-insurance`}
           />
 
           <ButtonBox

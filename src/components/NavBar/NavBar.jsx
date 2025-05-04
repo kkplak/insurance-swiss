@@ -10,7 +10,7 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
 
   return (
     <div style={{ display: "flex", alignItems: "center" }}>
-      <img className='icon' src={`/media/logo-favicon.png`} alt='icon' />
+      <img className='icon' src={`/media/logo-cross.png`} alt='icon' />
       {/* <h2>PROTEGOS</h2> */}
       <div
         className='nav-left'

@@ -83,55 +83,6 @@
 }
 
 /*----------------------------------------
-  Lists
-----------------------------------------*/
-.info-list {
-  margin: var(--spacing-md) auto;
-  padding-left: 20px;
-  list-style: disc inside;
-  font-size: var(--fs-medium);
-  text-align: left;
-}
-.info-check {
-  margin: var(--spacing-md) auto;
-  padding-left: 0;
-  list-style: none;
-  font-size: var(--fs-medium);
-  text-align: left;
-}
-.indent {
-  display: inline-block;
-  margin-left: 3rem; /* same as padding-left above */
-  margin-bottom: 1rem;
-}
-
-.info-check li::before {
-  content: "✔";
-  color: #21598a;
-  margin-right: 15px;
-  margin-left: 15px;
-  font-weight: bold;
-}
-.list-roman {
-  margin: var(--spacing-md) auto;
-  padding-left: 20px;
-  font-size: var(--fs-medium);
-  text-align: left;
-  list-style: upper-roman !important;
-}
-.list-arab {
-  margin: var(--spacing-md) auto;
-  padding-left: 20px;
-  font-size: var(--fs-medium);
-  text-align: left;
-  list-style: decimal !important;
-}
-
-.info-list li {
-  margin-bottom: var(--spacing-xs);
-}
-
-/*----------------------------------------
   Section Styling
 ----------------------------------------*/
 .insurance-section {

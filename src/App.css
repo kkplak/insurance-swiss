@@ -104,6 +104,54 @@ body {
   object-fit: cover;
   z-index: -1;
 }
+/*----------------------------------------
+  Lists
+----------------------------------------*/
+.info-list {
+  margin: var(--spacing-md) auto;
+  padding-left: 20px;
+  list-style: disc inside;
+  font-size: var(--fs-medium);
+  text-align: left;
+}
+.info-check {
+  margin: var(--spacing-md) auto;
+  padding-left: 0;
+  list-style: none;
+  font-size: var(--fs-medium);
+  text-align: left;
+}
+.indent {
+  display: inline-block;
+  margin-left: 3rem; /* same as padding-left above */
+  margin-bottom: 1rem;
+}
+
+.info-check li::before {
+  content: "✔";
+  color: #21598a;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+.list-roman {
+  margin: var(--spacing-md) auto;
+  padding-left: 20px;
+  font-size: var(--fs-medium);
+  text-align: left;
+  list-style: upper-roman !important;
+}
+.list-arab {
+  margin: var(--spacing-md) auto;
+  padding-left: 20px;
+  font-size: var(--fs-medium);
+  text-align: left;
+  list-style: decimal !important;
+}
+
+.info-list li {
+  margin-bottom: var(--spacing-xs);
+}
 .contact-page {
   padding-bottom: 10rem !important;
 }
@@ -245,8 +293,8 @@ a {
   justify-content: center;
 }
 .text-center .bgcolor {
-  background-color: #00073e;
-  color: white;
+  background-color: #eee;
+  color: #00073e;
   max-width: max-content;
   padding: 0.5rem 2rem;
   border-radius: 10px;
