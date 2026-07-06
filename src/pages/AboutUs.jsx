@@ -2,35 +2,21 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const AboutUs = () => {
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
+  const { t } = useTranslation();
 
   return (
-    <div className='container background-white'>
-      <div className='about-us-header'>
-        <h1>{t("GENERAL.aboutUs")}</h1>
-        <p>{t("GENERAL.aboutUsContent")}</p>
-      </div>
-      <div className='wrapper'>
-        <div className='people-container'>
-          <div className='ioannis-container'>
-            <img src={"/media/bosspic.png"} alt='Ioannis' />
-            <h2>{t("GENERAL.ioannisSarafidis")}</h2>
-          </div>
-          <div className='lukasz-container'>
-            <img src={"/media/lukasz1.jpeg"} alt='Lukasz' />
-            <h2>{t("GENERAL.lukaszBergel")}</h2>
-          </div>
+    <div className='container background-white about-me-page'>
+      <h1>{t("GENERAL.aboutUs")}</h1>
+      <p className='page-intro'>{t("GENERAL.aboutUsContent")}</p>
+
+      <div className='about-me-grid'>
+        <div className='lukasz-container'>
+          <img src={'/media/lukasz1.jpeg'} alt={t("GENERAL.lukaszBergel")} />
         </div>
-        {/* <p>
-          {currentLanguage === "pl"
-            ? t("GENERAL.aboutLukasz")
-            : currentLanguage === "el"
-            ? t("GENERAL.aboutIoannis")
-            : t("GENERAL.aboutLukasz")}
-        </p> */}
+        <div className='about-me-copy'>
+          <p>{t("GENERAL.aboutLukasz")}</p>
+        </div>
       </div>
-      {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/0xxhJpFK6s0?si=-HOQxwCd61xiF__T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
     </div>
   );
 };

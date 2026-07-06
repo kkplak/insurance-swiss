@@ -4,14 +4,12 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { ReactComponent as FlagEnglish } from "../LanguageSwitcher/flag-english.svg";
 import { ReactComponent as FlagGerman } from "../LanguageSwitcher/flag-german.svg";
 import { ReactComponent as FlagPolish } from "../LanguageSwitcher/flag-polish.svg";
-import { ReactComponent as FlagGreek } from "../LanguageSwitcher/flag-greek.svg";
 import "./LanguageSwitcher.css"; // Import the CSS file
 
 const flags = {
   en: <FlagEnglish />,
   pl: <FlagPolish />,
   de: <FlagGerman />,
-  el: <FlagGreek />,
 };
 
 const LanguageSwitcher = () => {
@@ -54,10 +52,7 @@ const LanguageSwitcher = () => {
             onClick={() => handleLanguageChange("de")}
             className={`language-icon ${i18n.language === "de" ? "active" : ""}`}
           />
-          <FlagGreek
-            onClick={() => handleLanguageChange("el")}
-            className={`language-icon ${i18n.language === "el" ? "active" : ""}`}
-          />
+ 
         </div>
       ) : (
         <div className={`language-switcher-dropdown ${dropdownOpen ? 'open' : ''}`}>

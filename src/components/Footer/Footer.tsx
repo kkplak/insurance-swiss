@@ -1,60 +1,32 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./Footer.css";
 
-const Layout: React.FC = () => {
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
+const Footer: React.FC = () => {
+  const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
 
   return (
-    <div className='layout'>
-      <Outlet />
-      <footer id='contact'>
-        <div className='contact'>
-          <div className='contact-text'>
-            {/* <h3>{t("CONTACT.formFooter")}</h3> */}
-            <div />
-            <div className='contact-people'>
-              {currentLanguage === "pl" ? (
-                <div className='contact-people-pl'>
-                  <p className='people-name'>
-                    <b>{t("GENERAL.lukaszBergel")}</b>
-                  </p>
-                  <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
-                    {t("GENERAL.lukaszPhone")}
-                  </a>
-                  <p>{t("GENERAL.lukaszMail")}</p>
-                </div>
-              ) : currentLanguage === "el" ? (
-                <div>
-                  <p className='people-name'>
-                    <b>{t("GENERAL.ioannisSarafidis")}</b>
-                  </p>
-                  <a href={`tel:${t("GENERAL.ioannisPhone")}`}>
-                    {t("GENERAL.ioannisPhone")}
-                  </a>
-                  <p>{t("GENERAL.ioannisMail")}</p>
-                </div>
-              ) : (
-                <div className='contact-people-en'>
-                  <div>
-                    <p className='people-name'>
-                      <b>{t("GENERAL.lukaszBergel")}</b>
-                    </p>
-                    <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
-                      {t("GENERAL.lukaszPhone")}
-                    </a>
-                    <p>{t("GENERAL.lukaszMail")}</p>
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
+    <footer id='contact' className='footer'>
+      <div className='footer-inner'>
+        <div className='footer-info'>
+          <p className='footer-label'>{t("GENERAL.lukaszBergel")}</p>
+          <p className='footer-copy'>{t("GENERAL.aboutUsContent")}</p>
         </div>
-      </footer>
-    </div>
+        <div className='footer-contact'>
+          <a className='footer-link' href={`tel:${t("GENERAL.lukaszPhone")}`}>
+            {t("GENERAL.lukaszPhone")}
+          </a>
+          <a className='footer-link' href={`mailto:${t("GENERAL.lukaszMail")}`}>
+            {t("GENERAL.lukaszMail")}
+          </a>
+        </div>
+      </div>
+      <div className='footer-footer'>
+        <p>© {currentYear} {t("GENERAL.lukaszBergel")} · Personal insurance advisor.</p>
+      </div>
+    </footer>
   );
 };
 
-export default Layout;
+export default Footer;

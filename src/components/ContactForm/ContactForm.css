@@ -1,14 +1,93 @@
 /*========================================
   Contact Form Styles
 ========================================*/
+.contact-page {
+  padding: 3rem 1.5rem 6rem;
+}
+
+.contact-intro {
+  max-width: 760px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+}
+
+.contact-intro h1 {
+  margin-bottom: 0.75rem;
+}
+
+.contact-intro p {
+  margin: 0;
+  color: #4a5a7a;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.contact-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  max-width: 960px;
+  margin: 0 auto 2rem;
+}
+
+.contact-option-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(15, 28, 61, 0.08);
+  border-radius: var(--br-container);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-light);
+}
+
+.contact-option-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  color: var(--h1);
+}
+
+.contact-option-card p {
+  margin: 0 0 0.75rem;
+  color: #4a5a7a;
+  line-height: 1.7;
+}
+
+.contact-option-card a {
+  color: var(--button-accent);
+  font-weight: 600;
+}
+
+.contact-form-panel {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(15, 28, 61, 0.08);
+  border-radius: var(--br-container);
+  box-shadow: var(--shadow-medium);
+}
+
+.contact-form-intro {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form-intro h2 {
+  margin: 0 0 0.5rem;
+  color: var(--h1);
+}
+
+.contact-form-intro p {
+  margin: 0;
+  color: #4a5a7a;
+  line-height: 1.7;
+}
+
 .contact-form {
-  max-width: 60%;
-  margin: 5rem auto;
-  padding: 4rem 3rem 2rem 3rem;
-  background-color: rgba(41, 41, 41, 0.12);
-  border: 1px solid rgba(177, 177, 177, 0.721);
-  border-radius: var(--br-element);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.175);
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .form-label {
@@ -55,7 +134,7 @@
   background-color: var(--background-color);
   color: var(--box-text);
   border: none;
-  border-radius: 5px;
+  border-radius: var(--br-small);
   font-size: 1rem;
   cursor: pointer;
   margin-top: 0.6rem;
@@ -98,8 +177,18 @@ select {
 /*----------------------------------------
   Responsive Adjustments
 ----------------------------------------*/
+@media only screen and (max-width: 900px) {
+  .contact-options {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media only screen and (max-width: 700px) {
-  .contact-form {
-    max-width: 100%;
+  .contact-page {
+    padding: 2rem 1rem 4rem;
+  }
+
+  .contact-form-panel {
+    padding: 1.25rem;
   }
 }

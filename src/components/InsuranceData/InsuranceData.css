@@ -1,0 +1,228 @@
+.insurance-data-section {
+  width: 100%;
+  padding: 3rem 1rem 4rem;
+  background: rgba(248, 250, 255, 0.95);
+}
+
+.insurance-data-panel {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+.insurance-data-intro {
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+}
+
+.insurance-data-eyebrow {
+  color: var(--button-accent);
+  font-size: 0.9rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.insurance-data-intro h2 {
+  font-size: clamp(2rem, 2.7vw, 2.9rem);
+  margin: 0;
+  color: var(--h1);
+}
+
+.insurance-data-intro p {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #3b4b6a;
+  line-height: 1.9;
+}
+
+.insurance-data-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.insurance-metric-card {
+  padding: 1.75rem;
+  background: white;
+  border-radius: var(--br-container);
+  box-shadow: var(--shadow-light);
+  border: 1px solid rgba(15, 28, 61, 0.08);
+  min-height: 190px;
+}
+
+.metric-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--h1);
+  margin-bottom: 0.75rem;
+}
+
+.insurance-metric-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1rem;
+  color: #1f2b48;
+}
+
+.insurance-metric-card p {
+  margin: 0;
+  color: #5b6985;
+  line-height: 1.7;
+}
+
+.insurance-data-chart-card {
+  padding: 2rem;
+  background: #0f1f3d;
+  border-radius: var(--br-container);
+  color: white;
+  box-shadow: 0 25px 70px rgba(15, 28, 61, 0.18);
+}
+
+.chart-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.chart-eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #8ab8ff;
+}
+
+.chart-card-header h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.chart-note {
+  max-width: 320px;
+  margin: 0;
+  color: #c5d7ff;
+  line-height: 1.4;
+  font-size: 0.85rem;
+  opacity: 0.95;
+}
+
+.insurance-data-status {
+  margin: 0;
+  color: #5b6985;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.chart-bars {
+  display: grid;
+  gap: 1rem;
+}
+
+.insurance-data-source {
+  margin-top: 1.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #b8d7ff;
+}
+
+.insurance-data-source span {
+  opacity: 0.9;
+}
+
+.insurance-data-source a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Intro/source small styles */
+.insurance-data-source-intro,
+.external-source {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #7b8ea8;
+}
+
+.insurance-data-source-intro a,
+.external-source a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.chart-bar-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.chart-label {
+  color: #d9e6ff;
+  font-weight: 600;
+  min-width: 130px;
+}
+
+.chart-bar-track {
+  width: 100%;
+  height: 1rem;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.chart-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.chart-bar-value {
+  color: #e2efff;
+  font-weight: 700;
+  min-width: 40px;
+  text-align: right;
+}
+
+@media (max-width: 900px) {
+  .insurance-data-grid,
+  .chart-card-header {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-card-header {
+    text-align: left;
+  }
+}
+
+@media (max-width: 680px) {
+  .insurance-data-section {
+    padding: 2rem 1rem 3rem;
+  }
+
+  .insurance-data-panel {
+    gap: 1.5rem;
+  }
+
+  .insurance-metric-card {
+    min-height: auto;
+  }
+
+  .chart-bar-row {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-bar-value {
+    min-width: auto;
+    text-align: left;
+  }
+}
