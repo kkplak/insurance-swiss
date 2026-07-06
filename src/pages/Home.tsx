@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useParams, Link } from "react-router-dom";
 import ButtonBox from "../components/ButtonBox/ButtonBox";
 import LogoLine from "../components/LogoLine/LogoLine";
+import InsuranceData from "../components/InsuranceData/InsuranceData";
 
 const Home: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -40,15 +41,26 @@ const Home: React.FC = () => {
           </div>
 
           <div className='overlay'>
-            <div className='text-container'>
+            <div className='hero-card'>
+              <p className='hero-pill'>{t("GENERAL.heroP")}</p>
               <h1>{t("GENERAL.homeH1")}</h1>
-              <p>{t("GENERAL.homeP")}</p>
-              <p>{t("GENERAL.homeP2")}</p>
-              <Link to={`/${lang}/contact`} className='button-link'>
-                <button className='welcome-button'>
-                  <span className='lable'>{t("GENERAL.contactUs")}</span>
-                </button>
-              </Link>
+              <p className='hero-lead'>{t("GENERAL.homeP")}</p>
+
+              <div className='hero-actions'>
+                <Link to={`/${lang}/contact`} className='button-link'>
+                  <button className='welcome-button'>
+                    <span className='lable'>Get in touch</span>
+                  </button>
+                </Link>
+              </div>
+
+         
+
+              <ul className='hero-benefits'>
+                <li>{t("GENERAL.heroFeature1")}</li>
+                <li>{t("GENERAL.heroFeature2")}</li>
+                <li>{t("GENERAL.heroFeature3")}</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -57,25 +69,9 @@ const Home: React.FC = () => {
           <img src='/media/hero3.png'></img>
         </div> */}
       </div>
-      <div className='container new'>
-        <div className='text-container text-new'>
-          <div className='wrapper-text'>
-            {/* {" "}
-            <p>{t("GENERAL.heroP")}</p> */}
-            <h2>{t("GENERAL.heroH2")}</h2>
-            <p>{t("GENERAL.heroP2")}</p>
-          </div>
-
-          {/* <Link to={`/${lang}/contact`} className='button-link'>
-            <button className='welcome-button'>
-              <span className='lable'>{t("GENERAL.contactUs")}</span>
-            </button>
-          </Link> */}
-        </div>
-      </div>
-      {/* <LogoLine logos={logos} /> */}
+      <InsuranceData />
       <div className='button-box-container'>
-        {/* <h1 className="insurances-header"> Placeholder for checking if we want text here?</h1> */}
+        <h2 className='button-box-heading'>Protect what matters most</h2>
         <div
           className={`button-box-row  ${
             currentLanguage === "de" ? "german-container" : ""

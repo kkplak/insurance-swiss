@@ -1,74 +1,80 @@
 /*========================================
   Footer Component Styles
 ========================================*/
-:root {
-  --footer-overlay: #0b253c;
-  --footer-text-color: var(--background-color);
-  --footer-padding: 0.5%;
-  --footer-z-index: 16;
-  --footer-text-z-index: 15;
-  --footer-gap: 5rem;
-  --footer-font-size: var(--fs-medium);
-  --footer-name-font-size: 1.2rem;
-  --footer-name-padding: 0.5rem;
+.footer {
+  background-color: #0b253c;
+  color: white;
+  padding: 3.5rem 1.5rem 1.5rem;
 }
 
-.layout {
-  position: relative;
-}
-
-.contact {
-  position: relative;
+.footer-inner {
+  max-width: 1120px;
+  margin: 0 auto;
   display: flex;
-  margin: 0rem;
-  height: 20rem;
-  padding: var(--footer-padding);
-  color: var(--footer-text-color);
-  z-index: var(--footer-z-index);
-}
-.contact::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--footer-overlay);
-  border-radius: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
-.contact-text {
-  z-index: var(--footer-text-z-index);
-  width: 100%;
-  display: block;
-  align-content: center;
-}
-.contact-text h3 {
-  text-align: left;
-  margin: 0;
-  padding-left: 2rem;
-}
-.contact-text p {
-  margin: 0;
+.footer-info {
+  flex: 1 1 320px;
+  min-width: 260px;
 }
 
-.contact-people {
-  font-size: 0.9rem;
+.footer-label {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+}
+
+.footer-copy {
+  margin: 0;
+  max-width: 600px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.footer-contact {
+  flex: 0 1 260px;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.footer-link {
+  display: inline-block;
+  color: white;
   text-decoration: none;
-  padding: 2rem;
-  padding-left: 6rem;
+  font-weight: 600;
+  line-height: 1.8;
+  transition: color 0.25s ease;
 }
-.contact-people-en {
-  display: flex;
-  gap: 5rem;
+
+.footer-link:hover {
+  color: #d8e6ff;
 }
-.contact-people-en div {
-  padding-bottom: 2rem;
+
+.footer-footer {
+  max-width: 1120px;
+  margin: 2.5rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
 }
-.contact-people a {
-  text-decoration: none;
+
+.footer-footer p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
 }
-.people-name {
-  font-size: var(--footer-name-font-size);
-  padding-bottom: var(--footer-name-padding);
+
+@media (max-width: 720px) {
+  .footer-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .footer-contact {
+    gap: 0.7rem;
+  }
 }

@@ -28,6 +28,8 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 import "./App.css";
 import Contact from "./pages/Contact";
+import Legal from "./pages/Legal";
+import CookieConsent from "./components/CookieConsent/CookieConsent";
 
 const resources = {
   en: { translation: translationEN },
@@ -69,7 +71,8 @@ const App = () => {
             <Route path='/:lang/home' element={<Home />} />
             <Route path='/:lang/info' element={<Info />} />
             <Route path='/:lang/contact' element={<Contact />} />
-            <Route path='/:lang/about-us' element={<AboutUs />} />
+            <Route path='/:lang/legal' element={<Legal />} />
+            <Route path='/:lang/about-me' element={<AboutUs />} />
             <Route
               path='/:lang/health-insurance'
               element={<HealthInsurance />}
@@ -81,6 +84,7 @@ const App = () => {
             <Route path='/:lang/swiss-insurance' element={<SwissInsurance />} />
           </Routes>
           <Footer />
+          <CookieConsent />
           {/* <Arrow /> */}
         </Router>
       </I18nextProvider>

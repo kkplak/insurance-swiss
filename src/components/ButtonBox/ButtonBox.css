@@ -3,43 +3,28 @@
 ========================================*/
 .button-box {
   display: flex;
-  position: relative;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0.176); /* Very subtle border */
-
-  padding: 0 0 20px 0;
+  border: 1px solid rgba(15, 28, 61, 0.08);
+  padding: 1.75rem 1.5rem 2rem;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft, clean shadow */
-  transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
-  background-color: rgb(
-    255,
-    255,
-    255
-  ); /* Very light background to stand out subtly */
-  margin: 15px; /* Slightly larger margin for better spacing */
-  flex: 1 1 calc(33.333% - 30px); /* 3 per row minus the gap */
-  max-width: calc(33.333% - 30px);
-  height: max-content;
-  min-height: 15rem;
-  min-width: 200px;
-  color: #333; /* Dark text for readability */
-  max-width: 400px;
+  box-shadow: 0 12px 28px rgba(15, 28, 61, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  background-color: #ffffff;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  color: #1f2b48;
+  border-radius: var(--br-container);
 }
 .button-box:last-of-type {
-  border-bottom: 2px solid rgb(220, 0, 0);
+  border-bottom: 2px solid rgba(15, 28, 61, 0.09);
 }
 .button-box:hover {
-  transform: translateY(-2px); /* Slight hover lift for a professional feel */
-  background-color: rgba(
-    255,
-    255,
-    255,
-    1
-  ); /* Subtle change in background color */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow on hover */
+  transform: translateY(-4px);
+  box-shadow: 0 18px 36px rgba(15, 28, 61, 0.15);
+  border-color: rgba(15, 28, 61, 0.12);
 }
 
 /*----------------------------------------
@@ -47,45 +32,54 @@
 ----------------------------------------*/
 .button-box-icon {
   width: 100%;
-  height: 11rem;
+  height: 10rem;
   object-fit: cover;
-  margin-bottom: var(--spacing-sm);
+  border-radius: var(--br-element);
+  margin-bottom: 1.25rem;
 }
 .button-box-title {
-  font-size: 1.125rem;
-  margin-bottom: 0.25rem;
-  color: var(--box-text);
+  font-size: 1.15rem;
+  margin-bottom: 0.75rem;
+  color: #0f1f3d;
 }
 .button-box-description {
-  font-size: 0.875rem;
-  color: var(--box-text);
+  font-size: 0.95rem;
+  color: #4a5568;
+  line-height: 1.75;
 }
 
 /*----------------------------------------
   Layout Wrappers
 ----------------------------------------*/
 .button-box-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
   padding-bottom: 5rem;
 }
 .button-box-container {
-  padding: 4rem 3rem;
-  background-color: white;
+  padding: 3rem 10rem 4rem;
+  background: var(--section-bg);
+  border-radius: var(--br-container);
+  margin: 0 auto;
+}
+
+.button-box-heading {
+  margin: 0 0 1.5rem;
+  text-align: center;
+  color: var(--h1);
+  font-size: clamp(1.6rem, 2.2vw, 2.2rem);
 }
 
 @media (max-width: 1000px) {
-  .button-box {
-    flex: 1 1 calc(50% - 30px);
-    max-width: calc(50% - 30px);
+  .button-box-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 600px) {
-  .button-box {
-    flex: 1 1 100%;
-    max-width: 100%;
+  .button-box-row {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 import { useTranslation } from "react-i18next";
 import LanguageSwitcher from "./../LanguageSwitcher/LanguageSwitcher";
 
@@ -25,7 +24,7 @@ const NavLeft = ({ language, scrollPosition, windowWidth }) => {
               <Link to={`/${language}/home`}>{t("GENERAL.home")}</Link>
             </li>
             <li>
-              <Link to={`/${language}/about-us`}>{t("GENERAL.aboutUs")}</Link>
+              <Link to={`/${language}/about-me`}>{t("GENERAL.aboutUs")}</Link>
             </li>
           </ul>
         </div>
@@ -42,53 +41,11 @@ const NavCenter = ({ scrollPosition, windowWidth }) => {
 };
 
 const NavRight = ({ scrollPosition, windowWidth }) => {
-  const { t, i18n } = useTranslation();
-  const currentLanguage = i18n.language;
-  // const rightClass = scrollPosition > 20 && windowWidth < 980 ? 'hide' : 'show';
+  const { t } = useTranslation();
 
   return (
     <div className={`nav-right`} style={{ justifyContent: "flex-end" }}>
       <LanguageSwitcher />
-      {/* <div className='nav-phone-numbers'>
-        {currentLanguage === "pl" ? (
-          <div className='phone-line'>
-            <p>
-              <b>{t("GENERAL.lukasz")}</b>
-            </p>
-            <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
-              {t("GENERAL.lukaszPhone")}
-            </a>
-          </div>
-        ) : currentLanguage === "el" ? (
-          <div className='phone-line'>
-            <p>
-              <b>{t("GENERAL.ioannis")}</b>
-            </p>
-            <a href={`tel:${t("GENERAL.ioannisPhone")}`}>
-              {t("GENERAL.ioannisPhone")}
-            </a>
-          </div>
-        ) : (
-          <>
-            <div className='phone-line'>
-              <p>
-                <b>{t("GENERAL.lukasz")}</b>
-              </p>
-              <a href={`tel:${t("GENERAL.lukaszPhone")}`}>
-                {t("GENERAL.lukaszPhone")}
-              </a>
-            </div>
-            <div className='phone-line'>
-              <p>
-                <b>{t("GENERAL.ioannis")}</b>
-              </p>
-              <a href={`tel:${t("GENERAL.ioannisPhone")}`}>
-                {t("GENERAL.ioannisPhone")}
-              </a>
-            </div>
-          </>
-        )}
-      </div> */}
     </div>
   );
 };
