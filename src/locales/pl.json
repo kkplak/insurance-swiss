@@ -316,6 +316,70 @@
     "formNumber": "Numer telefonu",
     "formName": "Imię",
     "formEmail": "Adres e-mail",
-    "formSubmit": "Wyślij"
+    "formSubmit": "Wyślij",
+    "formMessage": "Wiadomość",
+    "validationName": "Imię",
+    "validationPhone": "Telefon",
+    "validationEmail": "E-mail",
+    "validationMessage": "Wiadomość"
+  },
+  "HOME": {
+    "heroImageAlt": "Wspinacz na szczycie ośnieżonej szwajcarskiej góry",
+    "heroBadge": "Szwajcarskie ubezpieczenia, po ludzku",
+    "heroTitle": "Właściwa ochrona, bez chaosu",
+    "heroLead": "Pomagam jasno porównać opcje i wybrać ochronę dopasowaną do Twojego życia, budżetu i priorytetów.",
+    "heroSubcopy": "Od ubezpieczenia zdrowia i domu po auto i OC: upraszczam cały proces, jasno i indywidualnie.",
+    "heroCta": "Skontaktuj się",
+    "productsHeading": "Chroń to, co najważniejsze"
+  },
+  "COOKIE": {
+    "ariaLabel": "Zgoda na pliki cookie",
+    "title": "Pliki cookie",
+    "description": "Ta strona używa niezbędnych i funkcjonalnych plików cookie, aby działać poprawnie i zapamiętać preferowany język. Nie używamy plików reklamowych ani śledzących.",
+    "acceptEssential": "Akceptuj tylko niezbędne",
+    "acceptAll": "Akceptuj wszystkie",
+    "readNotice": "Przeczytaj informację o cookie i prywatności"
+  },
+  "LEGAL": {
+    "title": "Informacje prawne i prywatność",
+    "intro": "Ta strona używa niezbędnych i funkcjonalnych plików cookie, aby działać poprawnie i zapamiętać preferowany język. Te pliki cookie nie zbierają danych osobowych do celów reklamowych ani śledzenia.",
+    "cookieUseTitle": "Do czego używamy plików cookie",
+    "cookieUse1": "Aby strona działała poprawnie",
+    "cookieUse2": "Aby zapamiętać preferencję języka",
+    "cookieUse3": "Aby formularz kontaktowy działał zgodnie z przeznaczeniem",
+    "contactTitle": "Kontakt",
+    "contactText": "Jeśli masz pytania dotyczące tej informacji, skontaktuj się z nami przez stronę kontaktową tej witryny."
+  },
+  "INSURANCE_DATA": {
+    "eyebrow": "Wgląd w szwajcarskie open data",
+    "title": "W niektórych kantonach Szwajcarii za tę samą podstawową ochronę płaci się znacznie więcej.",
+    "subtitle": "Wybór kantonu i planu może mocno zmienić koszt, nawet przy tej samej podstawowej ochronie. To zestawienie pokazuje najważniejsze różnice i gdzie dodatki mogą pomóc.",
+    "officialSource": "Oficjalne źródło: {{source}}.",
+    "viewSource": "Zobacz źródło",
+    "chart": {
+      "eyebrow": "Oficjalne porównanie składek",
+      "title": "Taryfy podstawowego ubezpieczenia dla dorosłych",
+      "sourceLabel": "Źródło:",
+      "highestBenchmark": "Najwyższy benchmark 2026 (Genewa)",
+      "averageRate": "Średnia zarejestrowana stawka",
+      "lowestBenchmark": "Najniższy benchmark 2026 (Zug)"
+    },
+    "metrics": {
+      "savings": {
+        "label": "Potencjalna roczna oszczędność",
+        "value": "CHF 600-2,000+",
+        "detail": "W zależności od ubezpieczenia dodatkowego i sposobu korzystania, Twoje gospodarstwo domowe może zyskać rocznie CHF 600-2,000+ dzięki benefitom, takim jak karnety fitness, medycyna alternatywna, profilaktyka i inne świadczenia, które inaczej trzeba byłoby opłacić w całości samodzielnie."
+      },
+      "missOut": {
+        "label": "Ilu traci dostępne korzyści",
+        "value": "40%+",
+        "detail": "Ponad 40% osób w Szwajcarii nie korzysta ze świadczeń, za które już zapłaciło - realna wartość pozostaje niewykorzystana."
+      },
+      "supplemental": {
+        "label": "Ilu korzysta z ubezpieczeń dodatkowych",
+        "value": "54%",
+        "detail": "Ponad połowa dorosłych w Szwajcarii wybiera już dodatkowe produkty, więc mądry dobór rozszerzeń może znacząco poprawić efekt finansowy i zakres ochrony."
+      }
+    }
   }
 }

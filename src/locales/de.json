@@ -312,6 +312,70 @@
     "formNumber": "Telefonnummer",
     "formName": "Name",
     "formEmail": "E-Mail-Adresse",
-    "formSubmit": "Senden"
+    "formSubmit": "Senden",
+    "formMessage": "Nachricht",
+    "validationName": "Name",
+    "validationPhone": "Telefon",
+    "validationEmail": "E-Mail",
+    "validationMessage": "Nachricht"
+  },
+  "HOME": {
+    "heroImageAlt": "Ein Bergsteiger auf einem verschneiten Schweizer Gipfel",
+    "heroBadge": "Schweizer Versicherung, persoenlich gemacht",
+    "heroTitle": "Der richtige Schutz, ohne Verwirrung",
+    "heroLead": "Ich helfe Ihnen, Ihre Optionen klar zu vergleichen und den Schutz zu waehlen, der zu Ihrem Leben, Ihrem Budget und Ihren Prioritaeten passt.",
+    "heroSubcopy": "Von Kranken- und Hausrat- bis Auto- und Haftpflichtversicherung: Ich mache den Prozess einfach, transparent und auf Sie zugeschnitten.",
+    "heroCta": "Kontakt aufnehmen",
+    "productsHeading": "Schuetzen Sie, was Ihnen wichtig ist"
+  },
+  "COOKIE": {
+    "ariaLabel": "Cookie-Einwilligung",
+    "title": "Cookies",
+    "description": "Diese Website verwendet notwendige und funktionale Cookies, damit sie korrekt funktioniert und Ihre Sprachpraeferenz gespeichert wird. Es werden keine Werbe- oder Tracking-Cookies verwendet.",
+    "acceptEssential": "Nur notwendige Cookies akzeptieren",
+    "acceptAll": "Alle akzeptieren",
+    "readNotice": "Hinweis zu Cookies und Datenschutz lesen"
+  },
+  "LEGAL": {
+    "title": "Rechtliches & Datenschutz",
+    "intro": "Diese Website verwendet notwendige und funktionale Cookies, damit sie korrekt funktioniert und Ihre Sprachpraeferenz gespeichert wird. Diese Cookies erfassen keine personenbezogenen Daten fuer Werbung oder Tracking.",
+    "cookieUseTitle": "Wofuer wir Cookies verwenden",
+    "cookieUse1": "Damit die Website einwandfrei funktioniert",
+    "cookieUse2": "Damit Ihre Sprachpraeferenz gespeichert wird",
+    "cookieUse3": "Damit das Kontaktformular wie vorgesehen funktioniert",
+    "contactTitle": "Kontakt",
+    "contactText": "Wenn Sie Fragen zu diesem Hinweis haben, kontaktieren Sie uns bitte ueber die Kontaktseite dieser Website."
+  },
+  "INSURANCE_DATA": {
+    "eyebrow": "Einblick in Schweizer Open Data",
+    "title": "In manchen Schweizer Kantonen ist die gleiche Grunddeckung deutlich teurer.",
+    "subtitle": "Kanton und Tarifwahl koennen die Kosten selbst bei gleicher Grunddeckung stark beeinflussen. Diese Uebersicht zeigt die wichtigsten Unterschiede und wo Zusatzbausteine helfen koennen.",
+    "officialSource": "Offizielle Quelle: {{source}}.",
+    "viewSource": "Quelle ansehen",
+    "chart": {
+      "eyebrow": "Offizieller Praemienvergleich",
+      "title": "Grundversicherungstarife fuer Erwachsene",
+      "sourceLabel": "Quelle:",
+      "highestBenchmark": "Hoechster 2026-Referenzwert (Genf)",
+      "averageRate": "Durchschnittlich erfasster Wert",
+      "lowestBenchmark": "Niedrigster 2026-Referenzwert (Zug)"
+    },
+    "metrics": {
+      "savings": {
+        "label": "Moegliche jaehrliche Ersparnis",
+        "value": "CHF 600-2,000+",
+        "detail": "Je nach Zusatzversicherung und Nutzung kann Ihr Haushalt jaehrlich CHF 600-2,000+ an Mehrwert erhalten, z. B. durch Fitnessbeitraege, Alternativmedizin, Praevention und weitere gedeckte Leistungen, die sonst komplett selbst bezahlt wuerden."
+      },
+      "missOut": {
+        "label": "Wie viele Potenzial verpassen",
+        "value": "40%+",
+        "detail": "Mehr als 40% der Versicherten in der Schweiz nutzen Leistungen nicht, die sie bereits bezahlt haben - kostenloser Mehrwert bleibt ungenutzt."
+      },
+      "supplemental": {
+        "label": "Wie viele Zusatzdeckung nutzen",
+        "value": "54%",
+        "detail": "Mehr als die Haelfte der Erwachsenen in der Schweiz waehlt bereits Zusatzprodukte, daher kann die richtige Auswahl einen deutlichen Unterschied machen."
+      }
+    }
   }
 }

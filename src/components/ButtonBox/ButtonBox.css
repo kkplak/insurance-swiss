@@ -61,7 +61,7 @@
 .button-box-container {
   padding: 3rem 10rem 4rem;
   background: var(--section-bg);
-  border-radius: var(--br-container);
+  border-radius: 0;
   margin: 0 auto;
 }
 

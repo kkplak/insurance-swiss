@@ -35,32 +35,31 @@ const Home: React.FC = () => {
         <div id='home' className={`hero-section`}>
           <div className='background-video-desktop'>
             <img
-              src='/media/hiker1.png'
-              alt='A male climber on top of a snowy swiss mountain'
+              src='/media/hiker5.jpg'
+              alt={t("HOME.heroImageAlt")}
             />
           </div>
 
           <div className='overlay'>
             <div className='hero-card'>
-              <p className='hero-pill'>{t("GENERAL.heroP")}</p>
-              <h1>{t("GENERAL.homeH1")}</h1>
-              <p className='hero-lead'>{t("GENERAL.homeP")}</p>
+              <span className='hero-badge'>{t("HOME.heroBadge")}</span>
+              <h1 className='hero-title'>{t("HOME.heroTitle")}</h1>
+              <p className='hero-lead'>{t("HOME.heroLead")}</p>
+              <p className='hero-subcopy'>{t("HOME.heroSubcopy")}</p>
 
               <div className='hero-actions'>
                 <Link to={`/${lang}/contact`} className='button-link'>
                   <button className='welcome-button'>
-                    <span className='lable'>Get in touch</span>
+                    <span className='lable'>{t("HOME.heroCta")}</span>
                   </button>
                 </Link>
               </div>
 
-         
-
-              <ul className='hero-benefits'>
+              {/* <ul className='hero-benefits'>
                 <li>{t("GENERAL.heroFeature1")}</li>
                 <li>{t("GENERAL.heroFeature2")}</li>
                 <li>{t("GENERAL.heroFeature3")}</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
@@ -71,7 +70,7 @@ const Home: React.FC = () => {
       </div>
       <InsuranceData />
       <div className='button-box-container'>
-        <h2 className='button-box-heading'>Protect what matters most</h2>
+        <h2 className='button-box-heading'>{t("HOME.productsHeading")}</h2>
         <div
           className={`button-box-row  ${
             currentLanguage === "de" ? "german-container" : ""

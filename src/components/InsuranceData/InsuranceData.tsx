@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./InsuranceData.css";
 
 type RecordItem = {
@@ -57,6 +58,7 @@ const getDefaultStats = (): Stats => ({
 });
 
 const InsuranceData: React.FC = () => {
+  const { t } = useTranslation();
   const [stats, setStats] = useState<Stats>(getDefaultStats());
   const [stats2025, setStats2025] = useState<YearStats | null>(null);
   const [stats2026, setStats2026] = useState<YearStats | null>(null);
@@ -162,19 +164,19 @@ const InsuranceData: React.FC = () => {
 
   const chartValues = [
     {
-      name: "Highest 2026 benchmark (Geneva)",
+      name: t("INSURANCE_DATA.chart.highestBenchmark"),
       value: 100,
       color: "#0c3c74",
       label: `CHF ${currentYearStats.maxPremium.toFixed(0)}`,
     },
     {
-      name: "Average recorded rate",
+      name: t("INSURANCE_DATA.chart.averageRate"),
       value: (stats.averagePremium / currentYearStats.maxPremium) * 100,
       color: "#1f66a8",
       label: `CHF ${stats.averagePremium.toFixed(0)}`,
     },
     {
-      name: "Lowest 2026 benchmark (Zug)",
+      name: t("INSURANCE_DATA.chart.lowestBenchmark"),
       value: (currentYearStats.minPremium / currentYearStats.maxPremium) * 100,
       color: "#22a19c",
       label: `CHF ${currentYearStats.minPremium.toFixed(0)}`,
@@ -183,19 +185,19 @@ const InsuranceData: React.FC = () => {
 
   const metrics = [
     {
-      label: "Potential value",
-      value: `CHF ${stats.potentialSavings.toFixed(0)}+`,
-      detail: `This is a conservative official gap in adult basic premiums. With the right addons, it becomes useful cover for glasses, alternative medicine and deductible relief.`,
+      label: t("INSURANCE_DATA.metrics.savings.label"),
+      value: t("INSURANCE_DATA.metrics.savings.value"),
+      detail: t("INSURANCE_DATA.metrics.savings.detail"),
     },
     {
-      label: "How many miss out",
-      value: "40%+",
-      detail: `More than 40% of Swiss buyers aren’t using benefits they already paid for — free value is being left on the table.`,
+      label: t("INSURANCE_DATA.metrics.missOut.label"),
+      value: t("INSURANCE_DATA.metrics.missOut.value"),
+      detail: t("INSURANCE_DATA.metrics.missOut.detail"),
     },
     {
-      label: "How many already top up",
-      value: "54%",
-      detail: `Over half of Swiss adults already choose extra cover, so smart addon selection is the real advantage.`,
+      label: t("INSURANCE_DATA.metrics.supplemental.label"),
+      value: t("INSURANCE_DATA.metrics.supplemental.value"),
+      detail: t("INSURANCE_DATA.metrics.supplemental.detail"),
     },
   ];
 
@@ -203,16 +205,13 @@ const InsuranceData: React.FC = () => {
     <section className="insurance-data-section">
       <div className="insurance-data-panel">
         <div className="insurance-data-intro">
-          <p className="insurance-data-eyebrow">Swiss open data insight</p>
-          <h2>2025 FOPH data shows the widest premium gap between cantons.</h2>
-          <p>
-            Canton and plan choice can change what you pay even with the same basic cover.
-            This overview highlights the main differences and where add-ons may help.
-          </p>
+          <p className="insurance-data-eyebrow">{t("INSURANCE_DATA.eyebrow")}</p>
+          <h2>{t("INSURANCE_DATA.title")}</h2>
+          <p>{t("INSURANCE_DATA.subtitle")}</p>
 
           <div className="insurance-data-source-intro">
-            <span>Official source: {DATA_SOURCE_NAME}.</span>
-            <a href={DATASET_URL} target="_blank" rel="noreferrer">View source</a>
+            <span>{t("INSURANCE_DATA.officialSource", { source: DATA_SOURCE_NAME })}</span>
+            <a href={DATASET_URL} target="_blank" rel="noreferrer">{t("INSURANCE_DATA.viewSource")}</a>
           </div>
 
           {/* external benchmark moved into chart note below */}
@@ -231,11 +230,11 @@ const InsuranceData: React.FC = () => {
         <div className="insurance-data-chart-card">
           <div className="chart-card-header">
             <div>
-              <p className="chart-eyebrow">Official premium comparison</p>
-              <h3>Adult basic insurance tariffs from FOPH data</h3>
+              <p className="chart-eyebrow">{t("INSURANCE_DATA.chart.eyebrow")}</p>
+              <h3>{t("INSURANCE_DATA.chart.title")}</h3>
             </div>
             <p className="chart-note">
-              Source: <a href="https://health-insurance-switzerland.ch/compare" target="_blank" rel="noreferrer">health-insurance-switzerland.ch/compare</a>
+              {t("INSURANCE_DATA.chart.sourceLabel")} <a href="https://health-insurance-switzerland.ch/compare" target="_blank" rel="noreferrer">health-insurance-switzerland.ch/compare</a>
             </p>
           </div>
 

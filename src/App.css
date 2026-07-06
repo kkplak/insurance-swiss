@@ -311,13 +311,23 @@ a:hover {
   border-radius: var(--br-container);
   box-shadow: var(--shadow-medium);
 }
-.about-us-header {
-  max-width: 980px;
-  margin: 4rem auto 2rem;
-  padding: 2.5rem;
+.about-me-page {
+  text-align: left;
+  border-radius: 0;
+}
+.about-me-page h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
   text-align: center;
 }
-.about-me-wrapper {
+.page-intro {
+  margin: 0 auto 2.5rem;
+  max-width: 760px;
+  color: var(--text-color);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+.about-me-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
@@ -328,8 +338,10 @@ a:hover {
 }
 .lukasz-container {
   width: min(100%, 420px);
-  border-radius: var(--br-container);
+  border-radius: 0;
   overflow: hidden;
+  border: 1px solid rgba(15, 28, 61, 0.08);
+  background: white;
 }
 .lukasz-container img {
   width: 100%;
@@ -349,6 +361,9 @@ a:hover {
   color: var(--text-color);
   line-height: 1.8;
   font-size: 1rem;
+  border-radius: 0;
+  background: white;
+  border: 1px solid rgba(15, 28, 61, 0.08);
 }
 .about-me-copy p {
   margin: 0;
@@ -505,79 +520,92 @@ a:hover {
 }
 
 .hero-card {
-  padding: 3rem 2.75rem 3rem;
-  background: rgba(255, 255, 255, 0.92);
-  border-radius: var(--br-container);
-  box-shadow: 0 38px 110px rgba(15, 28, 61, 0.16);
-  border: 1px solid rgba(255, 255, 255, 0.72);
-  max-width: 780px;
-  width: min(100%, 780px);
+  position: relative;
+  z-index: 1;
+  margin-right: auto;
+  padding: 2.6rem 2.4rem;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 24px 70px rgba(15, 28, 61, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  max-width: 500px;
+  width: min(100%, 500px);
+  text-align: left;
+  backdrop-filter: blur(8px);
 }
 
-.hero-pill,
-.hero-tagline {
+.hero-badge {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.55rem 1rem;
-  margin-bottom: 1.5rem;
+  padding: 0.5rem 0.8rem;
+  margin-bottom: 1rem;
   color: var(--button-accent);
-  background: rgba(15, 28, 61, 0.08);
-  border-radius: var(--br-small);
-  font-size: 0.85rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  background: rgba(15, 93, 198, 0.08);
+  border: 1px solid rgba(15, 93, 198, 0.16);
+  border-radius: 999px;
+  font-size: 0.74rem;
+  letter-spacing: 0.16em;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  margin: 0 0 0.8rem;
+  font-size: clamp(1.9rem, 2.6vw, 2.7rem);
+  line-height: 1.08;
+  color: #0e1d3d;
+  letter-spacing: -0.02em;
 }
 
 .hero-lead {
-  margin-top: 1rem;
-  margin-bottom: 1.5rem;
-  color: #303f5f;
-  font-size: 1.05rem;
-  line-height: 1.9;
+  margin: 0;
+  color: #31425f;
+  font-size: 1.03rem;
+  line-height: 1.8;
+  max-width: 100%;
+}
+
+.hero-subcopy {
+  margin: 0.9rem 0 0;
+  color: #51607f;
+  font-size: 0.98rem;
+  line-height: 1.7;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
 }
 
 .welcome-button {
-  padding: 1rem 2.5rem;
-}
-
-.hero-subtext {
-  max-width: 44rem;
-  margin: 0 auto;
-  color: #4a5a7a;
-  font-size: 0.97rem;
-  line-height: 1.8;
-  text-align: center;
+  padding: 1rem 2.25rem;
+  margin-top: 0;
 }
 
 .hero-benefits {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0.7rem;
   list-style: none;
-  margin: 2rem 0 0;
+  margin: 1.2rem 0 0;
   padding: 0;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .hero-benefits li {
-  background: rgba(255, 255, 255, 0.94);
-  border-radius: var(--br-element);
-  padding: 0.95rem 1.2rem;
-  color: var(--h1);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 999px;
+  padding: 0.75rem 0.95rem;
+  color: #21314f;
   font-weight: 600;
-  box-shadow: var(--shadow-light);
-  text-align: center;
-  flex: 1 1 180px;
+  box-shadow: 0 8px 20px rgba(15, 28, 61, 0.06);
+  border: 1px solid rgba(15, 28, 61, 0.05);
+  text-align: left;
+  flex: 0 1 auto;
 }
 
 .hero-section {
@@ -595,8 +623,9 @@ a:hover {
   position: absolute;
   inset: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding: 2rem 3rem;
   background: linear-gradient(180deg, rgba(15, 28, 61, 0.46) 0%, rgba(15, 28, 61, 0.3) 50%, rgba(15, 28, 61, 0.22) 100%);
 }
 
@@ -608,6 +637,18 @@ a:hover {
   object-fit: cover;
   filter: brightness(0.55) saturate(1.05);
   z-index: -1;
+}
+
+@media (max-width: 900px) {
+  .overlay {
+    justify-content: center;
+    padding: 1.5rem;
+  }
+
+  .hero-card {
+    margin-right: 0;
+    width: min(100%, 520px);
+  }
 }
 
 @media (max-width: 1000px) {
@@ -1052,7 +1093,7 @@ h1 {
   .button-box-container {
     padding: 3rem 1.5rem 4rem;
     background: var(--section-bg);
-    border-radius: var(--br-container);
+    border-radius: 0;
   }
   .contact-text {
     flex-direction: column;

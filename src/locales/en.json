@@ -313,6 +313,70 @@
     "formNumber": "Phone Number",
     "formName": "Name",
     "formEmail": "Email Address",
-    "formSubmit": "Submit"
+    "formSubmit": "Submit",
+    "formMessage": "Message",
+    "validationName": "Name",
+    "validationPhone": "Phone",
+    "validationEmail": "Email",
+    "validationMessage": "Message"
+  },
+  "HOME": {
+    "heroImageAlt": "A male climber on top of a snowy Swiss mountain",
+    "heroBadge": "Swiss insurance, made personal",
+    "heroTitle": "The right cover, without the confusion",
+    "heroLead": "I help you compare your options clearly and choose protection that fits your life, your budget, and your priorities.",
+    "heroSubcopy": "From health and home to car and life insurance, I make the process simple, transparent, and tailored to you.",
+    "heroCta": "Get in touch",
+    "productsHeading": "Protect what matters most"
+  },
+  "COOKIE": {
+    "ariaLabel": "Cookie consent",
+    "title": "Cookies",
+    "description": "This site uses essential and functional cookies to keep the website working and remember your language preference. No advertising or tracking cookies are used.",
+    "acceptEssential": "Accept essential cookies",
+    "acceptAll": "Accept all",
+    "readNotice": "Read our cookie and privacy notice"
+  },
+  "LEGAL": {
+    "title": "Legal & Privacy",
+    "intro": "This website uses essential and functional cookies to keep the site working correctly and to remember your language preference. These cookies do not collect personal data for advertising or tracking purposes.",
+    "cookieUseTitle": "What we use cookies for",
+    "cookieUse1": "To keep the site functioning properly",
+    "cookieUse2": "To remember your language preference",
+    "cookieUse3": "To ensure the contact form works as intended",
+    "contactTitle": "Contact",
+    "contactText": "If you have questions about this notice, please contact us using the contact page on this website."
+  },
+  "INSURANCE_DATA": {
+    "eyebrow": "Swiss open data insight",
+    "title": "Some Swiss cantons pay far more for the same basic cover.",
+    "subtitle": "Canton and plan choice can change what you pay even with the same basic cover. This overview highlights the main differences and where add-ons may help.",
+    "officialSource": "Official source: {{source}}.",
+    "viewSource": "View source",
+    "chart": {
+      "eyebrow": "Official premium comparison",
+      "title": "Adult basic insurance tariffs",
+      "sourceLabel": "Source:",
+      "highestBenchmark": "Highest 2026 benchmark (Geneva)",
+      "averageRate": "Average recorded rate",
+      "lowestBenchmark": "Lowest 2026 benchmark (Zug)"
+    },
+    "metrics": {
+      "savings": {
+        "label": "Potential annual savings",
+        "value": "CHF 600-2,000+",
+        "detail": "Depending on your supplementary health insurance and how you use it, your household could unlock CHF 600-2,000+ in annual value through benefits such as fitness memberships, alternative medicine, preventive care and other covered services - expenses you might otherwise pay entirely out of pocket."
+      },
+      "missOut": {
+        "label": "How many miss out",
+        "value": "40%+",
+        "detail": "More than 40% of Swiss buyers are not using benefits they already paid for - free value is being left on the table."
+      },
+      "supplemental": {
+        "label": "How many use supplemental cover",
+        "value": "54%",
+        "detail": "Over half of Swiss adults already choose additional insurance products, so smart top-up selection can make a meaningful difference."
+      }
+    }
   }
 }

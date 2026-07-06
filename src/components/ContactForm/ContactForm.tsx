@@ -21,7 +21,7 @@ function ContactForm() {
         className="form-input"
       />
       <ValidationError
-        prefix="Name"
+        prefix={t("CONTACT.validationName")}
         field="name"
         errors={state.errors}
         className="form-error"
@@ -50,7 +50,7 @@ function ContactForm() {
         className="form-input"
       />
       <ValidationError
-        prefix="Phone"
+        prefix={t("CONTACT.validationPhone")}
         field="phone"
         errors={state.errors}
         className="form-error"
@@ -65,7 +65,7 @@ function ContactForm() {
         className="form-input"
       />
       <ValidationError
-        prefix="Email"
+        prefix={t("CONTACT.validationEmail")}
         field="email"
         errors={state.errors}
         className="form-error"
@@ -74,11 +74,11 @@ function ContactForm() {
       {/* <textarea
         id="message"
         name="message"
-        placeholder="Message"
+        placeholder={t("CONTACT.formMessage")}
         className="form-textarea"
       />
       <ValidationError 
-        prefix="Message" 
+        prefix={t("CONTACT.validationMessage")}
         field="message"
         errors={state.errors}
         className="form-error"

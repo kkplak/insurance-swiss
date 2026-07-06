@@ -14,7 +14,7 @@ import { initReactI18next } from "react-i18next";
 import translationEN from "./locales/en.json";
 import translationDE from "./locales/de.json";
 import translationPL from "./locales/pl.json";
-import translationEL from "./locales/el.json";
+
 import HealthInsurance from "./pages/HealthInsurance";
 import LifeInsurance from "./pages/LifeInsurance";
 import HouseInsurance from "./pages/HouseInsurance";
@@ -35,7 +35,6 @@ const resources = {
   en: { translation: translationEN },
   de: { translation: translationDE },
   pl: { translation: translationPL },
-  el: { translation: translationEL },
 };
 
 i18next.use(initReactI18next).init({

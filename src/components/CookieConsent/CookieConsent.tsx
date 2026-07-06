@@ -8,7 +8,7 @@ const STORAGE_KEY = "site-cookie-consent";
 type ConsentChoice = "accepted" | "essential";
 
 const CookieConsent: React.FC = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -30,26 +30,23 @@ const CookieConsent: React.FC = () => {
   }
 
   return (
-    <div className="cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+    <div className="cookie-banner" role="dialog" aria-live="polite" aria-label={t("COOKIE.ariaLabel")}>
       <div className="cookie-banner__content">
         <div>
-          <h3>Cookies</h3>
-          <p>
-            This site uses essential and functional cookies to keep the website working and remember your language preference.
-            No advertising or tracking cookies are used.
-          </p>
+          <h3>{t("COOKIE.title")}</h3>
+          <p>{t("COOKIE.description")}</p>
         </div>
         <div className="cookie-banner__actions">
           <button type="button" className="cookie-banner__button cookie-banner__button--secondary" onClick={() => handleAccept("essential")}>
-            Accept essential cookies
+            {t("COOKIE.acceptEssential")}
           </button>
           <button type="button" className="cookie-banner__button" onClick={() => handleAccept("accepted")}>
-            Accept all
+            {t("COOKIE.acceptAll")}
           </button>
         </div>
       </div>
       <p className="cookie-banner__legal">
-        <Link to={`/${currentLang}/legal`}>Read our cookie and privacy notice</Link>
+        <Link to={`/${currentLang}/legal`}>{t("COOKIE.readNotice")}</Link>
       </p>
     </div>
   );
