@@ -330,7 +330,32 @@
     "heroLead": "Pomagam jasno porównać opcje i wybrać ochronę dopasowaną do Twojego życia, budżetu i priorytetów.",
     "heroSubcopy": "Od ubezpieczenia zdrowia i domu po auto i OC: upraszczam cały proces, jasno i indywidualnie.",
     "heroCta": "Skontaktuj się",
-    "productsHeading": "Chroń to, co najważniejsze"
+    "productsHeading": "Chroń to, co najważniejsze",
+    "clientStories": {
+      "kicker": "Historie klientów",
+      "title": "Rzeczywiste efekty klientów",
+      "lead": "Trzy praktyczne przykłady, jak dobrze dobrane ubezpieczenie dodatkowe może obniżyć roczne koszty z własnej kieszeni.",
+      "cases": [
+        {
+          "name": "Monika, 43",
+          "focus": "Tradycyjna Medycyna Chińska",
+          "body": "Monika od kilku lat korzystała z usług uznanego akupunkturzysty i terapeuty TCM, wydając około CHF 1,400 rocznie. Jej wcześniejsze ubezpieczenie dodatkowe zapewniało jedynie ograniczony zwrot kosztów. Po analizie swoich potrzeb przeszła na Helsana COMPLETA, które zwraca 75% kwalifikowanych kosztów leczenia medycyny komplementarnej u uznanych specjalistów. Jej składka dodatkowa wzrosła o CHF 18 miesięcznie (CHF 216 rocznie). Przy zwrocie na poziomie około CHF 1,050 mogła kontynuować te same terapie, jednocześnie znacząco obniżając roczne koszty opieki zdrowotnej.",
+          "value": "Potencjalna roczna korzyść: CHF 834"
+        },
+        {
+          "name": "Daniel, 36",
+          "focus": "Opieka wzroku",
+          "body": "Daniel nosi w tygodniu soczewki kontaktowe i co kilka lat wymienia okulary korekcyjne. Jego roczne wydatki optyczne wynoszą średnio CHF 900. Po przejściu na Helsana COMPLETA uzyskał prawo do zwrotu 90% kosztów soczewek okularowych i kontaktowych do limitu CHF 300 na rok kalendarzowy. Jego składka dodatkowa wzrosła o CHF 12 miesięcznie (CHF 144 rocznie). Sam ten zwrot optyczny obniżył jego roczne wydatki bez zmiany miejsca zakupu okularów i soczewek.",
+          "value": "Potencjalna roczna korzyść: CHF 156"
+        },
+        {
+          "name": "Sophie, 31",
+          "focus": "Fitness i profilaktyka",
+          "body": "Sophie regularnie trenuje siłowo i płaci CHF 900 rocznie za karnet na siłownię. Przeszła na CSS Livo Top, które obejmuje dopłaty do uznanych centrów fitness i działań prozdrowotnych, a także szersze świadczenia ambulatoryjne. Jej składka dodatkowa wzrosła o CHF 15 miesięcznie (CHF 180 rocznie). Dzięki rocznej dopłacie do kwalifikowanego karnetu fitness obniżyła koszt utrzymania aktywnego stylu życia i zyskała dodatkowe świadczenia ambulatoryjne, których wcześniej nie miała.",
+          "value": "Potencjalna roczna korzyść: CHF 320"
+        }
+      ]
+    }
   },
   "COOKIE": {
     "ariaLabel": "Zgoda na pliki cookie",

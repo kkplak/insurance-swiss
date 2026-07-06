@@ -6,10 +6,24 @@ import ButtonBox from "../components/ButtonBox/ButtonBox";
 import LogoLine from "../components/LogoLine/LogoLine";
 import InsuranceData from "../components/InsuranceData/InsuranceData";
 
+interface ClientStory {
+  name: string;
+  focus: string;
+  body: string;
+  value: string;
+}
+
 const Home: React.FC = () => {
   const { t, i18n } = useTranslation();
   const { lang } = useParams<{ lang: string }>();
   const currentLanguage = i18n.language;
+
+  const clientStoriesRaw = t("HOME.clientStories.cases", {
+    returnObjects: true,
+  }) as unknown;
+  const clientStories: ClientStory[] = Array.isArray(clientStoriesRaw)
+    ? (clientStoriesRaw as ClientStory[])
+    : [];
 
   const logos = [
     { src: "/media/helsana.png", name: "Helsana" },
@@ -117,6 +131,29 @@ const Home: React.FC = () => {
           />
         </div>
       </div>
+
+      <section className='client-stories' aria-labelledby='client-stories-heading'>
+        <p className='client-stories-kicker'>{t("HOME.clientStories.kicker")}</p>
+        <h2 id='client-stories-heading' className='client-stories-heading'>
+          {t("HOME.clientStories.title")}
+        </h2>
+        <p className='client-stories-lead'>
+          {t("HOME.clientStories.lead")}
+        </p>
+
+        <div className='client-stories-grid'>
+          {clientStories.map((story) => (
+            <article className='client-story-card' key={story.name}>
+              <h3 className='client-story-title'>
+                <span className='client-story-name'>{story.name}</span>
+                <span className='client-story-focus'>{story.focus}</span>
+              </h3>
+              <p className='client-story-body'>{story.body}</p>
+              <p className='client-story-value'>{story.value}</p>
+            </article>
+          ))}
+        </div>
+      </section>
       <LogoLine logos={logos} mobileBreakpoint={900} marqueeSpeed={30} />
     </div>
   );

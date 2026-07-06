@@ -326,7 +326,32 @@
     "heroLead": "Ich helfe Ihnen, Ihre Optionen klar zu vergleichen und den Schutz zu waehlen, der zu Ihrem Leben, Ihrem Budget und Ihren Prioritaeten passt.",
     "heroSubcopy": "Von Kranken- und Hausrat- bis Auto- und Haftpflichtversicherung: Ich mache den Prozess einfach, transparent und auf Sie zugeschnitten.",
     "heroCta": "Kontakt aufnehmen",
-    "productsHeading": "Schuetzen Sie, was Ihnen wichtig ist"
+    "productsHeading": "Schuetzen Sie, was Ihnen wichtig ist",
+    "clientStories": {
+      "kicker": "Kundengeschichten",
+      "title": "Echte Kundenergebnisse",
+      "lead": "Drei praxisnahe Beispiele, wie die passende Zusatzversicherung jaehrliche Eigenkosten senken kann.",
+      "cases": [
+        {
+          "name": "Monika, 43",
+          "focus": "Traditionelle Chinesische Medizin",
+          "body": "Monika besuchte seit mehreren Jahren eine anerkannte Akupunkteurin und TCM-Therapeutin und gab dafuer etwa CHF 1,400 pro Jahr aus. Ihre bisherige Zusatzversicherung bot nur eine begrenzte Rueckerstattung. Nach einer Bedarfspruefung wechselte sie zu Helsana COMPLETA, das 75% der anrechenbaren Behandlungen in der Komplementaermedizin bei anerkannten Leistungserbringern rueckerstattet. Ihre Zusatzpraemie stieg um CHF 18 pro Monat (CHF 216 pro Jahr). Bei einer Rueckerstattung von rund CHF 1,050 konnte sie die gleichen Behandlungen fortsetzen und ihre jaehrlichen Gesundheitskosten deutlich reduzieren.",
+          "value": "Potenzieller jaehrlicher Mehrwert: CHF 834"
+        },
+        {
+          "name": "Daniel, 36",
+          "focus": "Sehversorgung",
+          "body": "Daniel traegt unter der Woche Kontaktlinsen und ersetzt alle paar Jahre seine Korrekturbrille. Seine jaehrlichen Optikkosten liegen im Schnitt bei CHF 900. Nach dem Wechsel zu Helsana COMPLETA hatte er Anspruch auf 90% Rueckerstattung fuer Brillenglaeser und Kontaktlinsen bis zu CHF 300 pro Kalenderjahr. Seine Zusatzpraemie stieg um CHF 12 pro Monat (CHF 144 jaehrlich). Allein dieser Optikbeitrag senkte seine laufenden Kosten, ohne dass er seine Einkaufsstelle wechseln musste.",
+          "value": "Potenzieller jaehrlicher Mehrwert: CHF 156"
+        },
+        {
+          "name": "Sophie, 31",
+          "focus": "Fitness und Praevention",
+          "body": "Sophie trainiert regelmaessig im Fitnessstudio und zahlt CHF 900 pro Jahr fuer ihre Mitgliedschaft. Sie wechselte zu CSS Livo Top, das Beitraege fuer anerkannte Fitnesscenter und Gesundheitsfoerderung sowie breitere ambulante Leistungen umfasst. Ihre Zusatzpraemie stieg um CHF 15 pro Monat (CHF 180 jaehrlich). Durch den Jahresbeitrag an ihre anerkannte Fitnessmitgliedschaft senkte sie die Kosten fuer ihren aktiven Lebensstil und gewann zusaetzliche ambulante Leistungen, die sie zuvor nicht hatte.",
+          "value": "Potenzieller jaehrlicher Mehrwert: CHF 320"
+        }
+      ]
+    }
   },
   "COOKIE": {
     "ariaLabel": "Cookie-Einwilligung",

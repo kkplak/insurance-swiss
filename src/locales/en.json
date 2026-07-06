@@ -327,7 +327,32 @@
     "heroLead": "I help you compare your options clearly and choose protection that fits your life, your budget, and your priorities.",
     "heroSubcopy": "From health and home to car and life insurance, I make the process simple, transparent, and tailored to you.",
     "heroCta": "Get in touch",
-    "productsHeading": "Protect what matters most"
+    "productsHeading": "Protect what matters most",
+    "clientStories": {
+      "kicker": "Client stories",
+      "title": "Real Client Outcomes",
+      "lead": "A few practical examples of how the right supplementary coverage can reduce yearly out-of-pocket costs.",
+      "cases": [
+        {
+          "name": "Monika, 43",
+          "focus": "Traditional Chinese Medicine",
+          "body": "Monika had been visiting a recognised acupuncturist and TCM therapist for several years, spending around CHF 1,400 annually. Her previous supplementary insurance provided only limited reimbursement. After reviewing her needs, she switched to Helsana COMPLETA, which reimburses 75% of eligible complementary medicine treatments provided by recognised practitioners. Her supplementary premium increased by CHF 18 per month (CHF 216 per year). With approximately CHF 1,050 reimbursed, she continued the same treatments while substantially reducing her annual healthcare costs.",
+          "value": "Potential annual value unlocked: CHF 834"
+        },
+        {
+          "name": "Daniel, 36",
+          "focus": "Vision Care",
+          "body": "Daniel wears contact lenses during the week and replaces his prescription glasses every few years. His annual optical expenses average CHF 900. After switching to Helsana COMPLETA, he became eligible for 90% reimbursement on spectacle lenses and contact lenses, up to CHF 300 per calendar year. His supplementary premium increased by CHF 12 per month (CHF 144 annually). The optical contribution alone reduced his yearly expenses without changing where he purchased his eyewear.",
+          "value": "Potential annual value unlocked: CHF 156"
+        },
+        {
+          "name": "Sophie, 31",
+          "focus": "Fitness & Prevention",
+          "body": "Sophie enjoys strength training and pays CHF 900 per year for her gym membership. She switched to CSS Livo Top, which includes contributions towards recognised fitness centres and health promotion alongside broader outpatient benefits. Her supplementary premium increased by CHF 15 per month (CHF 180 annually). With an annual contribution towards her eligible fitness membership, she reduced the cost of maintaining an active lifestyle while gaining additional outpatient benefits she previously did not have.",
+          "value": "Potential annual value unlocked: CHF 320"
+        }
+      ]
+    }
   },
   "COOKIE": {
     "ariaLabel": "Cookie consent",
