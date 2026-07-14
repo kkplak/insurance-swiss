@@ -17,6 +17,13 @@ const Home: React.FC = () => {
   const { t, i18n } = useTranslation();
   const { lang } = useParams<{ lang: string }>();
   const currentLanguage = i18n.language;
+  const heroImages = [
+    "/media/hero-1.jpg",
+    "/media/hero-2.jpg",
+    "/media/hero-3.jpg",
+        "/media/hero-4.jpg",
+  ];
+  const [activeHeroIndex, setActiveHeroIndex] = React.useState(0);
 
   const clientStoriesRaw = t("HOME.clientStories.cases", {
     returnObjects: true,
@@ -43,15 +50,29 @@ const Home: React.FC = () => {
     }
   }, [lang, i18n]);
 
+  React.useEffect(() => {
+    if (heroImages.length <= 1) return;
+
+    const intervalId = window.setInterval(() => {
+      setActiveHeroIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
+    }, 5500);
+
+    return () => window.clearInterval(intervalId);
+  }, [heroImages.length]);
+
   return (
     <div className='homepage'>
       <div className='container-home home'>
         <div id='home' className={`hero-section`}>
           <div className='background-video-desktop'>
-            <img
-              src='/media/hiker5.jpg'
-              alt={t("HOME.heroImageAlt")}
-            />
+            {heroImages.map((imageSrc, index) => (
+              <img
+                key={imageSrc}
+                src={imageSrc}
+                alt={`${t("HOME.heroImageAlt")} ${index + 1}`}
+                className={`hero-slide ${index === activeHeroIndex ? "active" : ""}`}
+              />
+            ))}
           </div>
 
           <div className='overlay'>

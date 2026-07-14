@@ -123,6 +123,21 @@ img {
   z-index: -1;
 }
 
+.background-video-desktop {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.hero-slide {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.hero-slide.active {
+  opacity: 1;
+}
+
 .hero-section::before {
   content: "";
   position: absolute;
