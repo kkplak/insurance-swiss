@@ -113,7 +113,7 @@ img {
 .background-white {
   background-color: white;
 }
-..background-video-desktop img {
+.background-video-desktop img {
   position: absolute;
   inset: 0;
   width: 100%;

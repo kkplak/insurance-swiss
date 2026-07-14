@@ -2,6 +2,9 @@
   "name": "insurance-swiss",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@tailwindcss/cli": "^4.0.5",
@@ -9,7 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.93",
+    "@types/node": "^22.12.0",
     "@types/react": "^18.2.74",
     "@types/react-dom": "^18.2.23",
     "autoprefixer": "^10.4.20",
@@ -26,26 +29,20 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.22.3",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.1",
     "react-slick": "^0.30.3",
     "react-transition-group": "^4.4.5",
     "slick-carousel": "^1.8.1",
     "tailwind-merge": "^3.0.1",
     "tailwindcss": "^4.0.5",
-    "typescript": "^4.9.5",
+    "typescript": "^5.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
   },
   "browserslist": {
     "production": [
@@ -61,6 +58,9 @@
   },
   "devDependencies": {
     "@types/react-router-hash-link": "^2.4.9",
-    "@types/react-slick": "^0.23.13"
+    "@types/react-slick": "^0.23.13",
+    "@vitejs/plugin-react": "^6.0.3",
+    "vite": "^8.1.4",
+    "vite-plugin-svgr": "^5.2.0"
   }
 }

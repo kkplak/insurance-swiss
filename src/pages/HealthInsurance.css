@@ -250,7 +250,7 @@ h5,
     display: inline-block;
     width: 32px; /* adjust as needed */
     height: 32px;
-    background-image: url("/public/media/icon-bulb.png");
+    background-image: url("/media/icon-bulb.png");
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 8px; /* spacing between icon and text */

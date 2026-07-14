@@ -57,7 +57,7 @@ const App = () => {
   return (
     <div
     // style={{
-    //   backgroundImage: `url(${process.env.PUBLIC_URL}/media/bg22.jpg)`,
+    //   backgroundImage: "url(/media/bg22.jpg)",
     //   backgroundSize: "cover",
     // }}
     >

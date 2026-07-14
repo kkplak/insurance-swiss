@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useLocation } from "react-router-dom";
-import { ReactComponent as FlagEnglish } from "../LanguageSwitcher/flag-english.svg";
-import { ReactComponent as FlagGerman } from "../LanguageSwitcher/flag-german.svg";
-import { ReactComponent as FlagPolish } from "../LanguageSwitcher/flag-polish.svg";
+import FlagEnglish from "../LanguageSwitcher/flag-english.svg?react";
+import FlagGerman from "../LanguageSwitcher/flag-german.svg?react";
+import FlagPolish from "../LanguageSwitcher/flag-polish.svg?react";
 import "./LanguageSwitcher.css"; // Import the CSS file
 
 const flags = {

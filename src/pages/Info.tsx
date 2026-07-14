@@ -18,7 +18,7 @@ const Info: React.FC = () => {
         <p>{t("infoHeader")}</p>
       </h1>
       <div className='image-container'>
-        <img src={process.env.PUBLIC_URL + "/profile.png"} alt='logo' />
+        <img src='/profile.png' alt='logo' />
       </div>
       <p>{t("GENERAL.infoContent")}</p> <p>{t("GENERAL.infoContent")}</p>
       <p>{t("GENERAL.infoContent")} </p> <p>{t("GENERAL.infoContent")} </p>
